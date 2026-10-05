@@ -1,6 +1,21 @@
 {
  "posted": [],
  "offset": 703888904,
- "drafts": {},
+ "drafts": {
+  "m202610051508": {
+   "status": "pending",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260930020317.htm",
+   "site": "https://www.sciencedaily.com/rss/health_medicine/sports_medicine.xml",
+   "title": "Even one strength training session a week could make a difference",
+   "preview_ids": [
+    17
+   ],
+   "button_id": 18,
+   "publish_at": "2026-10-05T15:08:40.710498+05:00",
+   "label": "Hozir (qo‘lda)",
+   "created": "2026-10-05T15:11:09.980809+05:00",
+   "media": true
+  }
+ },
  "last_site": ""
 }
