@@ -2,7 +2,8 @@ name: Sport science bot
 
 on:
   schedule:
-    # every 20 minutes, 08:00–23:40 Tashkent time (UTC+5)
+    # a new run every 20 minutes, 08:00–23:59 Tashkent time (UTC+5);
+    # each run stays awake ~17 min, so buttons answer within seconds
     - cron: "*/20 3-18 * * *"
   workflow_dispatch:
     inputs:
@@ -21,7 +22,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

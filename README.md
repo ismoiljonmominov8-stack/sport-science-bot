@@ -4,7 +4,7 @@
 
 - **08:00 and 17:00 (Tashkent):** the bot takes a new article from the English sport-science sites in `sources.txt`. Gemini writes a full Uzbek version, and then checks it a second time for spelling, terminology and facts.
 - The bot adds the article's video, GIF or photos, then sends the finished post **to you privately** with ✅ / ❌ buttons.
-- **✅** → the post goes to the channel at **09:00 / 18:00**. If you tap ✅ later than that, it goes out within ~20 minutes.
+- **✅** → the post goes to the channel at **09:00 / 18:00**. If you tap ✅ later than that, it goes out within seconds.
 - **❌** → the bot prepares a different article for you.
 - **No answer for 5 hours** → nothing is posted.
 - **Long texts** are cut with "..." and a "🔗 Batafsil" (read more) link to the source.
@@ -43,8 +43,8 @@ In the repository, go to **Settings → Secrets and variables → Actions → Ne
 
 ### 5. Test
 Open **Actions → Run workflow**, tick **"Prepare a new post right now"**, and run it.
-In 1–3 minutes a post arrives in your private chat with the bot. Tap **✅**, and it appears in the channel at the next check (≤ 20 min).
-You can also send `/yangi` to the bot at any time to get an extra post.
+In 1–3 minutes a post arrives in your private chat with the bot. Tap **✅**, and it appears in the channel within seconds.
+Easiest: send `/yangi` to the bot in Telegram at any time to get an extra post (no GitHub needed).
 
 ---
 
@@ -54,7 +54,8 @@ You can also send `/yangi` to the bot at any time to get an extra post.
 - **Check interval:** the `cron` line in `.github/workflows/post.yml`.
 
 ## Notes
-- GitHub's timer can be a few minutes late. That's normal.
+- The bot is awake 08:00–24:00. A new GitHub run starts every 20 min and listens ~17 min, so buttons answer in seconds. GitHub's timer is sometimes late; then a tap is answered when the next run starts.
+- Keep the repository **Public**: public repositories get unlimited free run time.
 - The bot never repeats an article. It keeps its memory in `state.json`.
 - Translations are checked twice by AI, but always read the preview before tapping ✅.
 - Keep your bot token only in GitHub Secrets, never in the code. If it ever leaks, send `/revoke` to @BotFather to get a new one.

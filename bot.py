@@ -4,7 +4,8 @@ Sport Science Telegram bot
 English sport-science websites  ->  full Uzbek post (Gemini, free)  ->  photo / GIF / video
 ->  preview sent to the OWNER with ✅ / ❌ buttons  ->  published to the channel at 09:00 / 18:00.
 
-Runs on GitHub Actions every ~20 minutes (free). Each run:
+Runs on GitHub Actions (free for public repositories). A new run starts every 20 minutes and
+stays awake ~17 minutes, so button taps and /yangi are answered within seconds. It:
   1. reads button taps and commands sent to the bot,
   2. 1 hour before each slot prepares a draft and sends it to the owner,
   3. publishes approved drafts when their time has come.
@@ -14,6 +15,7 @@ import io
 import json
 import os
 import re
+import subprocess
 import time
 import traceback
 from datetime import datetime, timedelta
@@ -35,6 +37,7 @@ GEMINI_MODELS = list(dict.fromkeys(m for m in (
     "gemini-3.8-flash", "gemini-3.5-flash-lite",
     "gemini-flash-latest", "gemini-flash-lite-latest") if m))
 FORCE_DRAFT = os.environ.get("FORCE_DRAFT", "").lower() == "true"
+LISTEN_MINUTES = float(os.environ.get("LISTEN_MINUTES", "17"))   # how long each run stays awake
 
 TZ = ZoneInfo("Asia/Tashkent")
 SLOTS = [9, 18]                          # publishing hours (Tashkent time)
@@ -641,8 +644,16 @@ def make_draft(state, key, publish_at, label):
 
 
 def publish(state, d):
-    tg("copyMessages", {"chat_id": CHANNEL, "from_chat_id": ADMIN,
-                        "message_ids": json.dumps(d["preview_ids"])})
+    try:
+        tg("copyMessages", {"chat_id": CHANNEL, "from_chat_id": ADMIN,
+                            "message_ids": json.dumps(d["preview_ids"])})
+    except Exception as ex:
+        print(f"[publish] {ex}")
+        if not d.get("publish_error"):
+            d["publish_error"] = str(ex)
+            say(ADMIN, "⚠️ Kanalga chiqarib bo‘lmadi:\n<code>" + esc(str(ex)) + "</code>\n"
+                       "Bot kanalda admin ekanini va «Post messages» ruxsati borligini tekshiring.")
+        return
     d["status"] = "published"
     state["posted"].append(d["link"])
     state["last_site"] = d["site"]
@@ -651,10 +662,11 @@ def publish(state, d):
 
 
 # ---------------- reading your button taps and commands ----------------
-def process_updates(state):
-    """Returns True if the owner asked for a new post right now (/yangi)."""
+def process_updates(state, wait=0):
+    """Reads new taps/commands (waits up to `wait` seconds for them).
+    Returns True if the owner asked for a new post right now (/yangi)."""
     want_now = False
-    updates = tg("getUpdates", {"offset": state["offset"], "timeout": 0,
+    updates = tg("getUpdates", {"offset": state["offset"], "timeout": wait,
                                 "allowed_updates": json.dumps(["message", "callback_query"])})
     for u in updates:
         state["offset"] = u["update_id"] + 1
@@ -662,6 +674,7 @@ def process_updates(state):
         if msg and msg.get("text"):
             chat = str(msg["chat"]["id"])
             cmd = msg["text"].strip().split()[0].lower()
+            print(f"[message] {chat}: {cmd}")
             if not ADMIN and cmd in ("/start", "/id"):
                 say(chat, f"Sizning chat ID raqamingiz: <code>{chat}</code>\n"
                           "Uni GitHub'da <b>ADMIN_CHAT_ID</b> secret sifatida saqlang.")
@@ -670,24 +683,38 @@ def process_updates(state):
                           "yuboriladi, 09:00 va 18:00 da kanalga chiqadi.\n"
                           "/yangi — hoziroq yangi post tayyorlash.")
             elif chat == ADMIN and cmd == "/yangi":
+                say(chat, "⏳ Yangi post tayyorlanmoqda, 1–3 daqiqa kuting…")
                 want_now = True
         cb = u.get("callback_query")
         if cb:
-            tg_safe("answerCallbackQuery", {"callback_query_id": cb["id"]})
             if str(cb["from"]["id"]) != ADMIN:
+                tg_safe("answerCallbackQuery", {"callback_query_id": cb["id"]})
                 continue
             action, _, key = (cb.get("data") or "").partition("|")
             d = state["drafts"].get(key)
+            print(f"[tap] {action} {key} -> {d.get('status') if d else 'not found'}")
             if not d or d.get("status") != "pending":
+                old = d.get("status") if d else None
+                note = {"approved": "Allaqachon tasdiqlangan ✅",
+                        "published": "Bu post allaqachon kanalga chiqqan 📢",
+                        "skipped": "Bu post o‘tkazib yuborilgan"}.get(
+                            old, "Bu post eskirgan. Yangi post uchun /yangi yuboring.")
+                tg_safe("answerCallbackQuery", {"callback_query_id": cb["id"], "text": note,
+                                                "show_alert": "true"})
                 continue
             if action == "ok":
                 d["status"] = "approved"
                 at = datetime.fromisoformat(d["publish_at"])
-                when = at.strftime("%H:%M") if at > now_tz() else "bir necha daqiqada"
+                later = at > now_tz()
+                when = at.strftime("%H:%M") + " da" if later else "hozir"
+                tg_safe("answerCallbackQuery", {"callback_query_id": cb["id"],
+                                                "text": f"✅ Tasdiqlandi, kanalga {when} chiqadi"})
                 set_button_text(d, f"✅ Tasdiqlandi — kanalga {when} chiqadi.\n{esc(d['title'])}")
             elif action == "no":
                 d["status"] = "skipped"
                 state["posted"].append(d["link"])          # never offer this article again
+                tg_safe("answerCallbackQuery", {"callback_query_id": cb["id"],
+                                                "text": "❌ O‘tkazib yuborildi"})
                 set_button_text(d, f"❌ O‘tkazib yuborildi. Yangi post tayyorlanmoqda…\n"
                                    f"{esc(d['title'])}")
     return want_now
@@ -716,24 +743,8 @@ def handle_slot(state, key, slot, now):
         publish(state, d)
 
 
-def main():
-    state = load_state()
-    try:
-        want_now = process_updates(state)
-    except Exception:
-        traceback.print_exc()
-        want_now = False
-
-    if not ADMIN:
-        print("ADMIN_CHAT_ID is not set yet: send /start to your bot, then run the workflow; "
-              "the bot will reply with your chat ID.")
-        save_state(state)
-        return
-    if not CHANNEL:
-        print("TELEGRAM_CHANNEL is not set.")
-        save_state(state)
-        return
-
+def tick(state, want_now):
+    """One round of work: scheduled slots, a manual post if asked, publishing."""
     now = now_tz()
     for hour in SLOTS:
         slot = now.replace(hour=hour, minute=0, second=0, microsecond=0)
@@ -742,25 +753,74 @@ def main():
         except Exception:
             traceback.print_exc()
 
-    if want_now or FORCE_DRAFT:
-        key = "m" + now.strftime("%Y%m%d%H%M")
+    if want_now:
+        key = "m" + now.strftime("%Y%m%d%H%M%S")
         d = make_draft(state, key, now, "Hozir (qo‘lda)")
         if d:
             state["drafts"][key] = d
         elif d is None:
             say(ADMIN, "ℹ️ Yangi maqola topilmadi.")
 
-    for key, d in state["drafts"].items():          # manual drafts publish right after ✅
+    for key, d in list(state["drafts"].items()):    # manual drafts publish right after ✅
         if key.startswith("m") and d.get("status") == "approved":
-            try:
-                publish(state, d)
-            except Exception:
-                traceback.print_exc()
+            publish(state, d)
 
     cutoff = now - timedelta(days=3)
     state["drafts"] = {k: d for k, d in state["drafts"].items()
                        if datetime.fromisoformat(d.get("created", now.isoformat())) > cutoff}
+
+
+def persist(state):
+    """Save memory to state.json and, on GitHub, push it right away."""
     save_state(state)
+    if os.environ.get("GITHUB_ACTIONS") != "true":
+        return
+    run = lambda *a: subprocess.run(["git", *a], capture_output=True, text=True)
+    run("config", "user.name", "github-actions[bot]")
+    run("config", "user.email", "41898283+github-actions[bot]@users.noreply.github.com")
+    run("add", STATE_FILE)
+    if run("diff", "--cached", "--quiet").returncode == 0:
+        return
+    run("commit", "-m", "Update bot state")
+    for _ in range(3):
+        run("pull", "--rebase", "-X", "theirs")
+        if run("push").returncode == 0:
+            return
+        time.sleep(3)
+    print("[persist] push failed")
+
+
+def main():
+    state = load_state()
+    if not ADMIN or not CHANNEL:
+        try:
+            process_updates(state)
+        except Exception:
+            traceback.print_exc()
+        print("ADMIN_CHAT_ID or TELEGRAM_CHANNEL is not set yet. Send /start to your bot and "
+              "run the workflow; the bot will reply with your chat ID.")
+        persist(state)
+        return
+
+    deadline = time.time() + LISTEN_MINUTES * 60
+    want_now = FORCE_DRAFT
+    wait = 0
+    while True:
+        try:
+            want_now = process_updates(state, wait) or want_now
+        except Exception:
+            traceback.print_exc()
+            time.sleep(10)
+        try:
+            tick(state, want_now)
+        except Exception:
+            traceback.print_exc()
+        want_now = False
+        persist(state)
+        left = deadline - time.time()
+        if left < 5:
+            break
+        wait = int(min(50, left))       # wait for your next tap / command
 
 
 if __name__ == "__main__":
