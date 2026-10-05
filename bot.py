@@ -231,7 +231,7 @@ def rank(items, last_site):
             "methodological papers (bibliometric analyses, protocols, validation of questionnaires).\n"
             f"Answer with the number only.\n\n{listing}")
         try:
-            n = int(re.search(r"\d+", gemini(prompt, 0.2)).group())
+            n = int(re.search(r"\d+", gemini(prompt, 0.2, lite_first=True)).group())
             if 1 <= n <= len(pool):
                 chosen = pool.pop(n - 1)
                 pool.insert(0, chosen)
@@ -424,9 +424,17 @@ def gemini_error(r):
         return f"HTTP {r.status_code}: {r.text[:300]}"
 
 
-def gemini(prompt, temperature=0.4):
+USED_UP = set()        # models whose daily free quota is finished (during this run)
+
+
+def gemini(prompt, temperature=0.4, lite_first=False):
+    models = GEMINI_MODELS
+    if lite_first:
+        models = sorted(models, key=lambda m: "lite" not in m)
     errors = []
-    for model in GEMINI_MODELS:
+    for model in models:
+        if model in USED_UP:
+            continue
         for attempt in range(3):
             try:
                 r = requests.post(
@@ -445,6 +453,7 @@ def gemini(prompt, temperature=0.4):
                     parts = r.json()["candidates"][0]["content"]["parts"]
                     out = "".join(p.get("text", "") for p in parts).strip()
                     if out:
+                        print(f"[gemini] {model}: OK")
                         return out
                     msg = "empty answer"
                 except Exception:
@@ -453,12 +462,14 @@ def gemini(prompt, temperature=0.4):
                 msg = gemini_error(r)
             errors.append(f"{model}: {msg}")
             print(f"[gemini] {model}: {msg}")
-            quota_gone = "limit: 0" in msg or "per day" in msg.lower() or "PerDay" in msg
-            if r.status_code in (500, 503) or (r.status_code == 429 and not quota_gone
-                                                and attempt == 0):
-                time.sleep(30)                      # busy / per-minute limit -> wait once
+            if r.status_code == 429 and ("limit: 0" in msg or re.search(r"retry in \d+h", msg)
+                                         or "per day" in msg.lower() or "PerDay" in msg):
+                USED_UP.add(model)                  # daily quota finished -> next model now
+                break
+            if r.status_code in (500, 503) or (r.status_code == 429 and attempt == 0):
+                time.sleep(30)                      # busy / per-minute limit -> wait and retry
                 continue
-            break                                   # quota used up, no access, not found -> next model
+            break                                   # no access / not found -> next model
     raise RuntimeError("Gemini failed:\n  " + "\n  ".join(errors))
 
 
