@@ -415,8 +415,16 @@ def prepare_media(media):
 
 
 # ---------------- Gemini (free) ----------------
+def gemini_error(r):
+    try:
+        e = r.json().get("error", {})
+        return f"HTTP {r.status_code} {e.get('status', '')}: {e.get('message', '')[:300]}"
+    except Exception:
+        return f"HTTP {r.status_code}: {r.text[:300]}"
+
+
 def gemini(prompt, temperature=0.4):
-    last = None
+    errors = []
     for model in GEMINI_MODELS:
         for attempt in range(3):
             try:
@@ -426,22 +434,29 @@ def gemini(prompt, temperature=0.4):
                     json={"contents": [{"parts": [{"text": prompt}]}],
                           "generationConfig": {"temperature": temperature}},
                     timeout=180)
-                if r.status_code == 404:
-                    last = f"{model} not found"
-                    break
-                if r.status_code in (429, 500, 503):
-                    last = f"{model}: HTTP {r.status_code}"
-                    time.sleep(20 * (attempt + 1))
-                    continue
-                r.raise_for_status()
-                parts = r.json()["candidates"][0]["content"]["parts"]
-                out = "".join(p.get("text", "") for p in parts).strip()
-                if out:
-                    return out
             except Exception as ex:
-                last = ex
+                errors.append(f"{model}: {ex}")
+                print(f"[gemini] {model}: {ex}")
                 time.sleep(5)
-    raise RuntimeError(f"Gemini failed: {last}")
+                continue
+            if r.ok:
+                try:
+                    parts = r.json()["candidates"][0]["content"]["parts"]
+                    out = "".join(p.get("text", "") for p in parts).strip()
+                    if out:
+                        return out
+                    msg = "empty answer"
+                except Exception:
+                    msg = f"unexpected answer: {r.text[:300]}"
+            else:
+                msg = gemini_error(r)
+            errors.append(f"{model}: {msg}")
+            print(f"[gemini] {model}: {msg}")
+            if r.status_code in (429, 500, 503) and "limit: 0" not in msg:
+                time.sleep(15 * (attempt + 1))      # busy / rate limit -> wait and retry
+                continue
+            break                                   # bad key, no access, not found -> next model
+    raise RuntimeError("Gemini failed:\n  " + "\n  ".join(errors))
 
 
 WRITE_PROMPT = """You are the editor of an Uzbek-language Telegram channel about sport science for coaches, athletes, PE teachers and students.
@@ -599,6 +614,13 @@ def make_draft(state, key, publish_at, label):
                     "title": item["title"], "preview_ids": ids, "button_id": btn["message_id"],
                     "publish_at": publish_at.isoformat(), "label": label,
                     "created": now_tz().isoformat(), "media": bool(has_media)}
+        except RuntimeError as ex:
+            if str(ex).startswith("Gemini failed"):
+                print(ex)
+                say(ADMIN, "⚠️ Gemini ishlamadi, post tayyorlanmadi:\n<code>"
+                           + esc(str(ex))[:3000] + "</code>")
+                return False
+            traceback.print_exc()
         except Exception:
             traceback.print_exc()
     return None
@@ -673,7 +695,8 @@ def handle_slot(state, key, slot, now):
             state["drafts"][key] = new
         else:
             state["drafts"][key] = {"status": "empty", "created": now.isoformat()}
-            say(ADMIN, f"ℹ️ {slot.strftime('%H:%M')} uchun yangi maqola topilmadi.")
+            if new is None:
+                say(ADMIN, f"ℹ️ {slot.strftime('%H:%M')} uchun yangi maqola topilmadi.")
         return
     if d.get("status") == "approved" and now >= slot:
         publish(state, d)
@@ -710,7 +733,7 @@ def main():
         d = make_draft(state, key, now, "Hozir (qo‘lda)")
         if d:
             state["drafts"][key] = d
-        else:
+        elif d is None:
             say(ADMIN, "ℹ️ Yangi maqola topilmadi.")
 
     for key, d in state["drafts"].items():          # manual drafts publish right after ✅
