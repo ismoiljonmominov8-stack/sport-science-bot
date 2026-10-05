@@ -1,0 +1,13 @@
+# One website (RSS feed) per line. Lines starting with # are ignored.
+# All of these were checked and work.
+
+# Popular science news (easy to read)
+https://www.sciencedaily.com/rss/health_medicine/sports_medicine.xml
+
+# Expert blogs
+https://blogs.bmj.com/bjsm/feed/
+https://www.scienceforsport.com/feed/
+
+# Open-access journals (CC BY licence — free to translate and reuse with credit)
+https://www.frontiersin.org/journals/sports-and-active-living/rss
+https://www.mdpi.com/rss/journal/sports
