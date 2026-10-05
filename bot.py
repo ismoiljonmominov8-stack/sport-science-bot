@@ -30,9 +30,10 @@ TOKEN = os.environ["TELEGRAM_BOT_TOKEN"].strip()
 CHANNEL = os.environ.get("TELEGRAM_CHANNEL", "").strip()       # @your_channel
 ADMIN = os.environ.get("ADMIN_CHAT_ID", "").strip()            # your own Telegram chat ID
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
-GEMINI_MODELS = [m for m in (os.environ.get("GEMINI_MODEL", "").strip(),
-                             "gemini-flash-latest", "gemini-2.5-flash",
-                             "gemini-2.5-flash-lite") if m]
+GEMINI_MODELS = list(dict.fromkeys(m for m in (
+    os.environ.get("GEMINI_MODEL", "").strip(),
+    "gemini-3.8-flash", "gemini-3.5-flash-lite",
+    "gemini-flash-latest", "gemini-flash-lite-latest") if m))
 FORCE_DRAFT = os.environ.get("FORCE_DRAFT", "").lower() == "true"
 
 TZ = ZoneInfo("Asia/Tashkent")
@@ -418,7 +419,7 @@ def prepare_media(media):
 def gemini_error(r):
     try:
         e = r.json().get("error", {})
-        return f"HTTP {r.status_code} {e.get('status', '')}: {e.get('message', '')[:300]}"
+        return f"HTTP {r.status_code} {e.get('status', '')}: {e.get('message', '')[:700]}"
     except Exception:
         return f"HTTP {r.status_code}: {r.text[:300]}"
 
@@ -452,10 +453,12 @@ def gemini(prompt, temperature=0.4):
                 msg = gemini_error(r)
             errors.append(f"{model}: {msg}")
             print(f"[gemini] {model}: {msg}")
-            if r.status_code in (429, 500, 503) and "limit: 0" not in msg:
-                time.sleep(15 * (attempt + 1))      # busy / rate limit -> wait and retry
+            quota_gone = "limit: 0" in msg or "per day" in msg.lower() or "PerDay" in msg
+            if r.status_code in (500, 503) or (r.status_code == 429 and not quota_gone
+                                                and attempt == 0):
+                time.sleep(30)                      # busy / per-minute limit -> wait once
                 continue
-            break                                   # bad key, no access, not found -> next model
+            break                                   # quota used up, no access, not found -> next model
     raise RuntimeError("Gemini failed:\n  " + "\n  ".join(errors))
 
 
