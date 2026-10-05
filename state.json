@@ -1,8 +1,9 @@
 {
  "posted": [
-  "https://www.scienceforsport.com/sports-nutrition-the-missing-ingredient/"
+  "https://www.scienceforsport.com/sports-nutrition-the-missing-ingredient/",
+  "https://blogs.bmj.com/bjsm/2026/10/05/getting-back-on-the-saddle-overuse-injuries-in-equestrian-athletes/"
  ],
- "offset": 703888915,
+ "offset": 703888916,
  "drafts": {
   "m202610051508": {
    "status": "pending",
@@ -67,7 +68,7 @@
    "media": true
   },
   "2026-10-05_18": {
-   "status": "pending",
+   "status": "published",
    "link": "https://blogs.bmj.com/bjsm/2026/10/05/getting-back-on-the-saddle-overuse-injuries-in-equestrian-athletes/",
    "site": "https://blogs.bmj.com/bjsm/feed/",
    "title": "Getting Back on The Saddle: Overuse Injuries in Equestrian Athletes",
@@ -82,5 +83,5 @@
    "media": true
   }
  },
- "last_site": "https://www.scienceforsport.com/feed/"
+ "last_site": "https://blogs.bmj.com/bjsm/feed/"
 }
