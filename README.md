@@ -2,12 +2,14 @@
 
 **What it does**
 
-- **08:00 and 17:00 (Tashkent):** the bot takes a new article from the English sport-science sites in `sources.txt`. Gemini writes a full Uzbek version, and then checks it a second time for spelling, terminology and facts.
-- The bot adds the article's video, GIF or photos, then sends the finished post **to you privately** with ✅ / ❌ buttons.
-- **✅** → the post goes to the channel at **09:00 / 18:00**. If you tap ✅ later than that, it goes out within seconds.
-- **❌** → the bot prepares a different article for you.
-- **No answer for 5 hours** → nothing is posted.
-- **Long texts** are cut with "..." and a "🔗 Batafsil" (read more) link to the source.
+- **Topic: gymnastics.** The bot covers gymnastics research (open-access studies from Europe PMC), gymnastics news (Inside Gymnastics, International Gymnast) and the gymnastics articles from general sport-science sites.
+- **5 posts a day, exactly at the namaz times of Tashkent:** Bomdod, Peshin, Asr, Shom, Xufton. It uses the standard MWL calculation and fetches the times fresh each day.
+- **1 hour before each namaz time**, the bot writes a full Uzbek post with photos, GIF or video and sends it **to you privately** with ✅ / ❌ buttons.
+  - **✅** → published at the namaz time
+  - **❌** → the bot prepares a different article
+  - **no answer** → published **automatically** at the namaz time
+- **Long texts** are cut with "..." and a "🔗 Batafsil" link to the source.
+- Commands in Telegram: `/yangi` (extra post now), `/vaqtlar` (today's times), `/start`.
 
 Everything runs free on GitHub.
 
@@ -50,11 +52,11 @@ Easiest: send `/yangi` to the bot in Telegram at any time to get an extra post (
 
 ## Changing things
 - **Websites:** edit `sources.txt`.
-- **Times:** `SLOTS = [9, 18]` in `bot.py`.
-- **Check interval:** the `cron` line in `.github/workflows/post.yml`.
+- **Times:** namaz times are automatic (`PRAYERS`, `PRAYER_METHOD` in `bot.py`).
+- **Check interval:** the cron-job.org job (every 15 minutes).
 
 ## Notes
-- The bot is awake 08:00–24:00. A new GitHub run starts every 20 min and listens ~17 min, so buttons answer in seconds. GitHub's timer is sometimes late; then a tap is answered when the next run starts.
+- cron-job.org starts a GitHub run every 15 min, 24 hours a day. Each run listens ~17 min, so buttons answer in seconds.
 - Keep the repository **Public**: public repositories get unlimited free run time.
 - The bot never repeats an article. It keeps its memory in `state.json`.
 - Translations are checked twice by AI, but always read the preview before tapping ✅.

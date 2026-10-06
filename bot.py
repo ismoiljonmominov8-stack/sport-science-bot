@@ -1,14 +1,16 @@
 """
-Sport Science Telegram bot
---------------------------
-English sport-science websites  ->  full Uzbek post (Gemini, free)  ->  photo / GIF / video
-->  preview sent to the OWNER with ✅ / ❌ buttons  ->  published to the channel at 09:00 / 18:00.
+Gymnastics science Telegram bot
+-------------------------------
+English gymnastics news + gymnastics research  ->  full Uzbek post (Gemini, free)
+->  photo / GIF / video  ->  preview sent to the OWNER with ✅ / ❌ buttons
+->  published to the channel 5 times a day, exactly at the namaz times of Tashkent
+    (Bomdod, Peshin, Asr, Shom, Xufton). No answer = published automatically.
 
-Runs on GitHub Actions (free for public repositories). A new run starts every 20 minutes and
-stays awake ~17 minutes, so button taps and /yangi are answered within seconds. It:
+Runs on GitHub Actions (free for public repositories), started every 15 minutes by cron-job.org.
+Each run stays awake ~17 minutes, so button taps and /yangi are answered within seconds. It:
   1. reads button taps and commands sent to the bot,
-  2. 1 hour before each slot prepares a draft and sends it to the owner,
-  3. publishes approved drafts when their time has come.
+  2. 1 hour before each namaz time prepares a draft and sends it to the owner,
+  3. publishes the draft at the namaz time (✅ or no answer), ❌ = a different article.
 """
 import html
 import io
@@ -40,9 +42,20 @@ FORCE_DRAFT = os.environ.get("FORCE_DRAFT", "").lower() == "true"
 LISTEN_MINUTES = float(os.environ.get("LISTEN_MINUTES", "17"))   # how long each run stays awake
 
 TZ = ZoneInfo("Asia/Tashkent")
-SLOTS = [9, 18]                          # publishing hours (Tashkent time)
+LAT, LON = 41.2995, 69.2401              # Tashkent
+PRAYER_METHOD = 3                        # 3 = Muslim World League (MWL)
+PRAYERS = [("Fajr", "Bomdod"), ("Dhuhr", "Peshin"), ("Asr", "Asr"),
+           ("Maghrib", "Shom"), ("Isha", "Xufton")]
+DEFAULT_TIMES = {"Fajr": "05:00", "Dhuhr": "12:10", "Asr": "15:30",
+                 "Maghrib": "18:00", "Isha": "19:30"}       # only if the times can't be fetched
 PREPARE_BEFORE = timedelta(minutes=60)   # draft is sent to you 1 hour before
-EXPIRE_AFTER = timedelta(hours=5)        # not approved within 5 h after slot -> dropped
+MIN_REVIEW = timedelta(minutes=15)       # a replacement draft (after ❌) gets at least 15 min
+LATE_LIMIT = timedelta(hours=2)          # bot was offline: don't post more than 2 h late
+
+# general sport-science feeds marked "[filter]" in sources.txt: keep only these topics
+GYM_WORDS = re.compile(r"gymnast|trampolin|tumbling|acrobatic|pommel|balance beam|uneven bars|"
+                       r"parallel bars|still rings|horizontal bar|rhythmic|cheerlead|"
+                       r"calisthenic|handstand", re.I)
 
 STATE_FILE = "state.json"
 SOURCES_FILE = "sources.txt"
@@ -191,6 +204,35 @@ def from_feed(url):
     return items
 
 
+def from_europepmc(query):
+    """Newest open-access research articles about gymnastics (Europe PMC, free API)."""
+    r = requests.get("https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+                     params={"query": f"({query}) AND OPEN_ACCESS:y AND HAS_ABSTRACT:y",
+                             "sort": "P_PDATE_D desc", "format": "json",
+                             "resultType": "core", "pageSize": 25},
+                     headers=UA, timeout=40)
+    r.raise_for_status()
+    items = []
+    for a in r.json().get("resultList", {}).get("result", []):
+        doi = a.get("doi")
+        pmcid = a.get("pmcid")
+        if doi:
+            link = f"https://doi.org/{doi}"
+        elif pmcid:
+            link = f"https://europepmc.org/article/PMC/{pmcid}"
+        else:
+            link = f"https://europepmc.org/article/{a.get('source', 'MED')}/{a.get('id')}"
+        try:
+            ts = time.mktime(time.strptime(a.get("firstPublicationDate", "")[:10], "%Y-%m-%d"))
+        except ValueError:
+            ts = 0
+        journal = (a.get("journalInfo") or {}).get("journal", {}).get("title") or "Europe PMC"
+        items.append({"title": clean(a.get("title", "")).rstrip("."), "link": link,
+                      "summary": clean(a.get("abstractText", ""))[:6000], "feed_media": [],
+                      "source": journal, "time": ts, "site": "europepmc"})
+    return items
+
+
 def from_page(url):
     """For websites without RSS: take links that look like articles."""
     r = requests.get(url, headers=UA, timeout=30)
@@ -210,9 +252,17 @@ def from_page(url):
 
 def collect(exclude):
     items = []
-    for url in load_sources():
+    for line in load_sources():
+        only_gym = line.lower().startswith("[filter]")
+        url = line[8:].strip() if only_gym else line
         try:
-            found = from_feed(url) or from_page(url)
+            if url.lower().startswith("europepmc:"):
+                found = from_europepmc(url.split(":", 1)[1].strip())
+            else:
+                found = from_feed(url) or from_page(url)
+            if only_gym:
+                found = [i for i in found if GYM_WORDS.search(i["title"] + " " + i["summary"])]
+            print(f"[source] {url}: {len(found)} articles")
             items += [i for i in found if i["link"] not in exclude]
         except Exception as ex:
             print(f"[skip source] {url}: {ex}")
@@ -223,15 +273,24 @@ def rank(items, last_site):
     """Newest first, a different website than last time, Gemini picks the most interesting."""
     items = sorted(items, key=lambda i: i["time"], reverse=True)
     pool = [i for i in items if i["site"] != last_site] or items
-    pool = pool[:15]
+    per_site, balanced = {}, []                 # up to 5 newest from each website
+    for i in pool:
+        if per_site.get(i["site"], 0) < 5:
+            per_site[i["site"]] = per_site.get(i["site"], 0) + 1
+            balanced.append(i)
+    pool = balanced[:20]
     if GEMINI_KEY and len(pool) > 1:
         listing = "\n".join(f"{n}. {i['title']}" for n, i in enumerate(pool, 1))
         prompt = (
-            "You choose articles for a popular Telegram channel about sport science for coaches, "
-            "athletes, PE teachers and students. From the list below pick the ONE article that is the "
-            "most interesting and practically useful for them (training, performance, recovery, "
-            "nutrition, injuries, youth sport, technology and analytics in sport). Avoid dry "
-            "methodological papers (bibliometric analyses, protocols, validation of questionnaires).\n"
+            "You choose articles for a popular Uzbek Telegram channel about GYMNASTICS science and "
+            "gymnastics sport (artistic, rhythmic, trampoline, acrobatic, aerobic gymnastics) for "
+            "coaches, gymnasts, parents, PE teachers and students. From the list below pick the ONE "
+            "article that is most interesting and useful for them: training methods, technique and "
+            "biomechanics, flexibility, strength, injuries and prevention, children and youth "
+            "gymnasts, psychology, nutrition, judging, technology and analytics in gymnastics, or "
+            "important gymnastics news (World Championships, Olympics, famous gymnasts). Articles "
+            "that are not about gymnastics are the last choice. Avoid dry methodological papers "
+            "(bibliometric analyses, protocols, questionnaire validation).\n"
             f"Answer with the number only.\n\n{listing}")
         try:
             n = int(re.search(r"\d+", gemini(prompt, 0.2, lite_first=True)).group())
@@ -476,7 +535,7 @@ def gemini(prompt, temperature=0.4, lite_first=False):
     raise RuntimeError("Gemini failed:\n  " + "\n  ".join(errors))
 
 
-WRITE_PROMPT = """You are the editor of an Uzbek-language Telegram channel about sport science for coaches, athletes, PE teachers and students.
+WRITE_PROMPT = """You are the editor of an Uzbek-language Telegram channel about gymnastics science and gymnastics sport (sport gimnastikasi, badiiy gimnastika, batut, akrobatika) for coaches, gymnasts, parents, PE teachers and students.
 
 Task: using ONLY the English article below, write a complete Uzbek version of it for the channel.
 
@@ -484,7 +543,7 @@ Requirements:
 - Literary Uzbek in the Latin script with correct modern spelling (use o‘ g‘ and ʼ, e.g. "o‘quv", "mashg‘ulot", "ta’sir" -> "taʼsir").
 - Keep ALL substantive information: main findings, numbers, percentages, units, number of participants, durations, names of studies, universities, organizations, technologies and tools. Do not leave out anything important. Drop menus, ads, author bios and reference lists.
 - Do NOT add any fact, number, name or claim that is not in the article.
-- Use correct Uzbek sport-science terminology. If a term has no established Uzbek equivalent, write the Uzbek term and give the English term in parentheses on first use, e.g. "maksimal kislorod isteʼmoli (VO2max)".
+- Use correct Uzbek gymnastics and sport-science terminology (e.g. artistic gymnastics = sport gimnastikasi, rhythmic gymnastics = badiiy gimnastika, trampoline = batut, acrobatic gymnastics = sport akrobatikasi, floor exercise = erkin mashqlar, apparatus = snaryad, routine = mashq/kombinatsiya, coach = murabbiy, gymnast = gimnastikachi). For apparatus names (balance beam, vault, uneven bars, pommel horse, still rings, parallel bars) use the established Uzbek name if you are sure of it, and always add the English name in parentheses on first use. If a term has no established Uzbek equivalent, write the Uzbek term and give the English term in parentheses on first use, e.g. "maksimal kislorod isteʼmoli (VO2max)".
 - Translate the meaning naturally, not word for word. Short clear paragraphs. You may end with "Amaliy xulosalar:" and 2-4 lines starting with "•" if the article supports them.
 - Plain text only: no markdown, no asterisks, no hashtags, no links.
 - At most 2500 characters.
@@ -499,7 +558,7 @@ Article text:
 {text}
 """
 
-CHECK_PROMPT = """You are a professional Uzbek editor and English-Uzbek translator specialised in sport science.
+CHECK_PROMPT = """You are a professional Uzbek editor and English-Uzbek translator specialised in gymnastics and sport science.
 Below are an English source article and its Uzbek version for a Telegram channel.
 Carefully check the Uzbek version and correct:
 - spelling and grammar mistakes (Latin script, o‘ g‘ ʼ),
@@ -597,7 +656,7 @@ def send_post(chat, caption, long_text, plan, preview_url):
     return [r["message_id"]]
 
 
-def make_draft(state, key, publish_at, label):
+def make_draft(state, key, publish_at, label, auto=False):
     exclude = set(state["posted"]) | {d.get("link") for d in state["drafts"].values()}
     items = collect(exclude)
     if not items:
@@ -624,12 +683,16 @@ def make_draft(state, key, publish_at, label):
             btn = tg("sendMessage", {
                 "chat_id": ADMIN, "parse_mode": "HTML",
                 "text": (f"📝 <b>{esc(label)}</b> uchun post tayyor ({kind}).\n"
-                         f"Manba: {esc(item['title'])}\n\nKanalga chiqarilsinmi?"),
+                         f"Manba: {esc(item['title'])}\n\n"
+                         + (f"✅ — {publish_at.strftime('%H:%M')} da chiqadi\n"
+                            f"❌ — boshqa maqola tayyorlanadi\n"
+                            f"Javob bermasangiz, {publish_at.strftime('%H:%M')} da "
+                            f"avtomatik chiqadi." if auto else "Kanalga chiqarilsinmi?")),
                 "reply_markup": json.dumps(buttons),
                 "link_preview_options": json.dumps({"is_disabled": True})})
             return {"status": "pending", "link": item["link"], "site": item["site"],
                     "title": item["title"], "preview_ids": ids, "button_id": btn["message_id"],
-                    "publish_at": publish_at.isoformat(), "label": label,
+                    "publish_at": publish_at.isoformat(), "label": label, "auto": auto,
                     "created": now_tz().isoformat(), "media": bool(has_media)}
         except RuntimeError as ex:
             if str(ex).startswith("Gemini failed"):
@@ -643,7 +706,7 @@ def make_draft(state, key, publish_at, label):
     return None
 
 
-def publish(state, d):
+def publish(state, d, auto=False):
     try:
         tg("copyMessages", {"chat_id": CHANNEL, "from_chat_id": ADMIN,
                             "message_ids": json.dumps(d["preview_ids"])})
@@ -657,7 +720,8 @@ def publish(state, d):
     d["status"] = "published"
     state["posted"].append(d["link"])
     state["last_site"] = d["site"]
-    set_button_text(d, f"📢 Kanalga chiqdi: {esc(d['title'])}")
+    set_button_text(d, ("⏰ Javob bo‘lmadi — avtomatik chop etildi.\n" if auto else "")
+                    + f"📢 Kanalga chiqdi: {esc(d['title'])}")
     print(f"Published: {d['title']}")
 
 
@@ -679,9 +743,15 @@ def process_updates(state, wait=0):
                 say(chat, f"Sizning chat ID raqamingiz: <code>{chat}</code>\n"
                           "Uni GitHub'da <b>ADMIN_CHAT_ID</b> secret sifatida saqlang.")
             elif chat == ADMIN and cmd in ("/start", "/id"):
-                say(chat, "✅ Bot ishlayapti.\nPostlar 08:00 va 17:00 da tasdiqlash uchun "
-                          "yuboriladi, 09:00 va 18:00 da kanalga chiqadi.\n"
-                          "/yangi — hoziroq yangi post tayyorlash.")
+                times = ", ".join(f"{uz} {t}" for uz, t in today_times(state, now_tz()))
+                say(chat, "✅ Bot ishlayapti.\nKuniga 5 ta post, namoz vaqtlarida chiqadi:\n"
+                          f"{times}\n\nHar bir post 1 soat oldin sizga yuboriladi. "
+                          "✅ — vaqtida chiqadi, ❌ — boshqa maqola, javob bo‘lmasa — "
+                          "avtomatik chiqadi.\n/yangi — hoziroq qo‘shimcha post tayyorlash.\n"
+                          "/vaqtlar — bugungi namoz vaqtlari.")
+            elif chat == ADMIN and cmd == "/vaqtlar":
+                times = "\n".join(f"• {uz}: {t}" for uz, t in today_times(state, now_tz()))
+                say(chat, f"🕌 Bugungi post vaqtlari (Toshkent):\n{times}")
             elif chat == ADMIN and cmd == "/yangi":
                 say(chat, "⏳ Yangi post tayyorlanmoqda, 1–3 daqiqa kuting…")
                 want_now = True
@@ -720,42 +790,94 @@ def process_updates(state, wait=0):
     return want_now
 
 
+# ---------------- namaz times ----------------
+def fetch_prayer_times(day):
+    r = requests.get(f"https://api.aladhan.com/v1/timings/{day.strftime('%d-%m-%Y')}",
+                     params={"latitude": LAT, "longitude": LON, "method": PRAYER_METHOD,
+                             "timezonestring": "Asia/Tashkent"},
+                     headers=UA, timeout=30)
+    r.raise_for_status()
+    t = r.json()["data"]["timings"]
+    return {k: re.match(r"\d{1,2}:\d{2}", t[k]).group() for k, _ in PRAYERS}
+
+
+def prayer_times(state, day):
+    """{'Fajr': '04:53', ...} for this date; fetched once a day and remembered."""
+    cache = state.setdefault("prayer_times", {})
+    key = day.strftime("%Y-%m-%d")
+    if key not in cache:
+        try:
+            cache[key] = fetch_prayer_times(day)
+            print(f"[namaz] {key}: {cache[key]}")
+        except Exception as ex:
+            print(f"[namaz] could not fetch times: {ex}")
+            older = [cache[k] for k in sorted(cache) if k < key]
+            return older[-1] if older else DEFAULT_TIMES          # yesterday's times are close
+    for k in sorted(cache)[:-3]:
+        del cache[k]
+    return cache[key]
+
+
+def today_times(state, now):
+    t = prayer_times(state, now)
+    return [(uz, t[en]) for en, uz in PRAYERS]
+
+
+def slots_for(state, now):
+    """[(key, slot_datetime, label)] for today (and tomorrow's Bomdod, prepared before midnight)."""
+    out = []
+    for day in (now, now + timedelta(days=1)):
+        times = prayer_times(state, day)
+        for en, uz in PRAYERS:
+            h, m = map(int, times[en].split(":"))
+            at = day.replace(hour=h, minute=m, second=0, microsecond=0)
+            if abs((at - now).total_seconds()) < 36 * 3600:
+                out.append((at.strftime("%Y-%m-%d_") + en.lower(), at,
+                            f"{uz} ({at.strftime('%H:%M')})"))
+    return out
+
+
 # ---------------- main loop ----------------
-def handle_slot(state, key, slot, now):
+def handle_slot(state, key, slot, label, now):
     d = state["drafts"].get(key)
     if now < slot - PREPARE_BEFORE:
         return
-    if now > slot + EXPIRE_AFTER:
-        if d and d.get("status") == "pending":
+    if now > slot + LATE_LIMIT:                       # bot was offline too long: skip this slot
+        if d and d.get("status") in ("pending", "approved"):
             d["status"] = "expired"
             set_button_text(d, f"⌛ Vaqti o‘tdi, chop etilmadi.\n{esc(d['title'])}")
         return
     if d is None or d.get("status") == "skipped":
-        new = make_draft(state, key, slot, slot.strftime("%H:%M"))
+        new = make_draft(state, key, slot, label, auto=True)
         if new:
             state["drafts"][key] = new
         else:
             state["drafts"][key] = {"status": "empty", "created": now.isoformat()}
             if new is None:
-                say(ADMIN, f"ℹ️ {slot.strftime('%H:%M')} uchun yangi maqola topilmadi.")
+                say(ADMIN, f"ℹ️ {esc(label)} uchun yangi maqola topilmadi.")
         return
-    if d.get("status") == "approved" and now >= slot:
+    if now < slot:
+        return
+    if d.get("status") == "approved":
         publish(state, d)
+    elif d.get("status") == "pending":
+        created = datetime.fromisoformat(d["created"])
+        if now >= created + MIN_REVIEW:               # no answer -> publish automatically
+            publish(state, d, auto=True)
 
 
 def tick(state, want_now):
-    """One round of work: scheduled slots, a manual post if asked, publishing."""
+    """One round of work: namaz-time slots, a manual post if asked, publishing."""
     now = now_tz()
-    for hour in SLOTS:
-        slot = now.replace(hour=hour, minute=0, second=0, microsecond=0)
+    for key, slot, label in slots_for(state, now):
         try:
-            handle_slot(state, slot.strftime("%Y-%m-%d_%H"), slot, now)
+            handle_slot(state, key, slot, label, now)
         except Exception:
             traceback.print_exc()
 
     if want_now:
         key = "m" + now.strftime("%Y%m%d%H%M%S")
-        d = make_draft(state, key, now, "Hozir (qo‘lda)")
+        d = make_draft(state, key, now, "Qo‘shimcha post (/yangi)")
         if d:
             state["drafts"][key] = d
         elif d is None:

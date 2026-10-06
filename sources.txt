@@ -1,13 +1,18 @@
-# One website (RSS feed) per line. Lines starting with # are ignored.
-# All of these were checked and work.
+# One source per line. Lines starting with # are ignored.
+#   normal line            -> every article is used
+#   [filter] <feed>        -> only articles about gymnastics are used
+#   europepmc: <query>     -> newest open-access research papers (Europe PMC)
 
-# Popular science news (easy to read)
-https://www.sciencedaily.com/rss/health_medicine/sports_medicine.xml
+# Gymnastics research (science)
+europepmc: TITLE:gymnast* OR TITLE:trampolin* OR TITLE:"rhythmic gymnastics" OR TITLE:"acrobatic gymnastics"
 
-# Expert blogs
-https://blogs.bmj.com/bjsm/feed/
-https://www.scienceforsport.com/feed/
+# Gymnastics news
+https://www.insidegymnastics.com/feed/
+https://www.intlgymnast.com/
 
-# Open-access journals (CC BY licence — free to translate and reuse with credit)
-https://www.frontiersin.org/journals/sports-and-active-living/rss
-https://www.mdpi.com/rss/journal/sports
+# General sport-science sites: only their gymnastics articles
+[filter] https://www.sciencedaily.com/rss/health_medicine/sports_medicine.xml
+[filter] https://blogs.bmj.com/bjsm/feed/
+[filter] https://www.scienceforsport.com/feed/
+[filter] https://www.frontiersin.org/journals/sports-and-active-living/rss
+[filter] https://www.mdpi.com/rss/journal/sports
