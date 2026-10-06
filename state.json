@@ -1,9 +1,10 @@
 {
  "posted": [
   "https://www.scienceforsport.com/sports-nutrition-the-missing-ingredient/",
-  "https://blogs.bmj.com/bjsm/2026/10/05/getting-back-on-the-saddle-overuse-injuries-in-equestrian-athletes/"
+  "https://blogs.bmj.com/bjsm/2026/10/05/getting-back-on-the-saddle-overuse-injuries-in-equestrian-athletes/",
+  "https://www.frontiersin.org/articles/10.3389/fspor.2026.1933001"
  ],
- "offset": 703888916,
+ "offset": 703888917,
  "drafts": {
   "m202610051508": {
    "status": "pending",
@@ -83,7 +84,7 @@
    "media": true
   },
   "2026-10-06_09": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1933001",
    "site": "https://www.frontiersin.org/journals/sports-and-active-living/rss",
    "title": "Effects of individualized blood flow restriction during brief twice-weekly low-load cycling on mobility and muscle function in adults older than 70 years",
@@ -100,5 +101,5 @@
    "media": true
   }
  },
- "last_site": "https://blogs.bmj.com/bjsm/feed/"
+ "last_site": "https://www.frontiersin.org/journals/sports-and-active-living/rss"
 }
