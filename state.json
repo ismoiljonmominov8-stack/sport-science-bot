@@ -5,7 +5,8 @@
   "https://www.frontiersin.org/articles/10.3389/fspor.2026.1933001",
   "https://doi.org/10.1177/19417381261485714",
   "https://www.insidegymnastics.com/news-features/katelyn-ohashi-showcases-signature-beam-series-12-years-apart/",
-  "https://www.insidegymnastics.com/news-features/targeting-la28-why-canadas-ellie-black-is-extraordinary/"
+  "https://www.insidegymnastics.com/news-features/targeting-la28-why-canadas-ellie-black-is-extraordinary/",
+  "https://doi.org/10.1186/s13102-026-01852-0"
  ],
  "offset": 703888921,
  "drafts": {
@@ -134,7 +135,7 @@
    "media": true
   },
   "2026-10-06_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1186/s13102-026-01852-0",
    "site": "europepmc",
    "title": "The effect of resistance band exercises on motor skills in female gymnasts",
@@ -149,7 +150,7 @@
    "media": false
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-06": {
    "Fajr": "04:53",
