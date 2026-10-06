@@ -99,7 +99,38 @@
    "label": "09:00",
    "created": "2026-10-06T10:15:24.906868+05:00",
    "media": true
+  },
+  "2026-10-06_dhuhr": {
+   "status": "pending",
+   "link": "https://doi.org/10.1177/19417381261485714",
+   "site": "europepmc",
+   "title": "Risk of Scoliosis in Adolescent Female Rhythmic Gymnasts Compared with Healthy Peers: A Cross-Sectional Study Using the Scoliosis Tele-Screening Test",
+   "preview_ids": [
+    45
+   ],
+   "button_id": 46,
+   "publish_at": "2026-10-06T12:11:00+05:00",
+   "label": "Peshin (12:11)",
+   "auto": true,
+   "created": "2026-10-06T11:26:39.922663+05:00",
+   "media": false
   }
  },
- "last_site": "https://www.frontiersin.org/journals/sports-and-active-living/rss"
+ "last_site": "https://www.frontiersin.org/journals/sports-and-active-living/rss",
+ "prayer_times": {
+  "2026-10-06": {
+   "Fajr": "04:53",
+   "Dhuhr": "12:11",
+   "Asr": "15:26",
+   "Maghrib": "17:57",
+   "Isha": "19:23"
+  },
+  "2026-10-07": {
+   "Fajr": "04:54",
+   "Dhuhr": "12:11",
+   "Asr": "15:25",
+   "Maghrib": "17:55",
+   "Isha": "19:22"
+  }
+ }
 }
