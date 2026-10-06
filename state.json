@@ -3,9 +3,10 @@
   "https://www.scienceforsport.com/sports-nutrition-the-missing-ingredient/",
   "https://blogs.bmj.com/bjsm/2026/10/05/getting-back-on-the-saddle-overuse-injuries-in-equestrian-athletes/",
   "https://www.frontiersin.org/articles/10.3389/fspor.2026.1933001",
-  "https://doi.org/10.1177/19417381261485714"
+  "https://doi.org/10.1177/19417381261485714",
+  "https://www.insidegymnastics.com/news-features/katelyn-ohashi-showcases-signature-beam-series-12-years-apart/"
  ],
- "offset": 703888920,
+ "offset": 703888921,
  "drafts": {
   "m202610051508": {
    "status": "pending",
@@ -118,17 +119,17 @@
   },
   "2026-10-06_asr": {
    "status": "pending",
-   "link": "https://www.insidegymnastics.com/news-features/katelyn-ohashi-showcases-signature-beam-series-12-years-apart/",
+   "link": "https://www.insidegymnastics.com/news-features/targeting-la28-why-canadas-ellie-black-is-extraordinary/",
    "site": "https://www.insidegymnastics.com/feed/",
-   "title": "Stunning! Ohashi Showcases Signature Beam Series 12 Years Apart!",
+   "title": "Targeting LA28! Why Canada’s Ellie Black Is, In A Word, Extraordinary",
    "preview_ids": [
-    51
+    53
    ],
-   "button_id": 52,
+   "button_id": 54,
    "publish_at": "2026-10-06T15:26:00+05:00",
    "label": "Asr (15:26)",
    "auto": true,
-   "created": "2026-10-06T14:38:45.913689+05:00",
+   "created": "2026-10-06T15:04:03.961929+05:00",
    "media": true
   }
  },
