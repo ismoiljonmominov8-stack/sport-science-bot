@@ -148,6 +148,21 @@
    "auto": true,
    "created": "2026-10-06T17:08:10.936286+05:00",
    "media": false
+  },
+  "2026-10-06_isha": {
+   "status": "pending",
+   "link": "https://www.insidegymnastics.com/news-features/inside-look-the-peach-pit/",
+   "site": "https://www.insidegymnastics.com/feed/",
+   "title": "Inside Look: The Peach Pit!",
+   "preview_ids": [
+    59
+   ],
+   "button_id": 60,
+   "publish_at": "2026-10-06T19:23:00+05:00",
+   "label": "Xufton (19:23)",
+   "auto": true,
+   "created": "2026-10-06T18:24:11.019046+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
