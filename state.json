@@ -247,6 +247,21 @@
    "auto": true,
    "created": "2026-10-07T18:34:26.588572+05:00",
    "media": false
+  },
+  "2026-10-08_fajr": {
+   "status": "pending",
+   "link": "https://www.insidegymnastics.com/news-features/jordan-chiles-announces-run-for-la-2028-olympics/",
+   "site": "https://www.insidegymnastics.com/feed/",
+   "title": "“LA 2028… WHY NOT?” Jordan Chiles Announces Run For LA28",
+   "preview_ids": [
+    85
+   ],
+   "button_id": 86,
+   "publish_at": "2026-10-08T04:55:00+05:00",
+   "label": "Bomdod (04:55)",
+   "auto": true,
+   "created": "2026-10-08T03:57:45.939260+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
