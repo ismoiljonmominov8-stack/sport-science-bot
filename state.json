@@ -217,8 +217,19 @@
    "media": false
   },
   "2026-10-07_maghrib": {
-   "status": "empty",
-   "created": "2026-10-07T16:55:19.983987+05:00"
+   "status": "pending",
+   "link": "https://www.insidegymnastics.com/news-features/cooper-kim-authenticity-in-every-moment/",
+   "site": "https://www.insidegymnastics.com/feed/",
+   "title": "Cooper Kim: Authenticity In Every Moment",
+   "preview_ids": [
+    81
+   ],
+   "button_id": 82,
+   "publish_at": "2026-10-07T17:55:00+05:00",
+   "label": "Shom (17:55)",
+   "auto": true,
+   "created": "2026-10-07T17:05:27.846338+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
