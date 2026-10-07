@@ -199,6 +199,21 @@
    "auto": true,
    "created": "2026-10-07T11:16:38.597174+05:00",
    "media": true
+  },
+  "2026-10-07_asr": {
+   "status": "pending",
+   "link": "https://doi.org/10.1186/s13102-026-01830-6",
+   "site": "europepmc",
+   "title": "Multisensory feedback in gymnastics education: a kinematic study on skill acquisition in youth athletes",
+   "preview_ids": [
+    73
+   ],
+   "button_id": 74,
+   "publish_at": "2026-10-07T15:25:00+05:00",
+   "label": "Asr (15:25)",
+   "auto": true,
+   "created": "2026-10-07T14:36:09.184507+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.insidegymnastics.com/feed/",
