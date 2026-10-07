@@ -12,7 +12,8 @@
   "https://doi.org/10.3390/children13070884",
   "https://www.insidegymnastics.com/news-features/mens-college-gymnastics-recruit-ratings/",
   "https://doi.org/10.1186/s13102-026-01830-6",
-  "https://www.insidegymnastics.com/news-features/cooper-kim-authenticity-in-every-moment/"
+  "https://www.insidegymnastics.com/news-features/cooper-kim-authenticity-in-every-moment/",
+  "https://doi.org/10.3390/jfmk11030270"
  ],
  "offset": 703888926,
  "drafts": {
@@ -233,7 +234,7 @@
    "media": true
   },
   "2026-10-07_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3390/jfmk11030270",
    "site": "europepmc",
    "title": "Effects of an Additional Sports Gymnastics Program on Sagittal Spinal Alignment and Postural Status in School-Aged Students",
@@ -248,7 +249,7 @@
    "media": false
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-06": {
    "Fajr": "04:53",
