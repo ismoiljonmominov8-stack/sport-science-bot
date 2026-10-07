@@ -13,7 +13,8 @@
   "https://www.insidegymnastics.com/news-features/mens-college-gymnastics-recruit-ratings/",
   "https://doi.org/10.1186/s13102-026-01830-6",
   "https://www.insidegymnastics.com/news-features/cooper-kim-authenticity-in-every-moment/",
-  "https://doi.org/10.3390/jfmk11030270"
+  "https://doi.org/10.3390/jfmk11030270",
+  "https://www.insidegymnastics.com/news-features/jordan-chiles-announces-run-for-la-2028-olympics/"
  ],
  "offset": 703888926,
  "drafts": {
@@ -249,7 +250,7 @@
    "media": false
   },
   "2026-10-08_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.insidegymnastics.com/news-features/jordan-chiles-announces-run-for-la-2028-olympics/",
    "site": "https://www.insidegymnastics.com/feed/",
    "title": "“LA 2028… WHY NOT?” Jordan Chiles Announces Run For LA28",
@@ -264,7 +265,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.insidegymnastics.com/feed/",
  "prayer_times": {
   "2026-10-07": {
    "Fajr": "04:54",
