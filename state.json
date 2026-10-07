@@ -10,7 +10,8 @@
   "https://www.insidegymnastics.com/news-features/inside-look-the-peach-pit/",
   "https://www.insidegymnastics.com/news-features/usa-gymnastics-names-2026-womens-world-championship-team/",
   "https://doi.org/10.3390/children13070884",
-  "https://www.insidegymnastics.com/news-features/mens-college-gymnastics-recruit-ratings/"
+  "https://www.insidegymnastics.com/news-features/mens-college-gymnastics-recruit-ratings/",
+  "https://doi.org/10.1186/s13102-026-01830-6"
  ],
  "offset": 703888926,
  "drafts": {
@@ -201,7 +202,7 @@
    "media": true
   },
   "2026-10-07_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1186/s13102-026-01830-6",
    "site": "europepmc",
    "title": "Multisensory feedback in gymnastics education: a kinematic study on skill acquisition in youth athletes",
@@ -216,7 +217,7 @@
    "media": false
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-06": {
    "Fajr": "04:53",
