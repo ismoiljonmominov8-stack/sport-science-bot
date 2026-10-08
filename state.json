@@ -235,6 +235,24 @@
    "auto": true,
    "created": "2026-10-08T14:38:23.231021+05:00",
    "media": true
+  },
+  "2026-10-08_maghrib": {
+   "status": "pending",
+   "link": "https://doi.org/10.1038/s41598-026-55316-z",
+   "site": "europepmc",
+   "title": "Kinematics of different vault techniques in elite male gymnasts",
+   "preview_ids": [
+    99,
+    100,
+    101,
+    102
+   ],
+   "button_id": 103,
+   "publish_at": "2026-10-08T17:54:00+05:00",
+   "label": "Shom (17:54)",
+   "auto": true,
+   "created": "2026-10-08T16:57:43.809113+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.insidegymnastics.com/feed/",
