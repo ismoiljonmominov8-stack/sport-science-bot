@@ -17,7 +17,8 @@
   "https://www.insidegymnastics.com/news-features/jordan-chiles-announces-run-for-la-2028-olympics/",
   "https://doi.org/10.1186/s13102-026-01800-y",
   "https://www.insidegymnastics.com/news-features/claire-pease-charleigh-bullock-punch-automatic-tickets-to-rotterdam-at-usa-women-selection-camp-selection-camp/",
-  "https://doi.org/10.1038/s41598-026-55316-z"
+  "https://doi.org/10.1038/s41598-026-55316-z",
+  "https://www.insidegymnastics.com/news-features/rotterdam-loading-preview-u-s-women-head-to-selection-camp/"
  ],
  "offset": 703888926,
  "drafts": {
@@ -256,7 +257,7 @@
    "media": true
   },
   "2026-10-08_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.insidegymnastics.com/news-features/rotterdam-loading-preview-u-s-women-head-to-selection-camp/",
    "site": "https://www.insidegymnastics.com/feed/",
    "title": "Rotterdam Loading! Preview: U.S. Women Head To Selection Camp",
@@ -273,7 +274,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.insidegymnastics.com/feed/",
  "prayer_times": {
   "2026-10-07": {
    "Fajr": "04:54",
