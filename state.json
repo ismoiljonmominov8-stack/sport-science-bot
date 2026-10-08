@@ -16,7 +16,8 @@
   "https://doi.org/10.3390/jfmk11030270",
   "https://www.insidegymnastics.com/news-features/jordan-chiles-announces-run-for-la-2028-olympics/",
   "https://doi.org/10.1186/s13102-026-01800-y",
-  "https://www.insidegymnastics.com/news-features/claire-pease-charleigh-bullock-punch-automatic-tickets-to-rotterdam-at-usa-women-selection-camp-selection-camp/"
+  "https://www.insidegymnastics.com/news-features/claire-pease-charleigh-bullock-punch-automatic-tickets-to-rotterdam-at-usa-women-selection-camp-selection-camp/",
+  "https://doi.org/10.1038/s41598-026-55316-z"
  ],
  "offset": 703888926,
  "drafts": {
@@ -237,7 +238,7 @@
    "media": true
   },
   "2026-10-08_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1038/s41598-026-55316-z",
    "site": "europepmc",
    "title": "Kinematics of different vault techniques in elite male gymnasts",
@@ -255,7 +256,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-07": {
    "Fajr": "04:54",
