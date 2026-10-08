@@ -257,6 +257,21 @@
    "auto": true,
    "created": "2026-10-08T18:23:51.878518+05:00",
    "media": true
+  },
+  "2026-10-09_fajr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/sports14080343",
+   "site": "europepmc",
+   "title": "Self-Efficacy and Performance in Artistic Gymnastics: A Systematic Review",
+   "preview_ids": [
+    108
+   ],
+   "button_id": 109,
+   "publish_at": "2026-10-09T04:56:00+05:00",
+   "label": "Bomdod (04:56)",
+   "auto": true,
+   "created": "2026-10-09T03:57:33.792961+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.insidegymnastics.com/feed/",
