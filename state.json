@@ -14,7 +14,8 @@
   "https://doi.org/10.1186/s13102-026-01830-6",
   "https://www.insidegymnastics.com/news-features/cooper-kim-authenticity-in-every-moment/",
   "https://doi.org/10.3390/jfmk11030270",
-  "https://www.insidegymnastics.com/news-features/jordan-chiles-announces-run-for-la-2028-olympics/"
+  "https://www.insidegymnastics.com/news-features/jordan-chiles-announces-run-for-la-2028-olympics/",
+  "https://doi.org/10.1186/s13102-026-01800-y"
  ],
  "offset": 703888926,
  "drafts": {
@@ -265,7 +266,7 @@
    "media": true
   },
   "2026-10-08_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1186/s13102-026-01800-y",
    "site": "europepmc",
    "title": "Prevalence, risk factors, and conservative management of low back pain in competitive gymnasts: a systematic review",
@@ -280,7 +281,7 @@
    "media": false
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-07": {
    "Fajr": "04:54",
