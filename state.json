@@ -18,7 +18,8 @@
   "https://doi.org/10.1186/s13102-026-01800-y",
   "https://www.insidegymnastics.com/news-features/claire-pease-charleigh-bullock-punch-automatic-tickets-to-rotterdam-at-usa-women-selection-camp-selection-camp/",
   "https://doi.org/10.1038/s41598-026-55316-z",
-  "https://www.insidegymnastics.com/news-features/rotterdam-loading-preview-u-s-women-head-to-selection-camp/"
+  "https://www.insidegymnastics.com/news-features/rotterdam-loading-preview-u-s-women-head-to-selection-camp/",
+  "https://doi.org/10.3390/sports14080343"
  ],
  "offset": 703888926,
  "drafts": {
@@ -259,7 +260,7 @@
    "media": true
   },
   "2026-10-09_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3390/sports14080343",
    "site": "europepmc",
    "title": "Self-Efficacy and Performance in Artistic Gymnastics: A Systematic Review",
@@ -274,7 +275,7 @@
    "media": false
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-08": {
    "Fajr": "04:55",
