@@ -21,7 +21,8 @@
   "https://www.insidegymnastics.com/news-features/rotterdam-loading-preview-u-s-women-head-to-selection-camp/",
   "https://doi.org/10.3390/sports14080343",
   "https://www.insidegymnastics.com/news-features/ready-for-rotterdam-2026-world-gymnastics-championships-preview/",
-  "https://doi.org/10.1186/s12887-026-07204-8"
+  "https://doi.org/10.1186/s12887-026-07204-8",
+  "https://www.insidegymnastics.com/news-features/dulcy-caylor-tatum-drusch-successful-in-qualifications-szombathely-world-cup/"
  ],
  "offset": 703888926,
  "drafts": {
@@ -246,7 +247,7 @@
    "media": false
   },
   "2026-10-09_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.insidegymnastics.com/news-features/dulcy-caylor-tatum-drusch-successful-in-qualifications-szombathely-world-cup/",
    "site": "https://www.insidegymnastics.com/feed/",
    "title": "Caylor Qualifies #1 On Floor, Drusch On All Four Events At Szombathely World Cup",
@@ -261,7 +262,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.insidegymnastics.com/feed/",
  "prayer_times": {
   "2026-10-08": {
    "Fajr": "04:55",
