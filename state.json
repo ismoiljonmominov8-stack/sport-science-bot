@@ -20,7 +20,8 @@
   "https://doi.org/10.1038/s41598-026-55316-z",
   "https://www.insidegymnastics.com/news-features/rotterdam-loading-preview-u-s-women-head-to-selection-camp/",
   "https://doi.org/10.3390/sports14080343",
-  "https://www.insidegymnastics.com/news-features/ready-for-rotterdam-2026-world-gymnastics-championships-preview/"
+  "https://www.insidegymnastics.com/news-features/ready-for-rotterdam-2026-world-gymnastics-championships-preview/",
+  "https://doi.org/10.1186/s12887-026-07204-8"
  ],
  "offset": 703888926,
  "drafts": {
@@ -245,7 +246,7 @@
    "media": true
   },
   "2026-10-09_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1186/s12887-026-07204-8",
    "site": "europepmc",
    "title": "Supporting social-emotional and behavioral skills in preschool children through gymnastics",
@@ -260,7 +261,7 @@
    "media": false
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-08": {
    "Fajr": "04:55",
