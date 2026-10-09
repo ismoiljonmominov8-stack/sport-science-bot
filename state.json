@@ -259,6 +259,21 @@
    "auto": true,
    "created": "2026-10-09T14:31:32.319857+05:00",
    "media": false
+  },
+  "2026-10-09_maghrib": {
+   "status": "pending",
+   "link": "https://www.insidegymnastics.com/news-features/dulcy-caylor-tatum-drusch-successful-in-qualifications-szombathely-world-cup/",
+   "site": "https://www.insidegymnastics.com/feed/",
+   "title": "Caylor Qualifies #1 On Floor, Drusch On All Four Events At Szombathely World Cup",
+   "preview_ids": [
+    120
+   ],
+   "button_id": 121,
+   "publish_at": "2026-10-09T17:52:00+05:00",
+   "label": "Shom (17:52)",
+   "auto": true,
+   "created": "2026-10-09T16:55:27.794776+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
