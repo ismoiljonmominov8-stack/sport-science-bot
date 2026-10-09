@@ -260,6 +260,21 @@
    "auto": true,
    "created": "2026-10-09T16:55:27.794776+05:00",
    "media": true
+  },
+  "2026-10-09_isha": {
+   "status": "pending",
+   "link": "https://doi.org/10.1186/s40359-026-04733-w",
+   "site": "europepmc",
+   "title": "Dynamic coupling of motivation, flow, and psychological resilience: a career narrative case study of a Chinese male aerobic gymnastics world champion",
+   "preview_ids": [
+    122
+   ],
+   "button_id": 123,
+   "publish_at": "2026-10-09T19:18:00+05:00",
+   "label": "Xufton (19:18)",
+   "auto": true,
+   "created": "2026-10-09T18:22:34.352394+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.insidegymnastics.com/feed/",
