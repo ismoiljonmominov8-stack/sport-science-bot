@@ -258,6 +258,21 @@
    "auto": true,
    "created": "2026-10-09T11:12:52.382153+05:00",
    "media": true
+  },
+  "2026-10-09_asr": {
+   "status": "pending",
+   "link": "https://doi.org/10.1186/s12887-026-07204-8",
+   "site": "europepmc",
+   "title": "Supporting social-emotional and behavioral skills in preschool children through gymnastics",
+   "preview_ids": [
+    116
+   ],
+   "button_id": 117,
+   "publish_at": "2026-10-09T15:22:00+05:00",
+   "label": "Asr (15:22)",
+   "auto": true,
+   "created": "2026-10-09T14:26:08.250379+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.insidegymnastics.com/feed/",
