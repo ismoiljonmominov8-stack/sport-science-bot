@@ -22,7 +22,8 @@
   "https://doi.org/10.3390/sports14080343",
   "https://www.insidegymnastics.com/news-features/ready-for-rotterdam-2026-world-gymnastics-championships-preview/",
   "https://doi.org/10.1186/s12887-026-07204-8",
-  "https://www.insidegymnastics.com/news-features/dulcy-caylor-tatum-drusch-successful-in-qualifications-szombathely-world-cup/"
+  "https://www.insidegymnastics.com/news-features/dulcy-caylor-tatum-drusch-successful-in-qualifications-szombathely-world-cup/",
+  "https://doi.org/10.1186/s40359-026-04733-w"
  ],
  "offset": 703888926,
  "drafts": {
@@ -245,7 +246,7 @@
    "media": true
   },
   "2026-10-09_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1186/s40359-026-04733-w",
    "site": "europepmc",
    "title": "Dynamic coupling of motivation, flow, and psychological resilience: a career narrative case study of a Chinese male aerobic gymnastics world champion",
@@ -260,7 +261,7 @@
    "media": false
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-08": {
    "Fajr": "04:55",
