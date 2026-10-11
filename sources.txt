@@ -4,11 +4,13 @@
 #   europepmc: <query>     -> newest open-access research papers (Europe PMC)
 
 # Gymnastics research (science)
-europepmc: TITLE:gymnast* OR TITLE:trampolin* OR TITLE:"rhythmic gymnastics" OR TITLE:"acrobatic gymnastics"
+europepmc: TITLE:gymnast* OR TITLE:trampolin* OR TITLE:"rhythmic gymnastics" OR TITLE:"acrobatic gymnastics" OR ABSTRACT:"gymnasts" OR ABSTRACT:"gymnastics training"
 
 # Gymnastics news
 https://www.insidegymnastics.com/feed/
 https://www.intlgymnast.com/
+https://www.gymnasticscoaching.com/feed/
+https://www.thegymter.net/feed/
 
 # General sport-science sites: only their gymnastics articles
 [filter] https://www.sciencedaily.com/rss/health_medicine/sports_medicine.xml

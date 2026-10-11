@@ -204,32 +204,51 @@ def from_feed(url):
     return items
 
 
-def from_europepmc(query):
-    """Newest open-access research articles about gymnastics (Europe PMC, free API)."""
-    r = requests.get("https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-                     params={"query": f"({query}) AND OPEN_ACCESS:y AND HAS_ABSTRACT:y",
-                             "sort": "P_PDATE_D desc", "format": "json",
-                             "resultType": "core", "pageSize": 25},
-                     headers=UA, timeout=40)
+def europepmc_page(query, cursor):
+    for attempt in range(3):
+        r = requests.get("https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+                         params={"query": f"({query}) AND OPEN_ACCESS:y AND HAS_ABSTRACT:y",
+                                 "sort": "P_PDATE_D desc", "format": "json",
+                                 "resultType": "core", "pageSize": 100, "cursorMark": cursor},
+                         headers=UA, timeout=60)
+        if r.status_code in (429, 500, 502, 503):
+            print(f"[europepmc] HTTP {r.status_code}, retrying")
+            time.sleep(15 * (attempt + 1))
+            continue
+        r.raise_for_status()
+        return r.json()
     r.raise_for_status()
-    items = []
-    for a in r.json().get("resultList", {}).get("result", []):
-        doi = a.get("doi")
-        pmcid = a.get("pmcid")
-        if doi:
-            link = f"https://doi.org/{doi}"
-        elif pmcid:
-            link = f"https://europepmc.org/article/PMC/{pmcid}"
-        else:
-            link = f"https://europepmc.org/article/{a.get('source', 'MED')}/{a.get('id')}"
-        try:
-            ts = time.mktime(time.strptime(a.get("firstPublicationDate", "")[:10], "%Y-%m-%d"))
-        except ValueError:
-            ts = 0
-        journal = (a.get("journalInfo") or {}).get("journal", {}).get("title") or "Europe PMC"
-        items.append({"title": clean(a.get("title", "")).rstrip("."), "link": link,
-                      "summary": clean(a.get("abstractText", ""))[:6000], "feed_media": [],
-                      "source": journal, "time": ts, "site": "europepmc"})
+
+
+def from_europepmc(query, exclude=()):
+    """Open-access research papers about gymnastics (Europe PMC, free API).
+    Goes back page by page (newest first) until enough not-yet-posted papers are found."""
+    items, cursor = [], "*"
+    for _ in range(4):                                   # up to 400 papers
+        data = europepmc_page(query, cursor)
+        for a in data.get("resultList", {}).get("result", []):
+            doi, pmcid = a.get("doi"), a.get("pmcid")
+            if doi:
+                link = f"https://doi.org/{doi}"
+            elif pmcid:
+                link = f"https://europepmc.org/article/PMC/{pmcid}"
+            else:
+                link = f"https://europepmc.org/article/{a.get('source', 'MED')}/{a.get('id')}"
+            abstract = clean(a.get("abstractText", ""))
+            if link in exclude or len(abstract) < 300:
+                continue
+            try:
+                ts = time.mktime(time.strptime(a.get("firstPublicationDate", "")[:10], "%Y-%m-%d"))
+            except ValueError:
+                ts = 0
+            journal = (a.get("journalInfo") or {}).get("journal", {}).get("title") or "Europe PMC"
+            items.append({"title": clean(a.get("title", "")).rstrip("."), "link": link,
+                          "summary": abstract[:6000], "feed_media": [],
+                          "source": journal, "time": ts, "site": "europepmc"})
+        nxt = data.get("nextCursorMark")
+        if len(items) >= 40 or not nxt or nxt == cursor:
+            break
+        cursor = nxt
     return items
 
 
@@ -250,22 +269,29 @@ def from_page(url):
     return items[:20]
 
 
+SOURCE_REPORT = []
+
+
 def collect(exclude):
     items = []
+    SOURCE_REPORT.clear()
     for line in load_sources():
         only_gym = line.lower().startswith("[filter]")
         url = line[8:].strip() if only_gym else line
         try:
             if url.lower().startswith("europepmc:"):
-                found = from_europepmc(url.split(":", 1)[1].strip())
+                found = from_europepmc(url.split(":", 1)[1].strip(), exclude)
             else:
                 found = from_feed(url) or from_page(url)
             if only_gym:
                 found = [i for i in found if GYM_WORDS.search(i["title"] + " " + i["summary"])]
-            print(f"[source] {url}: {len(found)} articles")
-            items += [i for i in found if i["link"] not in exclude]
+            fresh = [i for i in found if i["link"] not in exclude]
+            print(f"[source] {url}: {len(found)} articles, {len(fresh)} new")
+            SOURCE_REPORT.append(f"• {urlparse(url).netloc or url[:30]}: {len(fresh)} ta yangi")
+            items += fresh
         except Exception as ex:
             print(f"[skip source] {url}: {ex}")
+            SOURCE_REPORT.append(f"• {urlparse(url).netloc or url[:30]}: ❌ xato ({str(ex)[:80]})")
     return items
 
 
@@ -290,7 +316,8 @@ def rank(items, last_site):
             "gymnasts, psychology, nutrition, judging, technology and analytics in gymnastics, or "
             "important gymnastics news (World Championships, Olympics, famous gymnasts). Articles "
             "that are not about gymnastics are the last choice. Avoid dry methodological papers "
-            "(bibliometric analyses, protocols, questionnaire validation).\n"
+            "(bibliometric analyses, protocols, questionnaire validation), bare results tables "
+            "and podcast-only or video-only posts with little text.\n"
             f"Answer with the number only.\n\n{listing}")
         try:
             n = int(re.search(r"\d+", gemini(prompt, 0.2, lite_first=True)).group())
@@ -661,10 +688,12 @@ def make_draft(state, key, publish_at, label, auto=False):
     items = collect(exclude)
     if not items:
         return None
-    for item in rank(items, state["last_site"])[:4]:
+    for item in rank(items, state["last_site"])[:6]:
         try:
             text, media = fetch_article(item)
             if len(text) < 200:
+                print(f"[draft] too little text, skipping: {item['link']}")
+                SOURCE_REPORT.append(f"• matn olinmadi: {item['title'][:60]}")
                 continue
             headline, body = write_post(item, text)
             plan = prepare_media(media)
@@ -854,7 +883,8 @@ def handle_slot(state, key, slot, label, now):
         else:
             state["drafts"][key] = {"status": "empty", "created": now.isoformat()}
             if new is None:
-                say(ADMIN, f"ℹ️ {esc(label)} uchun yangi maqola topilmadi.")
+                say(ADMIN, f"ℹ️ {esc(label)} uchun yangi maqola topilmadi.\n\n"
+                           + esc("\n".join(SOURCE_REPORT)))
         return
     if now < slot:
         return
@@ -881,7 +911,7 @@ def tick(state, want_now):
         if d:
             state["drafts"][key] = d
         elif d is None:
-            say(ADMIN, "ℹ️ Yangi maqola topilmadi.")
+            say(ADMIN, "ℹ️ Yangi maqola topilmadi.\n\n" + esc("\n".join(SOURCE_REPORT)))
 
     for key, d in list(state["drafts"].items()):    # manual drafts publish right after ✅
         if key.startswith("m") and d.get("status") == "approved":
