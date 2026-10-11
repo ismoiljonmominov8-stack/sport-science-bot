@@ -23,9 +23,10 @@
   "https://www.insidegymnastics.com/news-features/ready-for-rotterdam-2026-world-gymnastics-championships-preview/",
   "https://doi.org/10.1186/s12887-026-07204-8",
   "https://www.insidegymnastics.com/news-features/dulcy-caylor-tatum-drusch-successful-in-qualifications-szombathely-world-cup/",
-  "https://doi.org/10.1186/s40359-026-04733-w"
+  "https://doi.org/10.1186/s40359-026-04733-w",
+  "https://gymnasticscoaching.com/2026/10/11/rustam-sharipov-previews-26-worlds-p-bar-final/"
  ],
- "offset": 703888936,
+ "offset": 703888937,
  "drafts": {
   "2026-10-08_isha": {
    "status": "published",
@@ -157,7 +158,7 @@
    "created": "2026-10-11T16:52:45.819196+05:00"
   },
   "m20261011172950": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/11/rustam-sharipov-previews-26-worlds-p-bar-final/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Rustam Sharipov previews ’26 Worlds P Bar Final",
@@ -172,7 +173,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-10": {
    "Fajr": "04:57",
