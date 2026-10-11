@@ -171,6 +171,21 @@
    "auto": false,
    "created": "2026-10-11T17:30:26.668731+05:00",
    "media": true
+  },
+  "2026-10-11_isha": {
+   "status": "pending",
+   "link": "https://thegymter.net/2026/10/06/2026-russian-junior-championships-results/",
+   "site": "https://www.thegymter.net/feed/",
+   "title": "2026 Russian Junior Championships Results",
+   "preview_ids": [
+    159
+   ],
+   "button_id": 160,
+   "publish_at": "2026-10-11T19:15:00+05:00",
+   "label": "Xufton (19:15)",
+   "auto": true,
+   "created": "2026-10-11T18:19:31.968977+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
