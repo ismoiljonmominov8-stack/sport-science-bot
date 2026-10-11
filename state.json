@@ -25,7 +25,7 @@
   "https://www.insidegymnastics.com/news-features/dulcy-caylor-tatum-drusch-successful-in-qualifications-szombathely-world-cup/",
   "https://doi.org/10.1186/s40359-026-04733-w"
  ],
- "offset": 703888935,
+ "offset": 703888936,
  "drafts": {
   "2026-10-08_isha": {
    "status": "published",
@@ -155,6 +155,21 @@
   "2026-10-11_maghrib": {
    "status": "empty",
    "created": "2026-10-11T16:52:45.819196+05:00"
+  },
+  "m20261011172950": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/10/11/rustam-sharipov-previews-26-worlds-p-bar-final/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Rustam Sharipov previews ’26 Worlds P Bar Final",
+   "preview_ids": [
+    157
+   ],
+   "button_id": 158,
+   "publish_at": "2026-10-11T17:29:50.098947+05:00",
+   "label": "Qo‘shimcha post (/yangi)",
+   "auto": false,
+   "created": "2026-10-11T17:30:26.668731+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
