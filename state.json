@@ -158,21 +158,18 @@
   },
   "2026-10-12_fajr": {
    "status": "pending",
-   "link": "https://doi.org/10.3389/fphys.2026.1920787",
+   "link": "https://doi.org/10.3390/jfmk11030341",
    "site": "europepmc",
-   "title": "Field-based and laboratory monitoring tools in aerobic gymnastics: a scoping review of measurement properties, physiological relevance, and change following training or competitive exposure",
+   "title": "Associations Between Centre of Pressure Variables and Performance Penalties in Acrobatic Gymnastics-Feasibility Study",
    "preview_ids": [
-    163,
-    164,
-    165,
-    166
+    168
    ],
-   "button_id": 167,
+   "button_id": 169,
    "publish_at": "2026-10-12T04:59:00+05:00",
    "label": "Bomdod (04:59)",
    "auto": true,
-   "created": "2026-10-12T04:01:30.522230+05:00",
-   "media": true
+   "created": "2026-10-12T04:07:20.123685+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.thegymter.net/feed/",
