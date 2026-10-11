@@ -24,7 +24,8 @@
   "https://doi.org/10.1186/s12887-026-07204-8",
   "https://www.insidegymnastics.com/news-features/dulcy-caylor-tatum-drusch-successful-in-qualifications-szombathely-world-cup/",
   "https://doi.org/10.1186/s40359-026-04733-w",
-  "https://gymnasticscoaching.com/2026/10/11/rustam-sharipov-previews-26-worlds-p-bar-final/"
+  "https://gymnasticscoaching.com/2026/10/11/rustam-sharipov-previews-26-worlds-p-bar-final/",
+  "https://thegymter.net/2026/10/06/2026-russian-junior-championships-results/"
  ],
  "offset": 703888937,
  "drafts": {
@@ -156,7 +157,7 @@
    "media": true
   },
   "2026-10-11_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://thegymter.net/2026/10/06/2026-russian-junior-championships-results/",
    "site": "https://www.thegymter.net/feed/",
    "title": "2026 Russian Junior Championships Results",
@@ -171,7 +172,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "https://www.thegymter.net/feed/",
  "prayer_times": {
   "2026-10-10": {
    "Fajr": "04:57",
