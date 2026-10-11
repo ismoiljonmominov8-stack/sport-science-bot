@@ -155,6 +155,24 @@
    "auto": true,
    "created": "2026-10-11T18:25:42.455492+05:00",
    "media": true
+  },
+  "2026-10-12_fajr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3389/fphys.2026.1920787",
+   "site": "europepmc",
+   "title": "Field-based and laboratory monitoring tools in aerobic gymnastics: a scoping review of measurement properties, physiological relevance, and change following training or competitive exposure",
+   "preview_ids": [
+    163,
+    164,
+    165,
+    166
+   ],
+   "button_id": 167,
+   "publish_at": "2026-10-12T04:59:00+05:00",
+   "label": "Bomdod (04:59)",
+   "auto": true,
+   "created": "2026-10-12T04:01:30.522230+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.thegymter.net/feed/",
