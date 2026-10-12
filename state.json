@@ -27,7 +27,8 @@
   "https://gymnasticscoaching.com/2026/10/11/rustam-sharipov-previews-26-worlds-p-bar-final/",
   "https://thegymter.net/2026/10/06/2026-russian-junior-championships-results/",
   "https://doi.org/10.3390/jfmk11030341",
-  "https://gymnasticscoaching.com/2026/10/11/podcast-%e2%9e%99-manila-esposito-interview/"
+  "https://gymnasticscoaching.com/2026/10/11/podcast-%e2%9e%99-manila-esposito-interview/",
+  "https://doi.org/10.3389/fspor.2026.1874791"
  ],
  "offset": 703888938,
  "drafts": {
@@ -159,7 +160,7 @@
    "media": true
   },
   "2026-10-12_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fspor.2026.1874791",
    "site": "europepmc",
    "title": "Ideomotor representation, motor control, and body aesthetics in juvenile rhythmic gymnasts: between reciprocal support and differentiated trajectories within a personalized training program",
@@ -177,7 +178,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-11": {
    "Fajr": "04:58",
