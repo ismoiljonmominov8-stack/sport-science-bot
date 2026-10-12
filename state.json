@@ -172,6 +172,24 @@
    "auto": true,
    "created": "2026-10-12T11:16:44.975537+05:00",
    "media": true
+  },
+  "2026-10-12_asr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3389/fspor.2026.1874791",
+   "site": "europepmc",
+   "title": "Ideomotor representation, motor control, and body aesthetics in juvenile rhythmic gymnasts: between reciprocal support and differentiated trajectories within a personalized training program",
+   "preview_ids": [
+    176,
+    177,
+    178,
+    179
+   ],
+   "button_id": 180,
+   "publish_at": "2026-10-12T15:18:00+05:00",
+   "label": "Asr (15:18)",
+   "auto": true,
+   "created": "2026-10-12T14:25:16.990292+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
