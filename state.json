@@ -28,7 +28,8 @@
   "https://thegymter.net/2026/10/06/2026-russian-junior-championships-results/",
   "https://doi.org/10.3390/jfmk11030341",
   "https://gymnasticscoaching.com/2026/10/11/podcast-%e2%9e%99-manila-esposito-interview/",
-  "https://doi.org/10.3389/fspor.2026.1874791"
+  "https://doi.org/10.3389/fspor.2026.1874791",
+  "https://gymnasticscoaching.com/2026/10/12/training-ohashi-andrade-wevers/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -163,7 +164,7 @@
    "media": true
   },
   "2026-10-12_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/12/training-ohashi-andrade-wevers/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "training – Ohashi, Andrade, Wevers …",
@@ -178,7 +179,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-11": {
    "Fajr": "04:58",
