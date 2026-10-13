@@ -31,7 +31,8 @@
   "https://doi.org/10.3389/fspor.2026.1874791",
   "https://gymnasticscoaching.com/2026/10/12/training-ohashi-andrade-wevers/",
   "https://thegymter.net/2026/10/05/2026-norwegian-fig-meet-3-results/",
-  "https://doi.org/10.3389/fspor.2026.1836404"
+  "https://doi.org/10.3389/fspor.2026.1836404",
+  "https://thegymter.net/2026/10/13/2026-british-team-championships-results/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -190,7 +191,7 @@
    "media": true
   },
   "2026-10-13_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://thegymter.net/2026/10/13/2026-british-team-championships-results/",
    "site": "https://www.thegymter.net/feed/",
    "title": "2026 British Team Championships Results",
@@ -205,7 +206,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.thegymter.net/feed/",
  "prayer_times": {
   "2026-10-12": {
    "Fajr": "04:59",
