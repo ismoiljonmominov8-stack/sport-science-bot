@@ -33,7 +33,8 @@
   "https://thegymter.net/2026/10/05/2026-norwegian-fig-meet-3-results/",
   "https://doi.org/10.3389/fspor.2026.1836404",
   "https://thegymter.net/2026/10/13/2026-british-team-championships-results/",
-  "https://gymnasticscoaching.com/2026/10/10/eddie-penev-previews-worlds-26-vault/"
+  "https://gymnasticscoaching.com/2026/10/10/eddie-penev-previews-worlds-26-vault/",
+  "https://thegymter.net/2026/10/12/2026-romanian-junior-championships-results-2/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -214,7 +215,7 @@
    "media": true
   },
   "2026-10-13_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://thegymter.net/2026/10/12/2026-romanian-junior-championships-results-2/",
    "site": "https://www.thegymter.net/feed/",
    "title": "2026 Romanian Junior Championships Results",
@@ -229,7 +230,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "https://www.thegymter.net/feed/",
  "prayer_times": {
   "2026-10-12": {
    "Fajr": "04:59",
