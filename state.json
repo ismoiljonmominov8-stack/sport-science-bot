@@ -216,6 +216,21 @@
    "auto": true,
    "created": "2026-10-13T14:21:44.862804+05:00",
    "media": true
+  },
+  "2026-10-13_maghrib": {
+   "status": "pending",
+   "link": "https://thegymter.net/2026/10/12/2026-romanian-junior-championships-results-2/",
+   "site": "https://www.thegymter.net/feed/",
+   "title": "2026 Romanian Junior Championships Results",
+   "preview_ids": [
+    203
+   ],
+   "button_id": 204,
+   "publish_at": "2026-10-13T17:46:00+05:00",
+   "label": "Shom (17:46)",
+   "auto": true,
+   "created": "2026-10-13T16:51:29.825648+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
