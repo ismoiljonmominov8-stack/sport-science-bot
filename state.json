@@ -192,6 +192,21 @@
    "auto": true,
    "created": "2026-10-13T04:15:08.755775+05:00",
    "media": true
+  },
+  "2026-10-13_dhuhr": {
+   "status": "pending",
+   "link": "https://thegymter.net/2026/10/13/2026-british-team-championships-results/",
+   "site": "https://www.thegymter.net/feed/",
+   "title": "2026 British Team Championships Results",
+   "preview_ids": [
+    199
+   ],
+   "button_id": 200,
+   "publish_at": "2026-10-13T12:09:00+05:00",
+   "label": "Peshin (12:09)",
+   "auto": true,
+   "created": "2026-10-13T11:10:39.877233+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
