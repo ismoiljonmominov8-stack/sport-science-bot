@@ -36,7 +36,8 @@
   "https://gymnasticscoaching.com/2026/10/10/eddie-penev-previews-worlds-26-vault/",
   "https://thegymter.net/2026/10/12/2026-romanian-junior-championships-results-2/",
   "https://gymnasticscoaching.com/2026/10/13/interview-syque-caesar-usa-head-coach-2026-worlds/",
-  "https://www.insidegymnastics.com/news-features/defending-world-all-around-champion-angelina-melnikova-denied-visa-for-rotterdam/"
+  "https://www.insidegymnastics.com/news-features/defending-world-all-around-champion-angelina-melnikova-denied-visa-for-rotterdam/",
+  "https://gymnasticscoaching.com/2026/10/13/world-championships-2026-rotterdam/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -251,7 +252,7 @@
    "media": true
   },
   "2026-10-14_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/13/world-championships-2026-rotterdam/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "World Championships 2026 Rotterdam",
@@ -267,7 +268,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-13": {
    "Fajr": "05:00",
