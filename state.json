@@ -276,6 +276,22 @@
    "auto": true,
    "created": "2026-10-14T18:14:44.836671+05:00",
    "media": true
+  },
+  "2026-10-15_fajr": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/10/14/mens-podium-training-rotterdam-day-1/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Men’s Podium Training Rotterdam – day 1",
+   "preview_ids": [
+    230,
+    231
+   ],
+   "button_id": 232,
+   "publish_at": "2026-10-15T05:03:00+05:00",
+   "label": "Bomdod (05:03)",
+   "auto": true,
+   "created": "2026-10-15T04:05:23.959650+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.thegymter.net/feed/",
