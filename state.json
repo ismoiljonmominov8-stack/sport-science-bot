@@ -281,6 +281,21 @@
    "auto": true,
    "created": "2026-10-15T18:11:34.028500+05:00",
    "media": true
+  },
+  "2026-10-16_fajr": {
+   "status": "pending",
+   "link": "https://doi.org/10.1186/s40359-026-04814-w",
+   "site": "europepmc",
+   "title": "Effects of a 4-week combined breathing control and self-talk intervention on neural activity and coping skills in athletes: a randomized control trial",
+   "preview_ids": [
+    252
+   ],
+   "button_id": 253,
+   "publish_at": "2026-10-16T05:04:00+05:00",
+   "label": "Bomdod (05:04)",
+   "auto": true,
+   "created": "2026-10-16T04:06:18.499119+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
