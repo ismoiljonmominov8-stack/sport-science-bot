@@ -40,7 +40,8 @@
   "https://gymnasticscoaching.com/2026/10/13/world-championships-2026-rotterdam/",
   "https://www.insidegymnastics.com/news-features/vote-now-for-our-class-of-2026-50-most-artistic-cover-starring-katelyn-ohashi/",
   "https://gymnasticscoaching.com/2026/10/14/bars-contenders-at-26-worlds-rotterdam/",
-  "https://thegymter.net/2026/10/05/2026-romanian-junior-championships-mens-results/"
+  "https://thegymter.net/2026/10/05/2026-romanian-junior-championships-mens-results/",
+  "https://gymnasticscoaching.com/2026/10/14/mens-podium-training-rotterdam-day-1/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -263,7 +264,7 @@
    "media": true
   },
   "2026-10-15_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/14/mens-podium-training-rotterdam-day-1/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Men’s Podium Training Rotterdam – day 1",
@@ -279,7 +280,7 @@
    "media": true
   }
  },
- "last_site": "https://www.thegymter.net/feed/",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-14": {
    "Fajr": "05:02",
