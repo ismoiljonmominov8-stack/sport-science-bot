@@ -49,23 +49,6 @@
  ],
  "offset": 703888941,
  "drafts": {
-  "2026-10-13_fajr": {
-   "status": "published",
-   "link": "https://doi.org/10.3389/fspor.2026.1836404",
-   "site": "europepmc",
-   "title": "The role of concentration the young gymnast performance",
-   "preview_ids": [
-    195,
-    196,
-    197
-   ],
-   "button_id": 198,
-   "publish_at": "2026-10-13T05:00:00+05:00",
-   "label": "Bomdod (05:00)",
-   "auto": true,
-   "created": "2026-10-13T04:15:08.755775+05:00",
-   "media": true
-  },
   "2026-10-13_dhuhr": {
    "status": "published",
    "link": "https://thegymter.net/2026/10/13/2026-british-team-championships-results/",
