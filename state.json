@@ -278,6 +278,22 @@
    "auto": true,
    "created": "2026-10-15T14:24:47.291167+05:00",
    "media": true
+  },
+  "2026-10-15_maghrib": {
+   "status": "pending",
+   "link": "https://doi.org/10.1371/journal.pone.0351760",
+   "site": "europepmc",
+   "title": "Start order and medal outcomes: An analysis of apparatus finals in men's artistic gymnastics",
+   "preview_ids": [
+    247,
+    248
+   ],
+   "button_id": 249,
+   "publish_at": "2026-10-15T17:43:00+05:00",
+   "label": "Shom (17:43)",
+   "auto": true,
+   "created": "2026-10-15T16:44:15.097662+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
