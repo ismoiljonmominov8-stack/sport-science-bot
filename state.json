@@ -44,7 +44,7 @@
   "https://gymnasticscoaching.com/2026/10/14/mens-podium-training-rotterdam-day-1/",
   "https://www.frontiersin.org/articles/10.3389/fspor.2026.1963569"
  ],
- "offset": 703888942,
+ "offset": 703888943,
  "drafts": {
   "2026-10-12_dhuhr": {
    "status": "published",
@@ -281,7 +281,7 @@
    "media": true
   },
   "2026-10-15_dhuhr": {
-   "status": "pending",
+   "status": "approved",
    "link": "https://thegymter.net/2026/10/05/2026-polish-cup-2-results/",
    "site": "https://www.thegymter.net/feed/",
    "title": "2026 Polish Cup 2 Results",
