@@ -280,6 +280,21 @@
    "auto": true,
    "created": "2026-10-15T16:44:15.097662+05:00",
    "media": true
+  },
+  "2026-10-15_isha": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/10/15/beam-contenders-rotterdam-worlds/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Beam contenders Rotterdam Worlds",
+   "preview_ids": [
+    250
+   ],
+   "button_id": 251,
+   "publish_at": "2026-10-15T19:09:00+05:00",
+   "label": "Xufton (19:09)",
+   "auto": true,
+   "created": "2026-10-15T18:11:34.028500+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
