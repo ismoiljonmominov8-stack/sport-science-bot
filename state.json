@@ -44,7 +44,8 @@
   "https://gymnasticscoaching.com/2026/10/14/mens-podium-training-rotterdam-day-1/",
   "https://www.frontiersin.org/articles/10.3389/fspor.2026.1963569",
   "https://gymnasticscoaching.com/2026/10/15/reese-espondas-coach-on-her-floor-change/",
-  "https://doi.org/10.1371/journal.pone.0351760"
+  "https://doi.org/10.1371/journal.pone.0351760",
+  "https://gymnasticscoaching.com/2026/10/15/beam-contenders-rotterdam-worlds/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -267,7 +268,7 @@
    "media": true
   },
   "2026-10-15_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/15/beam-contenders-rotterdam-worlds/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Beam contenders Rotterdam Worlds",
@@ -282,7 +283,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-14": {
    "Fajr": "05:02",
