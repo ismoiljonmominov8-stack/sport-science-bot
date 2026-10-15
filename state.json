@@ -285,13 +285,6 @@
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
-  "2026-10-14": {
-   "Fajr": "05:02",
-   "Dhuhr": "12:09",
-   "Asr": "15:16",
-   "Maghrib": "17:44",
-   "Isha": "19:11"
-  },
   "2026-10-15": {
    "Fajr": "05:03",
    "Dhuhr": "12:09",
@@ -305,6 +298,13 @@
    "Asr": "15:13",
    "Maghrib": "17:41",
    "Isha": "19:08"
+  },
+  "2026-10-17": {
+   "Fajr": "05:05",
+   "Dhuhr": "12:08",
+   "Asr": "15:12",
+   "Maghrib": "17:40",
+   "Isha": "19:06"
   }
  }
 }
