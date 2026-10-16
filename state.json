@@ -289,6 +289,21 @@
    "auto": true,
    "created": "2026-10-16T18:17:25.044482+05:00",
    "media": false
+  },
+  "2026-10-17_fajr": {
+   "status": "pending",
+   "link": "https://thegymter.net/2026/10/16/a-look-at-the-mag-teams-competing-in-rotterdam/",
+   "site": "https://www.thegymter.net/feed/",
+   "title": "A Look at the MAG Teams Competing in Rotterdam",
+   "preview_ids": [
+    276
+   ],
+   "button_id": 277,
+   "publish_at": "2026-10-17T05:05:00+05:00",
+   "label": "Bomdod (05:05)",
+   "auto": true,
+   "created": "2026-10-17T04:07:01.804536+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
