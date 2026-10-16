@@ -47,7 +47,8 @@
   "https://doi.org/10.1371/journal.pone.0351760",
   "https://gymnasticscoaching.com/2026/10/15/beam-contenders-rotterdam-worlds/",
   "https://doi.org/10.1186/s40359-026-04814-w",
-  "https://thegymter.net/2026/10/15/everything-you-need-to-follow-the-2026-world-championships/"
+  "https://thegymter.net/2026/10/15/everything-you-need-to-follow-the-2026-world-championships/",
+  "https://gymnasticscoaching.com/2026/10/16/world-gymnastics-championships-rotterdam-mens-predictions/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -270,7 +271,7 @@
    "media": true
   },
   "2026-10-16_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/16/world-gymnastics-championships-rotterdam-mens-predictions/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "World Gymnastics Championships Rotterdam MEN’s predictions",
@@ -287,7 +288,7 @@
    "media": true
   }
  },
- "last_site": "https://www.thegymter.net/feed/",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-15": {
    "Fajr": "05:03",
