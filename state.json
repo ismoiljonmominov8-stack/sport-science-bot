@@ -288,6 +288,21 @@
    "auto": true,
    "created": "2026-10-16T16:51:32.950261+05:00",
    "media": true
+  },
+  "2026-10-16_isha": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/sports14080315",
+   "site": "europepmc",
+   "title": "Relationship Between Phase Angle Assessed by Bioelectrical Impedance Analysis and Jumping Performance in Rhythmic Gymnasts: An Exploratory Cross-Sectional Study",
+   "preview_ids": [
+    272
+   ],
+   "button_id": 273,
+   "publish_at": "2026-10-16T19:08:00+05:00",
+   "label": "Xufton (19:08)",
+   "auto": true,
+   "created": "2026-10-16T18:09:58.707012+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.insidegymnastics.com/feed/",
