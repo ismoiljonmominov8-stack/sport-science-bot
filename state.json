@@ -54,7 +54,8 @@
   "https://thegymter.net/2026/10/16/a-look-at-the-mag-teams-competing-in-rotterdam/",
   "https://www.insidegymnastics.com/news-features/2027-american-cup-gymnastics-to-be-held-greater-atlanta/",
   "https://thegymter.net/2026/10/17/2026-world-championships-mag-qualifications-day-1-live-blog/",
-  "https://www.insidegymnastics.com/news-features/womens-podium-training-photo-gallery-1-2026-world-gymnastics-championships/"
+  "https://www.insidegymnastics.com/news-features/womens-podium-training-photo-gallery-1-2026-world-gymnastics-championships/",
+  "https://gymnasticscoaching.com/2026/10/16/stag-gymnastics-mag-worlds-preview/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -281,7 +282,7 @@
    "media": true
   },
   "2026-10-17_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/16/stag-gymnastics-mag-worlds-preview/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Stag Gymnastics MAG Worlds preview",
@@ -296,7 +297,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-16": {
    "Fajr": "05:04",
