@@ -51,7 +51,8 @@
   "https://gymnasticscoaching.com/2026/10/16/world-gymnastics-championships-rotterdam-mens-predictions/",
   "https://www.insidegymnastics.com/news-features/reese-esponda-floor-rework-to-cost-points-judges-downgrade-originality2026-world-gymnastics-championships-preview/",
   "https://doi.org/10.3390/sports14080315",
-  "https://thegymter.net/2026/10/16/a-look-at-the-mag-teams-competing-in-rotterdam/"
+  "https://thegymter.net/2026/10/16/a-look-at-the-mag-teams-competing-in-rotterdam/",
+  "https://www.insidegymnastics.com/news-features/2027-american-cup-gymnastics-to-be-held-greater-atlanta/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -275,7 +276,7 @@
    "media": true
   },
   "2026-10-17_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.insidegymnastics.com/news-features/2027-american-cup-gymnastics-to-be-held-greater-atlanta/",
    "site": "https://www.insidegymnastics.com/feed/",
    "title": "Road To LA28! American Cup Heads To Greater ATL In 2027",
@@ -290,7 +291,7 @@
    "media": true
   }
  },
- "last_site": "https://www.thegymter.net/feed/",
+ "last_site": "https://www.insidegymnastics.com/feed/",
  "prayer_times": {
   "2026-10-16": {
    "Fajr": "05:04",
