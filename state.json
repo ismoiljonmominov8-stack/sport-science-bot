@@ -53,7 +53,8 @@
   "https://doi.org/10.3390/sports14080315",
   "https://thegymter.net/2026/10/16/a-look-at-the-mag-teams-competing-in-rotterdam/",
   "https://www.insidegymnastics.com/news-features/2027-american-cup-gymnastics-to-be-held-greater-atlanta/",
-  "https://thegymter.net/2026/10/17/2026-world-championships-mag-qualifications-day-1-live-blog/"
+  "https://thegymter.net/2026/10/17/2026-world-championships-mag-qualifications-day-1-live-blog/",
+  "https://www.insidegymnastics.com/news-features/womens-podium-training-photo-gallery-1-2026-world-gymnastics-championships/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -277,7 +278,7 @@
    "media": true
   },
   "2026-10-17_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.insidegymnastics.com/news-features/womens-podium-training-photo-gallery-1-2026-world-gymnastics-championships/",
    "site": "https://www.insidegymnastics.com/feed/",
    "title": "Quick Takes! Photo Gallery 1 From Women’s Podium Training",
@@ -295,7 +296,7 @@
    "media": true
   }
  },
- "last_site": "https://www.thegymter.net/feed/",
+ "last_site": "https://www.insidegymnastics.com/feed/",
  "prayer_times": {
   "2026-10-16": {
    "Fajr": "05:04",
