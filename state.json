@@ -50,7 +50,8 @@
   "https://thegymter.net/2026/10/15/everything-you-need-to-follow-the-2026-world-championships/",
   "https://gymnasticscoaching.com/2026/10/16/world-gymnastics-championships-rotterdam-mens-predictions/",
   "https://www.insidegymnastics.com/news-features/reese-esponda-floor-rework-to-cost-points-judges-downgrade-originality2026-world-gymnastics-championships-preview/",
-  "https://doi.org/10.3390/sports14080315"
+  "https://doi.org/10.3390/sports14080315",
+  "https://thegymter.net/2026/10/16/a-look-at-the-mag-teams-competing-in-rotterdam/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -275,7 +276,7 @@
    "media": false
   },
   "2026-10-17_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://thegymter.net/2026/10/16/a-look-at-the-mag-teams-competing-in-rotterdam/",
    "site": "https://www.thegymter.net/feed/",
    "title": "A Look at the MAG Teams Competing in Rotterdam",
@@ -290,7 +291,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.thegymter.net/feed/",
  "prayer_times": {
   "2026-10-16": {
    "Fajr": "05:04",
