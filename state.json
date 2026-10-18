@@ -298,6 +298,24 @@
    "auto": true,
    "created": "2026-10-18T11:16:59.879721+05:00",
    "media": true
+  },
+  "2026-10-18_asr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3389/fpsyg.2026.1695403",
+   "site": "europepmc",
+   "title": "A quasi-experimental study of the video-based \"Did You Know?\" blended learning model in physical education: Impact on motor skills, knowledge acquisition, and motivation in gymnastics",
+   "preview_ids": [
+    304,
+    305,
+    306,
+    307
+   ],
+   "button_id": 308,
+   "publish_at": "2026-10-18T15:11:00+05:00",
+   "label": "Asr (15:11)",
+   "auto": true,
+   "created": "2026-10-18T14:12:22.024503+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
