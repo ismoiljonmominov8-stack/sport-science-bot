@@ -55,7 +55,8 @@
   "https://www.insidegymnastics.com/news-features/2027-american-cup-gymnastics-to-be-held-greater-atlanta/",
   "https://thegymter.net/2026/10/17/2026-world-championships-mag-qualifications-day-1-live-blog/",
   "https://www.insidegymnastics.com/news-features/womens-podium-training-photo-gallery-1-2026-world-gymnastics-championships/",
-  "https://gymnasticscoaching.com/2026/10/16/stag-gymnastics-mag-worlds-preview/"
+  "https://gymnasticscoaching.com/2026/10/16/stag-gymnastics-mag-worlds-preview/",
+  "https://doi.org/10.3389/fmed.2026.1808352"
  ],
  "offset": 703888941,
  "drafts": {
@@ -281,7 +282,7 @@
    "media": true
   },
   "2026-10-18_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fmed.2026.1808352",
    "site": "europepmc",
    "title": "Effects of trampoline training on lower-limb strength and balance in children and adolescents with special needs: a multilevel systematic review and meta-analysis",
@@ -299,7 +300,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-17": {
    "Fajr": "05:05",
