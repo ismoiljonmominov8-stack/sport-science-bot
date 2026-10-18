@@ -304,6 +304,21 @@
    "auto": true,
    "created": "2026-10-18T18:08:59.966260+05:00",
    "media": true
+  },
+  "2026-10-19_fajr": {
+   "status": "pending",
+   "link": "https://thegymter.net/2026/10/18/japan-leads-qualifications-for-mens-competition-at-worlds/",
+   "site": "https://www.thegymter.net/feed/",
+   "title": "Japan Leads Team Qualifications in Men’s Competition at Worlds",
+   "preview_ids": [
+    321
+   ],
+   "button_id": 322,
+   "publish_at": "2026-10-19T05:07:00+05:00",
+   "label": "Bomdod (05:07)",
+   "auto": true,
+   "created": "2026-10-19T04:08:28.738272+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
