@@ -57,7 +57,8 @@
   "https://www.insidegymnastics.com/news-features/womens-podium-training-photo-gallery-1-2026-world-gymnastics-championships/",
   "https://gymnasticscoaching.com/2026/10/16/stag-gymnastics-mag-worlds-preview/",
   "https://doi.org/10.3389/fmed.2026.1808352",
-  "https://gymnasticscoaching.com/2026/10/17/mens-world-championships-rotterdam-day-1/"
+  "https://gymnasticscoaching.com/2026/10/17/mens-world-championships-rotterdam-day-1/",
+  "https://doi.org/10.3389/fpsyg.2026.1695403"
  ],
  "offset": 703888941,
  "drafts": {
@@ -285,7 +286,7 @@
    "media": true
   },
   "2026-10-18_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fpsyg.2026.1695403",
    "site": "europepmc",
    "title": "A quasi-experimental study of the video-based \"Did You Know?\" blended learning model in physical education: Impact on motor skills, knowledge acquisition, and motivation in gymnastics",
@@ -303,7 +304,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-17": {
    "Fajr": "05:05",
