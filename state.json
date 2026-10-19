@@ -62,7 +62,8 @@
   "https://gymnasticscoaching.com/2026/10/18/bars-contenders-at-rotterdam-worlds/",
   "https://doi.org/10.3389/fspor.2026.1860505",
   "https://thegymter.net/2026/10/18/japan-leads-qualifications-for-mens-competition-at-worlds/",
-  "https://doi.org/10.3389/fpsyg.2026.1892922"
+  "https://doi.org/10.3389/fpsyg.2026.1892922",
+  "https://gymnasticscoaching.com/2026/10/19/2026-gymnastics-worlds-qualifications-hits-misses-surprises/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -292,7 +293,7 @@
    "media": true
   },
   "2026-10-19_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/19/2026-gymnastics-worlds-qualifications-hits-misses-surprises/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "2026 Gymnastics Worlds Qualifications: Hits, Misses & Surprises",
@@ -310,7 +311,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-18": {
    "Fajr": "05:06",
