@@ -64,7 +64,8 @@
   "https://thegymter.net/2026/10/18/japan-leads-qualifications-for-mens-competition-at-worlds/",
   "https://doi.org/10.3389/fpsyg.2026.1892922",
   "https://gymnasticscoaching.com/2026/10/19/2026-gymnastics-worlds-qualifications-hits-misses-surprises/",
-  "https://doi.org/10.3389/fphys.2026.1920787"
+  "https://doi.org/10.3389/fphys.2026.1920787",
+  "https://www.insidegymnastics.com/news-features/u-s-women-currently-first-caylor-class-act-rotterdam-2026/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -296,7 +297,7 @@
    "media": false
   },
   "2026-10-19_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.insidegymnastics.com/news-features/u-s-women-currently-first-caylor-class-act-rotterdam-2026/",
    "site": "https://www.insidegymnastics.com/feed/",
    "title": "U.S. Women Currently First; Dulcy Caylor Class Act In Replacement Athlete Role",
@@ -312,7 +313,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.insidegymnastics.com/feed/",
  "prayer_times": {
   "2026-10-18": {
    "Fajr": "05:06",
