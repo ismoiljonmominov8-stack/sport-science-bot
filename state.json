@@ -70,21 +70,6 @@
  ],
  "offset": 703888941,
  "drafts": {
-  "2026-10-17_dhuhr": {
-   "status": "published",
-   "link": "https://www.insidegymnastics.com/news-features/2027-american-cup-gymnastics-to-be-held-greater-atlanta/",
-   "site": "https://www.insidegymnastics.com/feed/",
-   "title": "Road To LA28! American Cup Heads To Greater ATL In 2027",
-   "preview_ids": [
-    280
-   ],
-   "button_id": 281,
-   "publish_at": "2026-10-17T12:08:00+05:00",
-   "label": "Peshin (12:08)",
-   "auto": true,
-   "created": "2026-10-17T11:10:41.986852+05:00",
-   "media": true
-  },
   "2026-10-17_asr": {
    "status": "published",
    "link": "https://thegymter.net/2026/10/17/2026-world-championships-mag-qualifications-day-1-live-blog/",
@@ -319,14 +304,14 @@
    "site": "europepmc",
    "title": "Understanding coach burnout as a relational process: an autoethnographic case from high-performance trampoline",
    "preview_ids": [
-    347,
-    348
+    350,
+    351
    ],
-   "button_id": 349,
+   "button_id": 352,
    "publish_at": "2026-10-20T12:08:00+05:00",
    "label": "Peshin (12:08)",
    "auto": true,
-   "created": "2026-10-20T11:12:48.883680+05:00",
+   "created": "2026-10-20T11:14:38.499204+05:00",
    "media": true
   }
  },
