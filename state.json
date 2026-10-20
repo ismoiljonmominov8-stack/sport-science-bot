@@ -73,21 +73,6 @@
  ],
  "offset": 703888941,
  "drafts": {
-  "2026-10-17_isha": {
-   "status": "published",
-   "link": "https://gymnasticscoaching.com/2026/10/16/stag-gymnastics-mag-worlds-preview/",
-   "site": "https://www.gymnasticscoaching.com/feed/",
-   "title": "Stag Gymnastics MAG Worlds preview",
-   "preview_ids": [
-    291
-   ],
-   "button_id": 292,
-   "publish_at": "2026-10-17T19:06:00+05:00",
-   "label": "Xufton (19:06)",
-   "auto": true,
-   "created": "2026-10-17T18:06:56.946521+05:00",
-   "media": true
-  },
   "2026-10-18_fajr": {
    "status": "published",
    "link": "https://doi.org/10.3389/fmed.2026.1808352",
@@ -324,16 +309,16 @@
    "site": "https://www.insidegymnastics.com/feed/",
    "title": "United As One: U.S. Women Set For 2026 World Team Final",
    "preview_ids": [
-    366,
-    367,
-    368,
-    369
+    371,
+    372,
+    373,
+    374
    ],
-   "button_id": 370,
+   "button_id": 375,
    "publish_at": "2026-10-20T19:02:00+05:00",
    "label": "Xufton (19:02)",
    "auto": true,
-   "created": "2026-10-20T18:12:24.334194+05:00",
+   "created": "2026-10-20T18:16:46.378722+05:00",
    "media": true
   }
  },
