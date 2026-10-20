@@ -68,7 +68,8 @@
   "https://www.insidegymnastics.com/news-features/u-s-women-currently-first-caylor-class-act-rotterdam-2026/",
   "https://gymnasticscoaching.com/2026/10/19/results-%e2%9e%99-womens-gymnastics-world-championships-rotterdam-finalists/",
   "https://doi.org/10.3389/fspor.2026.1815297",
-  "https://www.insidegymnastics.com/news-features/hezly-rivera-medically-withdraws-from-2026-world-championships/"
+  "https://www.insidegymnastics.com/news-features/hezly-rivera-medically-withdraws-from-2026-world-championships/",
+  "https://doi.org/10.3389/fspor.2026.1798778"
  ],
  "offset": 703888941,
  "drafts": {
@@ -300,7 +301,7 @@
    "media": true
   },
   "2026-10-20_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fspor.2026.1798778",
    "site": "europepmc",
    "title": "Improving the approval of jumping techniques on the balance beam focusing on the \"switch leap to ring position\"",
@@ -318,7 +319,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-19": {
    "Fajr": "05:07",
