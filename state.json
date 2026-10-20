@@ -312,6 +312,22 @@
    "auto": true,
    "created": "2026-10-20T04:09:07.795234+05:00",
    "media": false
+  },
+  "2026-10-20_dhuhr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3389/fspor.2026.1815297",
+   "site": "europepmc",
+   "title": "Understanding coach burnout as a relational process: an autoethnographic case from high-performance trampoline",
+   "preview_ids": [
+    347,
+    348
+   ],
+   "button_id": 349,
+   "publish_at": "2026-10-20T12:08:00+05:00",
+   "label": "Peshin (12:08)",
+   "auto": true,
+   "created": "2026-10-20T11:12:48.883680+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
