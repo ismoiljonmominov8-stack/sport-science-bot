@@ -76,24 +76,6 @@
  ],
  "offset": 703888941,
  "drafts": {
-  "2026-10-18_asr": {
-   "status": "published",
-   "link": "https://doi.org/10.3389/fpsyg.2026.1695403",
-   "site": "europepmc",
-   "title": "A quasi-experimental study of the video-based \"Did You Know?\" blended learning model in physical education: Impact on motor skills, knowledge acquisition, and motivation in gymnastics",
-   "preview_ids": [
-    304,
-    305,
-    306,
-    307
-   ],
-   "button_id": 308,
-   "publish_at": "2026-10-18T15:11:00+05:00",
-   "label": "Asr (15:11)",
-   "auto": true,
-   "created": "2026-10-18T14:12:22.024503+05:00",
-   "media": true
-  },
   "2026-10-18_maghrib": {
    "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/18/bars-contenders-at-rotterdam-worlds/",
@@ -320,6 +302,21 @@
    "auto": true,
    "created": "2026-10-21T11:19:05.022266+05:00",
    "media": true
+  },
+  "2026-10-21_asr": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/10/20/japan-are-mens-world-gymnastics-champions-2026/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Japan are Men’s World Gymnastics Champions 2026",
+   "preview_ids": [
+    381
+   ],
+   "button_id": 382,
+   "publish_at": "2026-10-21T15:08:00+05:00",
+   "label": "Asr (15:08)",
+   "auto": true,
+   "created": "2026-10-21T14:23:54.400979+05:00",
+   "media": false
   }
  },
  "last_site": "europepmc",
