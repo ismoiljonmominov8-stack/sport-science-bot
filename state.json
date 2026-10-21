@@ -318,6 +318,21 @@
    "auto": true,
    "created": "2026-10-21T14:23:54.400979+05:00",
    "media": false
+  },
+  "2026-10-21_maghrib": {
+   "status": "pending",
+   "link": "https://doi.org/10.1589/jpts.38.236",
+   "site": "europepmc",
+   "title": "Dynamic balance ability during single-leg drop landing across different age groups of junior gymnasts",
+   "preview_ids": [
+    383
+   ],
+   "button_id": 384,
+   "publish_at": "2026-10-21T17:34:00+05:00",
+   "label": "Shom (17:34)",
+   "auto": true,
+   "created": "2026-10-21T16:37:23.594774+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
