@@ -322,6 +322,21 @@
    "auto": true,
    "created": "2026-10-21T18:05:59.986967+05:00",
    "media": true
+  },
+  "2026-10-22_fajr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/healthcare14193285",
+   "site": "europepmc",
+   "title": "A Focused Narrative Review of Selected Evidence on Gymnastics Training Optimization, Technology, Athlete Health, and Injury Prevention",
+   "preview_ids": [
+    397
+   ],
+   "button_id": 398,
+   "publish_at": "2026-10-22T05:10:00+05:00",
+   "label": "Bomdod (05:10)",
+   "auto": true,
+   "created": "2026-10-22T04:13:26.813763+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
