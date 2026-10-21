@@ -71,7 +71,8 @@
   "https://www.insidegymnastics.com/news-features/hezly-rivera-medically-withdraws-from-2026-world-championships/",
   "https://doi.org/10.3389/fspor.2026.1798778",
   "https://www.insidegymnastics.com/news-features/united-as-one-u-s-women-set-for-2026-world-team-final/",
-  "https://thegymter.net/2026/10/20/china-leads-wag-teams-with-best-worlds-qualifications-performance-since-2006/"
+  "https://thegymter.net/2026/10/20/china-leads-wag-teams-with-best-worlds-qualifications-performance-since-2006/",
+  "https://doi.org/10.1097/md.0000000000048616"
  ],
  "offset": 703888941,
  "drafts": {
@@ -305,7 +306,7 @@
    "media": true
   },
   "2026-10-21_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1097/md.0000000000048616",
    "site": "europepmc",
    "title": "Trampoline exercise reduces anxiety and improves motor skills in children with autism spectrum disorder: A randomized controlled trial",
@@ -321,7 +322,7 @@
    "media": true
   }
  },
- "last_site": "https://www.thegymter.net/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-20": {
    "Fajr": "05:08",
