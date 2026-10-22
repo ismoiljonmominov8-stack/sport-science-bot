@@ -77,7 +77,8 @@
   "https://doi.org/10.1589/jpts.38.236",
   "https://gymnasticscoaching.com/2026/10/21/summing-up-mens-team-finals-at-worlds-rotterdam-japan-defends/",
   "https://doi.org/10.3390/healthcare14193285",
-  "https://www.insidegymnastics.com/news-features/china-wins-gold-punches-ticket-to-la-with-united-states-and-japan-2026-world-gymnastics-championships/"
+  "https://www.insidegymnastics.com/news-features/china-wins-gold-punches-ticket-to-la-with-united-states-and-japan-2026-world-gymnastics-championships/",
+  "https://gymnasticscoaching.com/2026/10/21/china-are-womens-gymnastics-world-champions-congratulations/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -308,7 +309,7 @@
    "media": true
   },
   "2026-10-22_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/21/china-are-womens-gymnastics-world-champions-congratulations/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "China are Women’s Gymnastics World Champions. Congratulations.",
@@ -324,7 +325,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-21": {
    "Fajr": "05:09",
