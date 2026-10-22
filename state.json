@@ -83,22 +83,6 @@
  ],
  "offset": 703888941,
  "drafts": {
-  "2026-10-19_isha": {
-   "status": "published",
-   "link": "https://www.insidegymnastics.com/news-features/u-s-women-currently-first-caylor-class-act-rotterdam-2026/",
-   "site": "https://www.insidegymnastics.com/feed/",
-   "title": "U.S. Women Currently First; Dulcy Caylor Class Act In Replacement Athlete Role",
-   "preview_ids": [
-    342,
-    343
-   ],
-   "button_id": 344,
-   "publish_at": "2026-10-19T19:03:00+05:00",
-   "label": "Xufton (19:03)",
-   "auto": true,
-   "created": "2026-10-19T18:13:59.028597+05:00",
-   "media": true
-  },
   "2026-10-20_fajr": {
    "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/19/results-%e2%9e%99-womens-gymnastics-world-championships-rotterdam-finalists/",
@@ -327,20 +311,17 @@
   },
   "2026-10-22_isha": {
    "status": "pending",
-   "link": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1925319",
-   "site": "https://www.frontiersin.org/journals/sports-and-active-living/rss",
-   "title": "Exploratory longitudinal monitoring of physiological, hematological, psychological, and irisin responses during an 8-week pre-competition period in elite rhythmic gymnasts",
+   "link": "https://thegymter.net/2026/10/18/a-look-at-the-wag-teams-competing-in-rotterdam/",
+   "site": "https://www.thegymter.net/feed/",
+   "title": "A Look at the WAG Teams Competing in Rotterdam",
    "preview_ids": [
-    412,
-    413,
-    414,
-    415
+    417
    ],
-   "button_id": 416,
+   "button_id": 418,
    "publish_at": "2026-10-22T18:59:00+05:00",
    "label": "Xufton (18:59)",
    "auto": true,
-   "created": "2026-10-22T18:02:29.175411+05:00",
+   "created": "2026-10-22T18:17:17.095379+05:00",
    "media": true
   }
  },
