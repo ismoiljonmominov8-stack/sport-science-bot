@@ -79,7 +79,8 @@
   "https://doi.org/10.3390/healthcare14193285",
   "https://www.insidegymnastics.com/news-features/china-wins-gold-punches-ticket-to-la-with-united-states-and-japan-2026-world-gymnastics-championships/",
   "https://gymnasticscoaching.com/2026/10/21/china-are-womens-gymnastics-world-champions-congratulations/",
-  "https://www.insidegymnastics.com/news-features/japan-wins-in-rotterdam-u-s-men-united-to-come-back-and-fight2026-world-championships/"
+  "https://www.insidegymnastics.com/news-features/japan-wins-in-rotterdam-u-s-men-united-to-come-back-and-fight2026-world-championships/",
+  "https://thegymter.net/2026/10/18/a-look-at-the-wag-teams-competing-in-rotterdam/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -310,7 +311,7 @@
    "media": true
   },
   "2026-10-22_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://thegymter.net/2026/10/18/a-look-at-the-wag-teams-competing-in-rotterdam/",
    "site": "https://www.thegymter.net/feed/",
    "title": "A Look at the WAG Teams Competing in Rotterdam",
@@ -325,7 +326,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "https://www.thegymter.net/feed/",
  "prayer_times": {
   "2026-10-21": {
    "Fajr": "05:09",
