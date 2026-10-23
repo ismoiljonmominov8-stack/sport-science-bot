@@ -327,19 +327,20 @@
   },
   "2026-10-23_isha": {
    "status": "pending",
-   "link": "https://gymnasticscoaching.com/2026/10/22/summing-up-rotterdam-worlds-team-final-china-wins/",
-   "site": "https://www.gymnasticscoaching.com/feed/",
-   "title": "Summing-up Rotterdam Worlds TEAM FINAL – China wins.",
+   "link": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1925319",
+   "site": "https://www.frontiersin.org/journals/sports-and-active-living/rss",
+   "title": "Exploratory longitudinal monitoring of physiological, hematological, psychological, and irisin responses during an 8-week pre-competition period in elite rhythmic gymnasts",
    "preview_ids": [
-    434,
-    435,
-    436
+    438,
+    439,
+    440,
+    441
    ],
-   "button_id": 437,
+   "button_id": 442,
    "publish_at": "2026-10-23T18:58:00+05:00",
    "label": "Xufton (18:58)",
    "auto": true,
-   "created": "2026-10-23T18:01:39.937859+05:00",
+   "created": "2026-10-23T18:13:38.589666+05:00",
    "media": true
   }
  },
