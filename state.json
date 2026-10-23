@@ -85,7 +85,8 @@
   "https://www.insidegymnastics.com/news-features/team-finals-field-set-in-rotterdam-usa-men-qualify-in-fifth/",
   "https://thegymter.net/2026/10/22/2026-world-championships-mag-all-around-final-live-blog/",
   "https://doi.org/10.3390/jfmk11020185",
-  "https://www.frontiersin.org/articles/10.3389/fspor.2026.1925319"
+  "https://www.frontiersin.org/articles/10.3389/fspor.2026.1925319",
+  "https://gymnasticscoaching.com/2026/10/23/summing-up-mens-aa-rotterdam-worlds-hashimoto-daiki-wins-his-4th/"
  ],
  "offset": 703888945,
  "drafts": {
@@ -309,7 +310,7 @@
    "media": false
   },
   "2026-10-23_isha": {
-   "status": "approved",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/23/summing-up-mens-aa-rotterdam-worlds-hashimoto-daiki-wins-his-4th/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Summing-up Men’s AA Rotterdam Worlds – Hashimoto Daiki wins his 4th.",
@@ -327,7 +328,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-22": {
    "Fajr": "05:10",
