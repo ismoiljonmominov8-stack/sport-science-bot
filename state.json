@@ -83,7 +83,8 @@
   "https://thegymter.net/2026/10/18/a-look-at-the-wag-teams-competing-in-rotterdam/",
   "https://gymnasticscoaching.com/2026/10/22/hashimoto-daiki-4th-world-gymnastics-title/",
   "https://www.insidegymnastics.com/news-features/team-finals-field-set-in-rotterdam-usa-men-qualify-in-fifth/",
-  "https://thegymter.net/2026/10/22/2026-world-championships-mag-all-around-final-live-blog/"
+  "https://thegymter.net/2026/10/22/2026-world-championships-mag-all-around-final-live-blog/",
+  "https://doi.org/10.3390/jfmk11020185"
  ],
  "offset": 703888941,
  "drafts": {
@@ -310,7 +311,7 @@
    "media": true
   },
   "2026-10-23_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3390/jfmk11020185",
    "site": "europepmc",
    "title": "Longitudinal Ultrasound Assessment of Achilles and Patellar Tendon Morphology in National Collegiate Athletic Association Division 1 Female Gymnasts",
@@ -325,7 +326,7 @@
    "media": false
   }
  },
- "last_site": "https://www.thegymter.net/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-22": {
    "Fajr": "05:10",
