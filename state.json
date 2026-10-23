@@ -326,6 +326,23 @@
    "auto": true,
    "created": "2026-10-23T11:12:29.835975+05:00",
    "media": true
+  },
+  "2026-10-23_asr": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/10/22/summing-up-rotterdam-worlds-team-final-china-wins/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Summing-up Rotterdam Worlds TEAM FINAL – China wins.",
+   "preview_ids": [
+    426,
+    427,
+    428
+   ],
+   "button_id": 429,
+   "publish_at": "2026-10-23T15:05:00+05:00",
+   "label": "Asr (15:05)",
+   "auto": true,
+   "created": "2026-10-23T14:15:21.991849+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.insidegymnastics.com/feed/",
