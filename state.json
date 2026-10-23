@@ -82,7 +82,8 @@
   "https://www.insidegymnastics.com/news-features/japan-wins-in-rotterdam-u-s-men-united-to-come-back-and-fight2026-world-championships/",
   "https://thegymter.net/2026/10/18/a-look-at-the-wag-teams-competing-in-rotterdam/",
   "https://gymnasticscoaching.com/2026/10/22/hashimoto-daiki-4th-world-gymnastics-title/",
-  "https://www.insidegymnastics.com/news-features/team-finals-field-set-in-rotterdam-usa-men-qualify-in-fifth/"
+  "https://www.insidegymnastics.com/news-features/team-finals-field-set-in-rotterdam-usa-men-qualify-in-fifth/",
+  "https://thegymter.net/2026/10/22/2026-world-championships-mag-all-around-final-live-blog/"
  ],
  "offset": 703888941,
  "drafts": {
@@ -312,7 +313,7 @@
    "media": true
   },
   "2026-10-23_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://thegymter.net/2026/10/22/2026-world-championships-mag-all-around-final-live-blog/",
    "site": "https://www.thegymter.net/feed/",
    "title": "2026 World Championships | MAG All-Around Final Live Blog",
@@ -327,7 +328,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "https://www.thegymter.net/feed/",
  "prayer_times": {
   "2026-10-22": {
    "Fajr": "05:10",
