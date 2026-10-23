@@ -84,9 +84,10 @@
   "https://gymnasticscoaching.com/2026/10/22/hashimoto-daiki-4th-world-gymnastics-title/",
   "https://www.insidegymnastics.com/news-features/team-finals-field-set-in-rotterdam-usa-men-qualify-in-fifth/",
   "https://thegymter.net/2026/10/22/2026-world-championships-mag-all-around-final-live-blog/",
-  "https://doi.org/10.3390/jfmk11020185"
+  "https://doi.org/10.3390/jfmk11020185",
+  "https://www.frontiersin.org/articles/10.3389/fspor.2026.1925319"
  ],
- "offset": 703888941,
+ "offset": 703888944,
  "drafts": {
   "2026-10-21_fajr": {
    "status": "published",
@@ -309,20 +310,20 @@
   },
   "2026-10-23_isha": {
    "status": "pending",
-   "link": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1925319",
-   "site": "https://www.frontiersin.org/journals/sports-and-active-living/rss",
-   "title": "Exploratory longitudinal monitoring of physiological, hematological, psychological, and irisin responses during an 8-week pre-competition period in elite rhythmic gymnasts",
+   "link": "https://gymnasticscoaching.com/2026/10/23/summing-up-mens-aa-rotterdam-worlds-hashimoto-daiki-wins-his-4th/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Summing-up Men’s AA Rotterdam Worlds – Hashimoto Daiki wins his 4th.",
    "preview_ids": [
-    438,
-    439,
-    440,
-    441
+    443,
+    444,
+    445,
+    446
    ],
-   "button_id": 442,
+   "button_id": 447,
    "publish_at": "2026-10-23T18:58:00+05:00",
    "label": "Xufton (18:58)",
    "auto": true,
-   "created": "2026-10-23T18:13:38.589666+05:00",
+   "created": "2026-10-23T18:28:05.319014+05:00",
    "media": true
   }
  },
