@@ -90,21 +90,6 @@
  ],
  "offset": 703888945,
  "drafts": {
-  "2026-10-21_fajr": {
-   "status": "published",
-   "link": "https://thegymter.net/2026/10/20/china-leads-wag-teams-with-best-worlds-qualifications-performance-since-2006/",
-   "site": "https://www.thegymter.net/feed/",
-   "title": "China Leads WAG Teams with Best Worlds Qualifications Performance Since 2006",
-   "preview_ids": [
-    376
-   ],
-   "button_id": 377,
-   "publish_at": "2026-10-21T05:09:00+05:00",
-   "label": "Bomdod (05:09)",
-   "auto": true,
-   "created": "2026-10-21T04:12:04.353220+05:00",
-   "media": true
-  },
   "2026-10-21_dhuhr": {
    "status": "published",
    "link": "https://doi.org/10.1097/md.0000000000048616",
@@ -326,6 +311,21 @@
    "auto": true,
    "created": "2026-10-23T18:28:05.319014+05:00",
    "media": true
+  },
+  "2026-10-24_fajr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/jfmk11020171",
+   "site": "europepmc",
+   "title": "Effect of Specific Postural and Breathing Instructions on the Sagittal Alignment of the Spinopelvic Complex Before and After a Dedicated Muscle Strengthening Program: A Pilot Study in a Gymnast Population",
+   "preview_ids": [
+    448
+   ],
+   "button_id": 449,
+   "publish_at": "2026-10-24T05:12:00+05:00",
+   "label": "Bomdod (05:12)",
+   "auto": true,
+   "created": "2026-10-24T04:14:46.323445+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
