@@ -87,24 +87,6 @@
  ],
  "offset": 703888941,
  "drafts": {
-  "2026-10-20_maghrib": {
-   "status": "published",
-   "link": "https://doi.org/10.3389/fspor.2026.1798778",
-   "site": "europepmc",
-   "title": "Improving the approval of jumping techniques on the balance beam focusing on the \"switch leap to ring position\"",
-   "preview_ids": [
-    356,
-    357,
-    358,
-    359
-   ],
-   "button_id": 360,
-   "publish_at": "2026-10-20T17:35:00+05:00",
-   "label": "Shom (17:35)",
-   "auto": true,
-   "created": "2026-10-20T16:37:05.614525+05:00",
-   "media": true
-  },
   "2026-10-20_isha": {
    "status": "published",
    "link": "https://www.insidegymnastics.com/news-features/united-as-one-u-s-women-set-for-2026-world-team-final/",
@@ -326,6 +308,21 @@
    "auto": true,
    "created": "2026-10-23T14:26:14.821539+05:00",
    "media": true
+  },
+  "2026-10-23_maghrib": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/jfmk11020185",
+   "site": "europepmc",
+   "title": "Longitudinal Ultrasound Assessment of Achilles and Patellar Tendon Morphology in National Collegiate Athletic Association Division 1 Female Gymnasts",
+   "preview_ids": [
+    432
+   ],
+   "button_id": 433,
+   "publish_at": "2026-10-23T17:31:00+05:00",
+   "label": "Shom (17:31)",
+   "auto": true,
+   "created": "2026-10-23T16:50:06.918210+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.thegymter.net/feed/",
