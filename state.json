@@ -313,19 +313,17 @@
   },
   "2026-10-23_asr": {
    "status": "pending",
-   "link": "https://gymnasticscoaching.com/2026/10/22/summing-up-rotterdam-worlds-team-final-china-wins/",
-   "site": "https://www.gymnasticscoaching.com/feed/",
-   "title": "Summing-up Rotterdam Worlds TEAM FINAL – China wins.",
+   "link": "https://thegymter.net/2026/10/22/2026-world-championships-mag-all-around-final-live-blog/",
+   "site": "https://www.thegymter.net/feed/",
+   "title": "2026 World Championships | MAG All-Around Final Live Blog",
    "preview_ids": [
-    426,
-    427,
-    428
+    430
    ],
-   "button_id": 429,
+   "button_id": 431,
    "publish_at": "2026-10-23T15:05:00+05:00",
    "label": "Asr (15:05)",
    "auto": true,
-   "created": "2026-10-23T14:15:21.991849+05:00",
+   "created": "2026-10-23T14:26:14.821539+05:00",
    "media": true
   }
  },
