@@ -86,22 +86,6 @@
  ],
  "offset": 703888941,
  "drafts": {
-  "2026-10-20_asr": {
-   "status": "published",
-   "link": "https://www.insidegymnastics.com/news-features/hezly-rivera-medically-withdraws-from-2026-world-championships/",
-   "site": "https://www.insidegymnastics.com/feed/",
-   "title": "Breaking. Hezly Rivera Withdraws From 2026 World Championships",
-   "preview_ids": [
-    353,
-    354
-   ],
-   "button_id": 355,
-   "publish_at": "2026-10-20T15:09:00+05:00",
-   "label": "Asr (15:09)",
-   "auto": true,
-   "created": "2026-10-20T14:10:59.745300+05:00",
-   "media": true
-  },
   "2026-10-20_maghrib": {
    "status": "published",
    "link": "https://doi.org/10.3389/fspor.2026.1798778",
