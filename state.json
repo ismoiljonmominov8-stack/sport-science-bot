@@ -327,6 +327,21 @@
    "auto": true,
    "created": "2026-10-24T11:12:57.508266+05:00",
    "media": false
+  },
+  "2026-10-24_asr": {
+   "status": "pending",
+   "link": "https://www.insidegymnastics.com/news-features/daiki-hashimoto-wins-fourth-world-championship-all-around-crown-2026-world-gymnastics-championships/",
+   "site": "https://www.insidegymnastics.com/feed/",
+   "title": "Hashimoto Reigns Supreme In Rotterdam",
+   "preview_ids": [
+    456
+   ],
+   "button_id": 457,
+   "publish_at": "2026-10-24T15:04:00+05:00",
+   "label": "Asr (15:04)",
+   "auto": true,
+   "created": "2026-10-24T14:10:19.908066+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
