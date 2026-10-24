@@ -90,7 +90,8 @@
   "https://doi.org/10.3390/jfmk11020171",
   "https://gymnasticscoaching.com/2026/10/23/vivi-crain-working-double-scorpion-turn-on-beam/",
   "https://www.insidegymnastics.com/news-features/daiki-hashimoto-wins-fourth-world-championship-all-around-crown-2026-world-gymnastics-championships/",
-  "https://gymnasticscoaching.com/2026/10/24/summing-up-individual-gymnastics-championships-rotterdam-skye-blakely-wins/"
+  "https://gymnasticscoaching.com/2026/10/24/summing-up-individual-gymnastics-championships-rotterdam-skye-blakely-wins/",
+  "https://doi.org/10.3389/fpsyg.2026.1769157"
  ],
  "offset": 703888945,
  "drafts": {
@@ -314,7 +315,7 @@
    "media": true
   },
   "2026-10-24_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fpsyg.2026.1769157",
    "site": "europepmc",
    "title": "Self-controlled and low-frequency KP feedback enhances gymnastics skill learning via motivation and metacognition",
@@ -332,7 +333,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-23": {
    "Fajr": "05:11",
