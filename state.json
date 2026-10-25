@@ -330,6 +330,23 @@
    "auto": true,
    "created": "2026-10-25T11:15:13.574661+05:00",
    "media": false
+  },
+  "2026-10-25_asr": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/10/24/vault-world-champion-rebeca-andrade/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Vault World Champion Rebeca Andrade",
+   "preview_ids": [
+    482,
+    483,
+    484
+   ],
+   "button_id": 485,
+   "publish_at": "2026-10-25T15:03:00+05:00",
+   "label": "Asr (15:03)",
+   "auto": true,
+   "created": "2026-10-25T14:29:10.354550+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
