@@ -95,7 +95,8 @@
   "https://gymnasticscoaching.com/2026/10/24/bars-world-champion-kaylia-nemour/",
   "https://doi.org/10.3390/healthcare14081009",
   "https://gymnasticscoaching.com/2026/10/24/vault-world-champion-rebeca-andrade/",
-  "https://doi.org/10.1007/s40279-026-02416-5"
+  "https://doi.org/10.1007/s40279-026-02416-5",
+  "https://gymnasticscoaching.com/2026/10/24/rings-world-champion-lan-xingyu/"
  ],
  "offset": 703888945,
  "drafts": {
@@ -320,7 +321,7 @@
    "media": false
   },
   "2026-10-25_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/24/rings-world-champion-lan-xingyu/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Rings World Champion Lan Xingyu",
@@ -336,7 +337,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-24": {
    "Fajr": "05:12",
