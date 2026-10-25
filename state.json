@@ -94,7 +94,8 @@
   "https://doi.org/10.3389/fpsyg.2026.1769157",
   "https://gymnasticscoaching.com/2026/10/24/bars-world-champion-kaylia-nemour/",
   "https://doi.org/10.3390/healthcare14081009",
-  "https://gymnasticscoaching.com/2026/10/24/vault-world-champion-rebeca-andrade/"
+  "https://gymnasticscoaching.com/2026/10/24/vault-world-champion-rebeca-andrade/",
+  "https://doi.org/10.1007/s40279-026-02416-5"
  ],
  "offset": 703888945,
  "drafts": {
@@ -319,7 +320,7 @@
    "media": true
   },
   "2026-10-25_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1007/s40279-026-02416-5",
    "site": "europepmc",
    "title": "Key Factors Impacting Performance Health During Growth and Maturation in Adolescent Competitive Aesthetic and Acrobatic Athletes: A Systematic Review",
@@ -334,7 +335,7 @@
    "media": false
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-24": {
    "Fajr": "05:12",
