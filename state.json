@@ -333,6 +333,22 @@
    "auto": true,
    "created": "2026-10-25T16:41:54.847439+05:00",
    "media": false
+  },
+  "2026-10-25_isha": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/10/24/rings-world-champion-lan-xingyu/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Rings World Champion Lan Xingyu",
+   "preview_ids": [
+    492,
+    493
+   ],
+   "button_id": 494,
+   "publish_at": "2026-10-25T18:55:00+05:00",
+   "label": "Xufton (18:55)",
+   "auto": true,
+   "created": "2026-10-25T18:02:07.862106+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
