@@ -93,7 +93,8 @@
   "https://gymnasticscoaching.com/2026/10/24/summing-up-individual-gymnastics-championships-rotterdam-skye-blakely-wins/",
   "https://doi.org/10.3389/fpsyg.2026.1769157",
   "https://gymnasticscoaching.com/2026/10/24/bars-world-champion-kaylia-nemour/",
-  "https://doi.org/10.3390/healthcare14081009"
+  "https://doi.org/10.3390/healthcare14081009",
+  "https://gymnasticscoaching.com/2026/10/24/vault-world-champion-rebeca-andrade/"
  ],
  "offset": 703888945,
  "drafts": {
@@ -316,7 +317,7 @@
    "media": false
   },
   "2026-10-25_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/24/vault-world-champion-rebeca-andrade/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Vault World Champion Rebeca Andrade",
@@ -333,7 +334,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-24": {
    "Fajr": "05:12",
