@@ -319,6 +319,23 @@
    "auto": true,
    "created": "2026-10-25T18:04:39.511911+05:00",
    "media": true
+  },
+  "2026-10-26_fajr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3389/fspor.2026.1771596",
+   "site": "europepmc",
+   "title": "The effect of digital video feedback on roundoff learning outcomes in gymnastics learning",
+   "preview_ids": [
+    498,
+    499,
+    500
+   ],
+   "button_id": 501,
+   "publish_at": "2026-10-26T05:14:00+05:00",
+   "label": "Bomdod (05:14)",
+   "auto": true,
+   "created": "2026-10-26T04:18:22.762739+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
