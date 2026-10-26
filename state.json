@@ -349,6 +349,21 @@
    "auto": true,
    "created": "2026-10-26T16:35:11.751663+05:00",
    "media": true
+  },
+  "2026-10-26_isha": {
+   "status": "pending",
+   "link": "https://doi.org/10.5334/jbsr.4212",
+   "site": "europepmc",
+   "title": "MRI Diagnosis of Gymnast's Wrist (Distal Radial Physeal Stress Injury)",
+   "preview_ids": [
+    531
+   ],
+   "button_id": 532,
+   "publish_at": "2026-10-26T18:54:00+05:00",
+   "label": "Xufton (18:54)",
+   "auto": true,
+   "created": "2026-10-26T18:00:35.635912+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
