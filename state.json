@@ -98,7 +98,8 @@
   "https://doi.org/10.1007/s40279-026-02416-5",
   "https://gymnasticscoaching.com/2026/10/24/rings-world-champion-lan-xingyu/",
   "https://doi.org/10.3389/fspor.2026.1771596",
-  "https://www.insidegymnastics.com/news-features/team-usa-wins-8-medals-2026-world-gymnastics-championships/"
+  "https://www.insidegymnastics.com/news-features/team-usa-wins-8-medals-2026-world-gymnastics-championships/",
+  "https://doi.org/10.3389/fpsyg.2026.1794257"
  ],
  "offset": 703888945,
  "drafts": {
@@ -328,7 +329,7 @@
    "media": true
   },
   "2026-10-26_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fpsyg.2026.1794257",
    "site": "europepmc",
    "title": "Advanced utilization of motion decomposition and visualization technology in gymnastics education",
@@ -346,7 +347,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-25": {
    "Fajr": "05:13",
