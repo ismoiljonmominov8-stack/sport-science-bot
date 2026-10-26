@@ -96,7 +96,8 @@
   "https://doi.org/10.3390/healthcare14081009",
   "https://gymnasticscoaching.com/2026/10/24/vault-world-champion-rebeca-andrade/",
   "https://doi.org/10.1007/s40279-026-02416-5",
-  "https://gymnasticscoaching.com/2026/10/24/rings-world-champion-lan-xingyu/"
+  "https://gymnasticscoaching.com/2026/10/24/rings-world-champion-lan-xingyu/",
+  "https://doi.org/10.3389/fspor.2026.1771596"
  ],
  "offset": 703888945,
  "drafts": {
@@ -321,7 +322,7 @@
    "media": true
   },
   "2026-10-26_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fspor.2026.1771596",
    "site": "europepmc",
    "title": "The effect of digital video feedback on roundoff learning outcomes in gymnastics learning",
@@ -338,7 +339,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-25": {
    "Fajr": "05:13",
