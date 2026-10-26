@@ -99,7 +99,8 @@
   "https://gymnasticscoaching.com/2026/10/24/rings-world-champion-lan-xingyu/",
   "https://doi.org/10.3389/fspor.2026.1771596",
   "https://www.insidegymnastics.com/news-features/team-usa-wins-8-medals-2026-world-gymnastics-championships/",
-  "https://doi.org/10.3389/fpsyg.2026.1794257"
+  "https://doi.org/10.3389/fpsyg.2026.1794257",
+  "https://gymnasticscoaching.com/2026/10/26/worlds-2027-chengdu-china/"
  ],
  "offset": 703888945,
  "drafts": {
@@ -332,7 +333,7 @@
    "media": true
   },
   "2026-10-26_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/26/worlds-2027-chengdu-china/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Worlds 2027 Chengdu, China",
@@ -350,7 +351,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-25": {
    "Fajr": "05:13",
