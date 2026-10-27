@@ -350,6 +350,23 @@
    "auto": true,
    "created": "2026-10-27T14:45:15.624530+05:00",
    "media": false
+  },
+  "2026-10-27_maghrib": {
+   "status": "pending",
+   "link": "https://doi.org/10.3389/fpsyg.2026.1803261",
+   "site": "europepmc",
+   "title": "Mental imagery and performance in aerobic, artistic, acrobatics, trampoline and tumbling, and rhythmic gymnasts: a systematic review",
+   "preview_ids": [
+    543,
+    544,
+    545
+   ],
+   "button_id": 546,
+   "publish_at": "2026-10-27T17:25:00+05:00",
+   "label": "Shom (17:25)",
+   "auto": true,
+   "created": "2026-10-27T16:27:49.625741+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
