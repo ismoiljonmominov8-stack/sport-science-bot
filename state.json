@@ -350,6 +350,21 @@
    "auto": true,
    "created": "2026-10-27T18:02:09.167802+05:00",
    "media": false
+  },
+  "2026-10-28_fajr": {
+   "status": "pending",
+   "link": "https://doi.org/10.1177/23259671261421233",
+   "site": "europepmc",
+   "title": "Prevalence of Capitellar Osteochondral Abnormalities in Healthy Youth Gymnasts: An Ultrasound Study",
+   "preview_ids": [
+    551
+   ],
+   "button_id": 552,
+   "publish_at": "2026-10-28T05:16:00+05:00",
+   "label": "Bomdod (05:16)",
+   "auto": true,
+   "created": "2026-10-28T04:19:55.273148+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
