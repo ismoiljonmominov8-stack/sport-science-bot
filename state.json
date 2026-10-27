@@ -104,7 +104,8 @@
   "https://doi.org/10.5334/jbsr.4212",
   "https://gymnasticscoaching.com/2026/10/25/h-bar-world-champion-tang-chia-hung/",
   "https://doi.org/10.7759/cureus.116922",
-  "https://gymnasticscoaching.com/2026/10/27/a-i-predicted-world-champions/"
+  "https://gymnasticscoaching.com/2026/10/27/a-i-predicted-world-champions/",
+  "https://doi.org/10.3389/fpsyg.2026.1803261"
  ],
  "offset": 703888945,
  "drafts": {
@@ -336,7 +337,7 @@
    "media": false
   },
   "2026-10-27_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fpsyg.2026.1803261",
    "site": "europepmc",
    "title": "Mental imagery and performance in aerobic, artistic, acrobatics, trampoline and tumbling, and rhythmic gymnasts: a systematic review",
@@ -353,7 +354,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-26": {
    "Fajr": "05:14",
