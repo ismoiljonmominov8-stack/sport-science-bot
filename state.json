@@ -107,21 +107,6 @@
  ],
  "offset": 703888945,
  "drafts": {
-  "2026-10-24_asr": {
-   "status": "published",
-   "link": "https://www.insidegymnastics.com/news-features/daiki-hashimoto-wins-fourth-world-championship-all-around-crown-2026-world-gymnastics-championships/",
-   "site": "https://www.insidegymnastics.com/feed/",
-   "title": "Hashimoto Reigns Supreme In Rotterdam",
-   "preview_ids": [
-    456
-   ],
-   "button_id": 457,
-   "publish_at": "2026-10-24T15:04:00+05:00",
-   "label": "Asr (15:04)",
-   "auto": true,
-   "created": "2026-10-24T14:10:19.908066+05:00",
-   "media": true
-  },
   "2026-10-24_maghrib": {
    "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/24/summing-up-individual-gymnastics-championships-rotterdam-skye-blakely-wins/",
@@ -348,6 +333,21 @@
    "label": "Peshin (12:07)",
    "auto": true,
    "created": "2026-10-27T11:13:38.242728+05:00",
+   "media": false
+  },
+  "2026-10-27_asr": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/10/27/a-i-predicted-world-champions/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "A.I. predicted World Champions",
+   "preview_ids": [
+    539
+   ],
+   "button_id": 540,
+   "publish_at": "2026-10-27T15:01:00+05:00",
+   "label": "Asr (15:01)",
+   "auto": true,
+   "created": "2026-10-27T14:32:01.783660+05:00",
    "media": false
   }
  },
