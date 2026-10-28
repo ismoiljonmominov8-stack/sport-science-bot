@@ -352,6 +352,23 @@
    "auto": true,
    "created": "2026-10-28T11:17:46.442073+05:00",
    "media": false
+  },
+  "2026-10-28_asr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3389/fpubh.2026.1803284",
+   "site": "europepmc",
+   "title": "Physical fitness and training factors associated with injury risk in aerobic gymnastics: a systematic review",
+   "preview_ids": [
+    559,
+    560,
+    561
+   ],
+   "button_id": 562,
+   "publish_at": "2026-10-28T15:00:00+05:00",
+   "label": "Asr (15:00)",
+   "auto": true,
+   "created": "2026-10-28T14:08:47.352841+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
