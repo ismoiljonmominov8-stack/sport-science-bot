@@ -108,7 +108,8 @@
   "https://doi.org/10.3389/fpsyg.2026.1803261",
   "https://gymnasticscoaching.com/2026/10/25/beam-world-champion-kaylia-nemour/",
   "https://doi.org/10.1177/23259671261421233",
-  "https://gymnasticscoaching.com/2026/10/25/vault-world-champion-artur-davtyan/"
+  "https://gymnasticscoaching.com/2026/10/25/vault-world-champion-artur-davtyan/",
+  "https://doi.org/10.3389/fpubh.2026.1803284"
  ],
  "offset": 703888945,
  "drafts": {
@@ -337,7 +338,7 @@
    "media": false
   },
   "2026-10-28_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fpubh.2026.1803284",
    "site": "europepmc",
    "title": "Physical fitness and training factors associated with injury risk in aerobic gymnastics: a systematic review",
@@ -354,7 +355,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-27": {
    "Fajr": "05:15",
