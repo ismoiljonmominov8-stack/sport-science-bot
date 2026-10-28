@@ -109,7 +109,8 @@
   "https://gymnasticscoaching.com/2026/10/25/beam-world-champion-kaylia-nemour/",
   "https://doi.org/10.1177/23259671261421233",
   "https://gymnasticscoaching.com/2026/10/25/vault-world-champion-artur-davtyan/",
-  "https://doi.org/10.3389/fpubh.2026.1803284"
+  "https://doi.org/10.3389/fpubh.2026.1803284",
+  "https://gymnasticscoaching.com/2026/10/28/fujitsu-devaluing-body-position/"
  ],
  "offset": 703888945,
  "drafts": {
@@ -340,7 +341,7 @@
    "media": true
   },
   "2026-10-28_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/28/fujitsu-devaluing-body-position/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Fujitsu devaluing Body Position",
@@ -355,7 +356,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-27": {
    "Fajr": "05:15",
