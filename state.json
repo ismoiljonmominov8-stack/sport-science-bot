@@ -115,23 +115,6 @@
  ],
  "offset": 703888945,
  "drafts": {
-  "2026-10-26_fajr": {
-   "status": "published",
-   "link": "https://doi.org/10.3389/fspor.2026.1771596",
-   "site": "europepmc",
-   "title": "The effect of digital video feedback on roundoff learning outcomes in gymnastics learning",
-   "preview_ids": [
-    502,
-    503,
-    504
-   ],
-   "button_id": 505,
-   "publish_at": "2026-10-26T05:14:00+05:00",
-   "label": "Bomdod (05:14)",
-   "auto": true,
-   "created": "2026-10-26T04:28:19.485622+05:00",
-   "media": true
-  },
   "2026-10-26_dhuhr": {
    "status": "published",
    "link": "https://www.insidegymnastics.com/news-features/team-usa-wins-8-medals-2026-world-gymnastics-championships/",
