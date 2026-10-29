@@ -350,6 +350,21 @@
    "auto": true,
    "created": "2026-10-29T16:40:30.683560+05:00",
    "media": false
+  },
+  "2026-10-29_isha": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/10/29/japan-at-gymnastics-worlds-rotterdam/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Japan at Gymnastics Worlds Rotterdam",
+   "preview_ids": [
+    591
+   ],
+   "button_id": 592,
+   "publish_at": "2026-10-29T18:50:00+05:00",
+   "label": "Xufton (18:50)",
+   "auto": true,
+   "created": "2026-10-29T17:57:33.454850+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
