@@ -351,6 +351,21 @@
    "auto": true,
    "created": "2026-10-29T17:59:29.687956+05:00",
    "media": true
+  },
+  "2026-10-30_fajr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/sports14050178",
+   "site": "europepmc",
+   "title": "Construction and Validation of a Specific Balance Test for Rhythmic Gymnasts: A Pilot Study",
+   "preview_ids": [
+    597
+   ],
+   "button_id": 598,
+   "publish_at": "2026-10-30T05:18:00+05:00",
+   "label": "Bomdod (05:18)",
+   "auto": true,
+   "created": "2026-10-30T04:22:11.301232+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
