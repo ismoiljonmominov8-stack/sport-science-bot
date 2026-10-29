@@ -111,7 +111,8 @@
   "https://gymnasticscoaching.com/2026/10/25/vault-world-champion-artur-davtyan/",
   "https://doi.org/10.3389/fpubh.2026.1803284",
   "https://gymnasticscoaching.com/2026/10/28/fujitsu-devaluing-body-position/",
-  "https://doi.org/10.1002/ejsc.70137"
+  "https://doi.org/10.1002/ejsc.70137",
+  "https://gymnasticscoaching.com/2026/10/27/rotterdam-is-a-terrific-worlds-host/"
  ],
  "offset": 703888945,
  "drafts": {
@@ -339,7 +340,7 @@
    "media": false
   },
   "2026-10-29_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/27/rotterdam-is-a-terrific-worlds-host/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Rotterdam is a terrific Worlds Host",
@@ -357,7 +358,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-28": {
    "Fajr": "05:16",
