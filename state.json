@@ -352,6 +352,21 @@
    "auto": true,
    "created": "2026-10-29T14:06:58.302951+05:00",
    "media": false
+  },
+  "2026-10-29_maghrib": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/jfmk11010096",
+   "site": "europepmc",
+   "title": "Development of Lower-Limb Power Across Age and Sex in Junior and Elite Artistic Gymnasts",
+   "preview_ids": [
+    587
+   ],
+   "button_id": 588,
+   "publish_at": "2026-10-29T17:22:00+05:00",
+   "label": "Shom (17:22)",
+   "auto": true,
+   "created": "2026-10-29T16:31:19.143597+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
