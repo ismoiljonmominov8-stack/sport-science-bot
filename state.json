@@ -112,7 +112,8 @@
   "https://doi.org/10.3389/fpubh.2026.1803284",
   "https://gymnasticscoaching.com/2026/10/28/fujitsu-devaluing-body-position/",
   "https://doi.org/10.1002/ejsc.70137",
-  "https://gymnasticscoaching.com/2026/10/27/rotterdam-is-a-terrific-worlds-host/"
+  "https://gymnasticscoaching.com/2026/10/27/rotterdam-is-a-terrific-worlds-host/",
+  "https://doi.org/10.3390/children13030357"
  ],
  "offset": 703888945,
  "drafts": {
@@ -340,7 +341,7 @@
    "media": true
   },
   "2026-10-29_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3390/children13030357",
    "site": "europepmc",
    "title": "Sport-Specific Muscle Architectural Adaptations and Jump Performance in Preadolescent Rhythmic Gymnasts",
@@ -355,7 +356,7 @@
    "media": false
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-28": {
    "Fajr": "05:16",
