@@ -119,7 +119,8 @@
   "https://gymnasticscoaching.com/2026/10/29/japan-at-gymnastics-worlds-rotterdam/",
   "https://doi.org/10.3390/sports14050178",
   "https://gymnasticscoaching.com/2026/10/28/fred-richard-to-south-africa/",
-  "https://doi.org/10.1016/j.jhsg.2026.100969"
+  "https://doi.org/10.1016/j.jhsg.2026.100969",
+  "https://gymnasticscoaching.com/2026/10/30/suni-lee-in-2017/"
  ],
  "offset": 703888947,
  "drafts": {
@@ -340,7 +341,7 @@
    "media": false
   },
   "2026-10-30_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/30/suni-lee-in-2017/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Suni Lee in 2027?",
@@ -355,7 +356,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-29": {
    "Fajr": "05:17",
