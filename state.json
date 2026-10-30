@@ -124,21 +124,6 @@
  ],
  "offset": 703888947,
  "drafts": {
-  "2026-10-27_isha": {
-   "status": "published",
-   "link": "https://gymnasticscoaching.com/2026/10/25/beam-world-champion-kaylia-nemour/",
-   "site": "https://www.gymnasticscoaching.com/feed/",
-   "title": "Beam World Champion Kaylia Nemour",
-   "preview_ids": [
-    549
-   ],
-   "button_id": 550,
-   "publish_at": "2026-10-27T18:53:00+05:00",
-   "label": "Xufton (18:53)",
-   "auto": true,
-   "created": "2026-10-27T18:02:09.167802+05:00",
-   "media": false
-  },
   "2026-10-28_fajr": {
    "status": "published",
    "link": "https://doi.org/10.1177/23259671261421233",
@@ -357,18 +342,18 @@
   },
   "2026-10-30_isha": {
    "status": "pending",
-   "link": "https://doi.org/10.3390/sports14100433",
-   "site": "europepmc",
-   "title": "Isometric and Isokinetic Assessment of Shoulder Rotator Muscle Strength, External/Internal Strength Ratios, and Fatigue Response in Competitive Male Gymnasts",
+   "link": "https://thegymter.net/2026/10/26/2026-world-championships-results/",
+   "site": "https://www.thegymter.net/feed/",
+   "title": "2026 World Championships Results",
    "preview_ids": [
-    610
+    612
    ],
-   "button_id": 611,
+   "button_id": 613,
    "publish_at": "2026-10-30T18:49:00+05:00",
    "label": "Xufton (18:49)",
    "auto": true,
-   "created": "2026-10-30T18:08:00.222767+05:00",
-   "media": false
+   "created": "2026-10-30T18:09:03.314859+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
