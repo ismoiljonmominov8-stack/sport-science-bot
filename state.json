@@ -117,7 +117,8 @@
   "https://gymnasticscoaching.com/2026/10/25/floor-world-champion-claire-pease/",
   "https://doi.org/10.3390/jfmk11010096",
   "https://gymnasticscoaching.com/2026/10/29/japan-at-gymnastics-worlds-rotterdam/",
-  "https://doi.org/10.3390/sports14050178"
+  "https://doi.org/10.3390/sports14050178",
+  "https://gymnasticscoaching.com/2026/10/28/fred-richard-to-south-africa/"
  ],
  "offset": 703888947,
  "drafts": {
@@ -339,7 +340,7 @@
    "media": false
   },
   "2026-10-30_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/28/fred-richard-to-south-africa/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Fred Richard to South Africa",
@@ -355,7 +356,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-29": {
    "Fajr": "05:17",
