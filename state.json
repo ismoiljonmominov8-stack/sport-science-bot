@@ -354,6 +354,21 @@
    "auto": true,
    "created": "2026-10-30T16:29:10.989700+05:00",
    "media": true
+  },
+  "2026-10-30_isha": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/sports14100433",
+   "site": "europepmc",
+   "title": "Isometric and Isokinetic Assessment of Shoulder Rotator Muscle Strength, External/Internal Strength Ratios, and Fatigue Response in Competitive Male Gymnasts",
+   "preview_ids": [
+    610
+   ],
+   "button_id": 611,
+   "publish_at": "2026-10-30T18:49:00+05:00",
+   "label": "Xufton (18:49)",
+   "auto": true,
+   "created": "2026-10-30T18:08:00.222767+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
