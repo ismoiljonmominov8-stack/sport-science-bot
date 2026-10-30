@@ -355,17 +355,18 @@
   },
   "2026-10-30_dhuhr": {
    "status": "pending",
-   "link": "https://www.insidegymnastics.com/news-features/iin-the-know-john-roethlisberger-plays-the-lineup-game-for-the-u-s-men-in-rotterdam/",
-   "site": "https://www.insidegymnastics.com/feed/",
-   "title": "In The Know! John Roethlisberger Plays The Lineup Game For The U.S. Men In Rotterdam",
+   "link": "https://gymnasticscoaching.com/2026/10/28/fred-richard-to-south-africa/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Fred Richard to South Africa",
    "preview_ids": [
-    599
+    601,
+    602
    ],
-   "button_id": 600,
+   "button_id": 603,
    "publish_at": "2026-10-30T12:07:00+05:00",
    "label": "Peshin (12:07)",
    "auto": true,
-   "created": "2026-10-30T11:10:16.712660+05:00",
+   "created": "2026-10-30T11:14:51.127127+05:00",
    "media": true
   }
  },
