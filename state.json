@@ -130,24 +130,6 @@
  ],
  "offset": 703888947,
  "drafts": {
-  "2026-10-29_fajr": {
-   "status": "published",
-   "link": "https://gymnasticscoaching.com/2026/10/27/rotterdam-is-a-terrific-worlds-host/",
-   "site": "https://www.gymnasticscoaching.com/feed/",
-   "title": "Rotterdam is a terrific Worlds Host",
-   "preview_ids": [
-    574,
-    575,
-    576,
-    577
-   ],
-   "button_id": 578,
-   "publish_at": "2026-10-29T05:17:00+05:00",
-   "label": "Bomdod (05:17)",
-   "auto": true,
-   "created": "2026-10-29T04:21:37.747514+05:00",
-   "media": true
-  },
   "2026-10-29_dhuhr": {
    "status": "published",
    "link": "https://doi.org/10.3390/children13030357",
@@ -365,13 +347,13 @@
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Ellie Black tries Olympic Lifting",
    "preview_ids": [
-    630
+    632
    ],
-   "button_id": 631,
+   "button_id": 633,
    "publish_at": "2026-11-01T05:21:00+05:00",
    "label": "Bomdod (05:21)",
    "auto": true,
-   "created": "2026-11-01T04:24:08.064446+05:00",
+   "created": "2026-11-01T04:25:47.399657+05:00",
    "media": true
   }
  },
