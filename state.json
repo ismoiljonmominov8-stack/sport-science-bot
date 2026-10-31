@@ -123,7 +123,8 @@
   "https://gymnasticscoaching.com/2026/10/30/suni-lee-in-2017/",
   "https://thegymter.net/2026/10/26/2026-world-championships-results/",
   "https://doi.org/10.3390/sports14100433",
-  "https://thegymter.net/2026/10/30/the-wag-record-breakers-in-rotterdam/"
+  "https://thegymter.net/2026/10/30/the-wag-record-breakers-in-rotterdam/",
+  "https://doi.org/10.3390/jintelligence14100245"
  ],
  "offset": 703888947,
  "drafts": {
@@ -342,7 +343,7 @@
    "media": true
   },
   "2026-10-31_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3390/jintelligence14100245",
    "site": "europepmc",
    "title": "Professional Experience Moderates Behavioral Performance and Sensorimotor-Related Cortical Activity During Scoring Decision-Making in Aerobic Gymnastics Judges: An fNIRS Study",
@@ -357,7 +358,7 @@
    "media": false
   }
  },
- "last_site": "https://www.thegymter.net/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-30": {
    "Fajr": "05:18",
