@@ -357,6 +357,21 @@
    "auto": true,
    "created": "2026-10-31T11:24:03.156238+05:00",
    "media": true
+  },
+  "2026-10-31_asr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/jintelligence14100245",
+   "site": "europepmc",
+   "title": "Professional Experience Moderates Behavioral Performance and Sensorimotor-Related Cortical Activity During Scoring Decision-Making in Aerobic Gymnastics Judges: An fNIRS Study",
+   "preview_ids": [
+    622
+   ],
+   "button_id": 623,
+   "publish_at": "2026-10-31T14:57:00+05:00",
+   "label": "Asr (14:57)",
+   "auto": true,
+   "created": "2026-10-31T14:01:17.665956+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.thegymter.net/feed/",
