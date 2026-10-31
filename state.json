@@ -122,7 +122,8 @@
   "https://doi.org/10.1016/j.jhsg.2026.100969",
   "https://gymnasticscoaching.com/2026/10/30/suni-lee-in-2017/",
   "https://thegymter.net/2026/10/26/2026-world-championships-results/",
-  "https://doi.org/10.3390/sports14100433"
+  "https://doi.org/10.3390/sports14100433",
+  "https://thegymter.net/2026/10/30/the-wag-record-breakers-in-rotterdam/"
  ],
  "offset": 703888947,
  "drafts": {
@@ -343,7 +344,7 @@
    "media": false
   },
   "2026-10-31_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://thegymter.net/2026/10/30/the-wag-record-breakers-in-rotterdam/",
    "site": "https://www.thegymter.net/feed/",
    "title": "The WAG Record Breakers in Rotterdam",
@@ -358,7 +359,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.thegymter.net/feed/",
  "prayer_times": {
   "2026-10-30": {
    "Fajr": "05:18",
