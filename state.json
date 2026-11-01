@@ -129,7 +129,8 @@
   "https://doi.org/10.1186/s13102-026-01575-2",
   "https://gymnasticscoaching.com/2026/10/31/ellie-black-tries-olympic-lifting/",
   "https://doi.org/10.1016/j.jesf.2026.200456",
-  "https://gymnasticscoaching.com/2026/11/01/russia-men-are-back-gymnastics-world-championships/"
+  "https://gymnasticscoaching.com/2026/11/01/russia-men-are-back-gymnastics-world-championships/",
+  "https://thegymter.net/2026/10/31/the-mag-record-breakers-in-rotterdam/"
  ],
  "offset": 703888948,
  "drafts": {
@@ -345,7 +346,7 @@
    "media": false
   },
   "2026-11-01_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://thegymter.net/2026/10/31/the-mag-record-breakers-in-rotterdam/",
    "site": "https://www.thegymter.net/feed/",
    "title": "The MAG Record Breakers in Rotterdam",
@@ -360,7 +361,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "https://www.thegymter.net/feed/",
  "prayer_times": {
   "2026-10-31": {
    "Fajr": "05:20",
