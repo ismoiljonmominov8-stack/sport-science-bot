@@ -357,6 +357,21 @@
    "auto": true,
    "created": "2026-11-01T11:14:07.220400+05:00",
    "media": false
+  },
+  "2026-11-01_asr": {
+   "status": "pending",
+   "link": "https://thegymter.net/2026/10/31/the-mag-record-breakers-in-rotterdam/",
+   "site": "https://www.thegymter.net/feed/",
+   "title": "The MAG Record Breakers in Rotterdam",
+   "preview_ids": [
+    636
+   ],
+   "button_id": 637,
+   "publish_at": "2026-11-01T14:56:00+05:00",
+   "label": "Asr (14:56)",
+   "auto": true,
+   "created": "2026-11-01T14:01:36.853819+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
