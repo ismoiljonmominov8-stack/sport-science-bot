@@ -130,7 +130,8 @@
   "https://gymnasticscoaching.com/2026/10/31/ellie-black-tries-olympic-lifting/",
   "https://doi.org/10.1016/j.jesf.2026.200456",
   "https://gymnasticscoaching.com/2026/11/01/russia-men-are-back-gymnastics-world-championships/",
-  "https://thegymter.net/2026/10/31/the-mag-record-breakers-in-rotterdam/"
+  "https://thegymter.net/2026/10/31/the-mag-record-breakers-in-rotterdam/",
+  "https://doi.org/10.3389/fped.2026.1734056"
  ],
  "offset": 703888948,
  "drafts": {
@@ -346,7 +347,7 @@
    "media": true
   },
   "2026-11-01_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fped.2026.1734056",
    "site": "europepmc",
    "title": "A clavicular overuse injury in a teenage male gymnast: a rare case report",
@@ -364,7 +365,7 @@
    "media": true
   }
  },
- "last_site": "https://www.thegymter.net/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-10-31": {
    "Fajr": "05:20",
