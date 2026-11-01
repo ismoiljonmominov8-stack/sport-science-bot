@@ -135,21 +135,6 @@
  ],
  "offset": 703888948,
  "drafts": {
-  "2026-10-30_fajr": {
-   "status": "published",
-   "link": "https://doi.org/10.3390/sports14050178",
-   "site": "europepmc",
-   "title": "Construction and Validation of a Specific Balance Test for Rhythmic Gymnasts: A Pilot Study",
-   "preview_ids": [
-    597
-   ],
-   "button_id": 598,
-   "publish_at": "2026-10-30T05:18:00+05:00",
-   "label": "Bomdod (05:18)",
-   "auto": true,
-   "created": "2026-10-30T04:22:11.301232+05:00",
-   "media": false
-  },
   "2026-10-30_dhuhr": {
    "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/28/fred-richard-to-south-africa/",
@@ -362,6 +347,21 @@
    "label": "Xufton (18:47)",
    "auto": true,
    "created": "2026-11-01T17:57:18.539209+05:00",
+   "media": true
+  },
+  "2026-11-02_fajr": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/11/01/which-apparatus-would-win-a-fight-%f0%9f%98%80/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Which Apparatus Would Win a Fight? 😀",
+   "preview_ids": [
+    655
+   ],
+   "button_id": 656,
+   "publish_at": "2026-11-02T05:22:00+05:00",
+   "label": "Bomdod (05:22)",
+   "auto": true,
+   "created": "2026-11-02T04:30:24.775772+05:00",
    "media": true
   }
  },
