@@ -126,7 +126,8 @@
   "https://thegymter.net/2026/10/30/the-wag-record-breakers-in-rotterdam/",
   "https://doi.org/10.3390/jintelligence14100245",
   "https://gymnasticscoaching.com/2026/10/30/shawn-johnson-back-at-chows/",
-  "https://doi.org/10.1186/s13102-026-01575-2"
+  "https://doi.org/10.1186/s13102-026-01575-2",
+  "https://gymnasticscoaching.com/2026/10/31/ellie-black-tries-olympic-lifting/"
  ],
  "offset": 703888947,
  "drafts": {
@@ -342,7 +343,7 @@
    "media": false
   },
   "2026-11-01_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/31/ellie-black-tries-olympic-lifting/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Ellie Black tries Olympic Lifting",
@@ -357,7 +358,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-10-31": {
    "Fajr": "05:20",
