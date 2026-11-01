@@ -359,6 +359,24 @@
    "auto": true,
    "created": "2026-11-01T16:26:35.279193+05:00",
    "media": true
+  },
+  "2026-11-01_isha": {
+   "status": "pending",
+   "link": "https://doi.org/10.3389/fped.2026.1734056",
+   "site": "europepmc",
+   "title": "A clavicular overuse injury in a teenage male gymnast: a rare case report",
+   "preview_ids": [
+    645,
+    646,
+    647,
+    648
+   ],
+   "button_id": 649,
+   "publish_at": "2026-11-01T18:47:00+05:00",
+   "label": "Xufton (18:47)",
+   "auto": true,
+   "created": "2026-11-01T17:52:47.844536+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.thegymter.net/feed/",
