@@ -134,7 +134,8 @@
   "https://doi.org/10.3389/fped.2026.1734056",
   "https://gymnasticscoaching.com/2026/11/01/which-apparatus-would-win-a-fight-%f0%9f%98%80/",
   "https://doi.org/10.3390/nu18030519",
-  "https://gymnasticscoaching.com/2026/11/02/olympic-beam-champion-retires-in-rotterdam/"
+  "https://gymnasticscoaching.com/2026/11/02/olympic-beam-champion-retires-in-rotterdam/",
+  "https://doi.org/10.26603/001c.155474"
  ],
  "offset": 703888948,
  "drafts": {
@@ -352,7 +353,7 @@
    "media": true
   },
   "2026-11-02_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.26603/001c.155474",
    "site": "europepmc",
    "title": "Rehabilitation of Capitellar Osteochondritis Dissecans (OCD) Lesions in Gymnasts: A Review of Current Concepts and Treatment",
@@ -370,7 +371,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-01": {
    "Fajr": "05:21",
