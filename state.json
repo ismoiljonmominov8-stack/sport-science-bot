@@ -133,7 +133,8 @@
   "https://thegymter.net/2026/10/31/the-mag-record-breakers-in-rotterdam/",
   "https://doi.org/10.3389/fped.2026.1734056",
   "https://gymnasticscoaching.com/2026/11/01/which-apparatus-would-win-a-fight-%f0%9f%98%80/",
-  "https://doi.org/10.3390/nu18030519"
+  "https://doi.org/10.3390/nu18030519",
+  "https://gymnasticscoaching.com/2026/11/02/olympic-beam-champion-retires-in-rotterdam/"
  ],
  "offset": 703888948,
  "drafts": {
@@ -351,7 +352,7 @@
    "media": false
   },
   "2026-11-02_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/11/02/olympic-beam-champion-retires-in-rotterdam/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Olympic Beam Champion retires in Rotterdam",
@@ -366,7 +367,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-11-01": {
    "Fajr": "05:21",
