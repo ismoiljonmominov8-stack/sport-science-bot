@@ -365,6 +365,24 @@
    "auto": true,
    "created": "2026-11-02T14:36:48.717826+05:00",
    "media": true
+  },
+  "2026-11-02_maghrib": {
+   "status": "pending",
+   "link": "https://doi.org/10.26603/001c.155474",
+   "site": "europepmc",
+   "title": "Rehabilitation of Capitellar Osteochondritis Dissecans (OCD) Lesions in Gymnasts: A Review of Current Concepts and Treatment",
+   "preview_ids": [
+    665,
+    666,
+    667,
+    668
+   ],
+   "button_id": 669,
+   "publish_at": "2026-11-02T17:17:00+05:00",
+   "label": "Shom (17:17)",
+   "auto": true,
+   "created": "2026-11-02T16:22:57.893728+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
