@@ -364,6 +364,21 @@
    "auto": true,
    "created": "2026-11-02T11:13:58.999383+05:00",
    "media": false
+  },
+  "2026-11-02_asr": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/11/02/olympic-beam-champion-retires-in-rotterdam/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Olympic Beam Champion retires in Rotterdam",
+   "preview_ids": [
+    661
+   ],
+   "button_id": 662,
+   "publish_at": "2026-11-02T14:55:00+05:00",
+   "label": "Asr (14:55)",
+   "auto": true,
+   "created": "2026-11-02T14:17:26.904548+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
