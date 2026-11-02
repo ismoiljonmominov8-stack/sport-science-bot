@@ -364,6 +364,21 @@
    "auto": true,
    "created": "2026-11-02T04:31:33.341161+05:00",
    "media": true
+  },
+  "2026-11-02_dhuhr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/nu18030519",
+   "site": "europepmc",
+   "title": "Energy Availability, Body Composition, and Phase Angle Among Adolescent Artistic Gymnasts During a Competitive Season",
+   "preview_ids": [
+    659
+   ],
+   "button_id": 660,
+   "publish_at": "2026-11-02T12:07:00+05:00",
+   "label": "Peshin (12:07)",
+   "auto": true,
+   "created": "2026-11-02T11:13:58.999383+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
