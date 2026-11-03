@@ -373,6 +373,21 @@
    "auto": true,
    "created": "2026-11-03T14:10:17.838029+05:00",
    "media": true
+  },
+  "2026-11-03_maghrib": {
+   "status": "pending",
+   "link": "https://doi.org/10.1177/23259671251395329",
+   "site": "europepmc",
+   "title": "Epidemiology and Risk Factors of Wrist Pain and Injury in Adolescent Artistic Gymnasts: A Systematic Review and Meta-analysis",
+   "preview_ids": [
+    689
+   ],
+   "button_id": 690,
+   "publish_at": "2026-11-03T17:16:00+05:00",
+   "label": "Shom (17:16)",
+   "auto": true,
+   "created": "2026-11-03T16:20:26.768198+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
