@@ -374,17 +374,17 @@
   },
   "2026-11-03_dhuhr": {
    "status": "pending",
-   "link": "https://www.insidegymnastics.com/news-features/iin-the-know-john-roethlisberger-plays-the-lineup-game-for-the-u-s-men-in-rotterdam/",
-   "site": "https://www.insidegymnastics.com/feed/",
-   "title": "In The Know! John Roethlisberger Plays The Lineup Game For The U.S. Men In Rotterdam",
+   "link": "https://thegymter.net/2026/10/26/2026-world-championships-mens-results/",
+   "site": "https://www.thegymter.net/feed/",
+   "title": "2026 World Championships Men’s Results",
    "preview_ids": [
-    681
+    683
    ],
-   "button_id": 682,
+   "button_id": 684,
    "publish_at": "2026-11-03T12:07:00+05:00",
    "label": "Peshin (12:07)",
    "auto": true,
-   "created": "2026-11-03T11:09:02.047717+05:00",
+   "created": "2026-11-03T11:10:02.248020+05:00",
    "media": true
   }
  },
