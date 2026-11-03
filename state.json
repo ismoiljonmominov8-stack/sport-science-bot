@@ -372,6 +372,21 @@
    "auto": true,
    "created": "2026-11-03T11:10:02.248020+05:00",
    "media": true
+  },
+  "2026-11-03_asr": {
+   "status": "pending",
+   "link": "https://doi.org/10.1177/23259671251395329",
+   "site": "europepmc",
+   "title": "Epidemiology and Risk Factors of Wrist Pain and Injury in Adolescent Artistic Gymnasts: A Systematic Review and Meta-analysis",
+   "preview_ids": [
+    685
+   ],
+   "button_id": 686,
+   "publish_at": "2026-11-03T14:54:00+05:00",
+   "label": "Asr (14:54)",
+   "auto": true,
+   "created": "2026-11-03T14:04:19.247454+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.thegymter.net/feed/",
