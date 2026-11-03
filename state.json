@@ -374,6 +374,21 @@
    "auto": true,
    "created": "2026-11-03T16:23:46.340530+05:00",
    "media": false
+  },
+  "2026-11-03_isha": {
+   "status": "pending",
+   "link": "https://thegymter.net/2026/10/25/2026-world-championships-apparatus-finals-day-2-live-blog/",
+   "site": "https://www.thegymter.net/feed/",
+   "title": "2026 World Championships | Apparatus Finals Day 2 Live Blog",
+   "preview_ids": [
+    693
+   ],
+   "button_id": 694,
+   "publish_at": "2026-11-03T18:45:00+05:00",
+   "label": "Xufton (18:45)",
+   "auto": true,
+   "created": "2026-11-03T17:47:53.112758+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
