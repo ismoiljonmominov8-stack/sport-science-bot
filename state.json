@@ -141,21 +141,6 @@
  ],
  "offset": 703888948,
  "drafts": {
-  "2026-10-31_dhuhr": {
-   "status": "published",
-   "link": "https://thegymter.net/2026/10/30/the-wag-record-breakers-in-rotterdam/",
-   "site": "https://www.thegymter.net/feed/",
-   "title": "The WAG Record Breakers in Rotterdam",
-   "preview_ids": [
-    620
-   ],
-   "button_id": 621,
-   "publish_at": "2026-10-31T12:07:00+05:00",
-   "label": "Peshin (12:07)",
-   "auto": true,
-   "created": "2026-10-31T11:24:03.156238+05:00",
-   "media": true
-  },
   "2026-10-31_asr": {
    "status": "published",
    "link": "https://doi.org/10.3390/jintelligence14100245",
