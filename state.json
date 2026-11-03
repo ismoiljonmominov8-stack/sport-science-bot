@@ -142,21 +142,6 @@
  ],
  "offset": 703888948,
  "drafts": {
-  "2026-10-31_asr": {
-   "status": "published",
-   "link": "https://doi.org/10.3390/jintelligence14100245",
-   "site": "europepmc",
-   "title": "Professional Experience Moderates Behavioral Performance and Sensorimotor-Related Cortical Activity During Scoring Decision-Making in Aerobic Gymnastics Judges: An fNIRS Study",
-   "preview_ids": [
-    622
-   ],
-   "button_id": 623,
-   "publish_at": "2026-10-31T14:57:00+05:00",
-   "label": "Asr (14:57)",
-   "auto": true,
-   "created": "2026-10-31T14:01:17.665956+05:00",
-   "media": false
-  },
   "2026-10-31_maghrib": {
    "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/30/shawn-johnson-back-at-chows/",
@@ -375,18 +360,18 @@
   },
   "2026-11-03_asr": {
    "status": "pending",
-   "link": "https://doi.org/10.1177/23259671251395329",
-   "site": "europepmc",
-   "title": "Epidemiology and Risk Factors of Wrist Pain and Injury in Adolescent Artistic Gymnasts: A Systematic Review and Meta-analysis",
+   "link": "https://gymnasticscoaching.com/2026/11/03/european-teamgym-championships-26-2/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "European TeamGym Championships ’26",
    "preview_ids": [
-    685
+    687
    ],
-   "button_id": 686,
+   "button_id": 688,
    "publish_at": "2026-11-03T14:54:00+05:00",
    "label": "Asr (14:54)",
    "auto": true,
-   "created": "2026-11-03T14:04:19.247454+05:00",
-   "media": false
+   "created": "2026-11-03T14:10:17.838029+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.thegymter.net/feed/",
