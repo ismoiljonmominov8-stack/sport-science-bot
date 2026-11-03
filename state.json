@@ -140,7 +140,8 @@
   "https://doi.org/10.1186/s13102-026-01757-y",
   "https://thegymter.net/2026/10/26/2026-world-championships-mens-results/",
   "https://gymnasticscoaching.com/2026/11/03/european-teamgym-championships-26-2/",
-  "https://doi.org/10.1177/23259671251395329"
+  "https://doi.org/10.1177/23259671251395329",
+  "https://thegymter.net/2026/10/25/2026-world-championships-apparatus-finals-day-2-live-blog/"
  ],
  "offset": 703888948,
  "drafts": {
@@ -361,7 +362,7 @@
    "media": false
   },
   "2026-11-03_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://thegymter.net/2026/10/25/2026-world-championships-apparatus-finals-day-2-live-blog/",
    "site": "https://www.thegymter.net/feed/",
    "title": "2026 World Championships | Apparatus Finals Day 2 Live Blog",
@@ -376,7 +377,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.thegymter.net/feed/",
  "prayer_times": {
   "2026-11-02": {
    "Fajr": "05:22",
