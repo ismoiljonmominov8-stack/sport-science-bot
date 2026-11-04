@@ -143,7 +143,8 @@
   "https://doi.org/10.1177/23259671251395329",
   "https://thegymter.net/2026/10/25/2026-world-championships-apparatus-finals-day-2-live-blog/",
   "https://doi.org/10.3390/healthcare14020160",
-  "https://gymnasticscoaching.com/2026/11/03/unique-things-to-take-to-a-gymnastics-competition-%f0%9f%98%80/"
+  "https://gymnasticscoaching.com/2026/11/03/unique-things-to-take-to-a-gymnastics-competition-%f0%9f%98%80/",
+  "https://doi.org/10.13107/jocr.2026.v16.i01.6606"
  ],
  "offset": 703888949,
  "drafts": {
@@ -364,7 +365,7 @@
    "media": true
   },
   "2026-11-04_asr": {
-   "status": "approved",
+   "status": "published",
    "link": "https://doi.org/10.13107/jocr.2026.v16.i01.6606",
    "site": "europepmc",
    "title": "Meniscal Repair Technique for Bicompartmental Displaced Bucket Handle Meniscal Tear in a Previously Reconstructed Anterior Cruciate Ligament: Trampoline-related Knee Injury - A Case Report",
@@ -382,7 +383,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-03": {
    "Fajr": "05:23",
