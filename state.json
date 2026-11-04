@@ -141,7 +141,8 @@
   "https://thegymter.net/2026/10/26/2026-world-championships-mens-results/",
   "https://gymnasticscoaching.com/2026/11/03/european-teamgym-championships-26-2/",
   "https://doi.org/10.1177/23259671251395329",
-  "https://thegymter.net/2026/10/25/2026-world-championships-apparatus-finals-day-2-live-blog/"
+  "https://thegymter.net/2026/10/25/2026-world-championships-apparatus-finals-day-2-live-blog/",
+  "https://doi.org/10.3390/healthcare14020160"
  ],
  "offset": 703888948,
  "drafts": {
@@ -362,7 +363,7 @@
    "media": true
   },
   "2026-11-04_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3390/healthcare14020160",
    "site": "europepmc",
    "title": "Acute Effects of a Mini-Trampoline Training Session for Improving Normalized Symmetry Index in Participants with Higher Baseline Inter-Limb Asymmetry",
@@ -377,7 +378,7 @@
    "media": false
   }
  },
- "last_site": "https://www.thegymter.net/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-03": {
    "Fajr": "05:23",
