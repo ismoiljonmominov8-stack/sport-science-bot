@@ -377,6 +377,24 @@
    "auto": true,
    "created": "2026-11-04T11:10:22.269861+05:00",
    "media": true
+  },
+  "2026-11-04_asr": {
+   "status": "pending",
+   "link": "https://doi.org/10.13107/jocr.2026.v16.i01.6606",
+   "site": "europepmc",
+   "title": "Meniscal Repair Technique for Bicompartmental Displaced Bucket Handle Meniscal Tear in a Previously Reconstructed Anterior Cruciate Ligament: Trampoline-related Knee Injury - A Case Report",
+   "preview_ids": [
+    705,
+    706,
+    707,
+    708
+   ],
+   "button_id": 709,
+   "publish_at": "2026-11-04T14:53:00+05:00",
+   "label": "Asr (14:53)",
+   "auto": true,
+   "created": "2026-11-04T13:57:40.832786+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
