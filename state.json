@@ -383,6 +383,24 @@
    "auto": true,
    "created": "2026-11-04T18:04:05.926672+05:00",
    "media": false
+  },
+  "2026-11-05_fajr": {
+   "status": "pending",
+   "link": "https://www.intlgymnast.com/news/oksana-chusovitina-at-51-if-i-could-receive-points-for-age-i-would-be-in-first-place-all-the-time/",
+   "site": "https://www.intlgymnast.com/",
+   "title": "Oksana Chusovitina at 51: ‘“If I could receive points for age, I would be in first place all the time’",
+   "preview_ids": [
+    719,
+    720,
+    721,
+    722
+   ],
+   "button_id": 723,
+   "publish_at": "2026-11-05T05:25:00+05:00",
+   "label": "Bomdod (05:25)",
+   "auto": true,
+   "created": "2026-11-05T04:27:56.757280+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
