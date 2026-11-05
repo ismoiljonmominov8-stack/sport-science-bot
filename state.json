@@ -152,7 +152,7 @@
   "https://gymnasticscoaching.com/2026/11/05/watanabe-our-dream-is-to-have-no-judges-only-computers-and-ai-awarding-scores/",
   "https://doi.org/10.1002/ejsc.70112"
  ],
- "offset": 703888950,
+ "offset": 703888951,
  "drafts": {
   "2026-11-03_fajr": {
    "status": "published",
@@ -376,6 +376,21 @@
   "2026-11-05_isha": {
    "status": "empty",
    "created": "2026-11-05T17:56:09.366542+05:00"
+  },
+  "m20261105181022": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/11/05/mens-world-gymnastics-rotterdam-debrief/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Men’s World Gymnastics Rotterdam Debrief",
+   "preview_ids": [
+    739
+   ],
+   "button_id": 740,
+   "publish_at": "2026-11-05T18:10:22.665273+05:00",
+   "label": "Qo‘shimcha post (/yangi)",
+   "auto": false,
+   "created": "2026-11-05T18:12:10.857105+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
