@@ -153,24 +153,6 @@
  ],
  "offset": 703888949,
  "drafts": {
-  "2026-11-02_maghrib": {
-   "status": "published",
-   "link": "https://doi.org/10.26603/001c.155474",
-   "site": "europepmc",
-   "title": "Rehabilitation of Capitellar Osteochondritis Dissecans (OCD) Lesions in Gymnasts: A Review of Current Concepts and Treatment",
-   "preview_ids": [
-    670,
-    671,
-    672,
-    673
-   ],
-   "button_id": 674,
-   "publish_at": "2026-11-02T17:17:00+05:00",
-   "label": "Shom (17:17)",
-   "auto": true,
-   "created": "2026-11-02T16:29:34.267496+05:00",
-   "media": true
-  },
   "2026-11-02_isha": {
    "status": "published",
    "link": "https://gymnasticscoaching.com/2026/10/29/in-2028-stars-align-%e2%9c%a8-introducing-the-la28-slogan/",
@@ -388,6 +370,21 @@
    "label": "Asr (14:52)",
    "auto": true,
    "created": "2026-11-05T14:09:24.174613+05:00",
+   "media": false
+  },
+  "2026-11-05_maghrib": {
+   "status": "pending",
+   "link": "https://doi.org/10.1002/ejsc.70112",
+   "site": "europepmc",
+   "title": "Effects of Instruction-Guided Attentional Focus on Jump Performance in Women's Artistic Gymnastics",
+   "preview_ids": [
+    732
+   ],
+   "button_id": 733,
+   "publish_at": "2026-11-05T17:14:00+05:00",
+   "label": "Shom (17:14)",
+   "auto": true,
+   "created": "2026-11-05T16:32:29.065364+05:00",
    "media": false
   }
  },
