@@ -159,21 +159,6 @@
  ],
  "offset": 703888952,
  "drafts": {
-  "2026-11-03_isha": {
-   "status": "published",
-   "link": "https://thegymter.net/2026/10/25/2026-world-championships-apparatus-finals-day-2-live-blog/",
-   "site": "https://www.thegymter.net/feed/",
-   "title": "2026 World Championships | Apparatus Finals Day 2 Live Blog",
-   "preview_ids": [
-    695
-   ],
-   "button_id": 696,
-   "publish_at": "2026-11-03T18:45:00+05:00",
-   "label": "Xufton (18:45)",
-   "auto": true,
-   "created": "2026-11-03T17:50:02.832397+05:00",
-   "media": true
-  },
   "2026-11-04_fajr": {
    "status": "published",
    "link": "https://doi.org/10.3390/healthcare14020160",
@@ -412,13 +397,13 @@
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "New documentary – The Gymnasts of Fisherman’s Colony",
    "preview_ids": [
-    765
+    767
    ],
-   "button_id": 766,
+   "button_id": 768,
    "publish_at": "2026-11-06T18:42:00+05:00",
    "label": "Xufton (18:42)",
    "auto": true,
-   "created": "2026-11-06T17:46:26.543736+05:00",
+   "created": "2026-11-06T17:50:25.880611+05:00",
    "media": true
   }
  },
