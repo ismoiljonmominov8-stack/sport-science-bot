@@ -389,18 +389,21 @@
   },
   "2026-11-06_maghrib": {
    "status": "pending",
-   "link": "https://doi.org/10.3390/ijerph23020159",
-   "site": "europepmc",
-   "title": "Bone Health in Former Artistic Gymnasts Aged 45 Years and Over: Case-Control Comparison with Controls and Reference Populations",
+   "link": "https://www.intlgymnast.com/main/tatum-drusch-of-the-u-s-matteo-giubellini-of-switzerland-take-arthur-gander-memorial/",
+   "site": "https://www.intlgymnast.com/",
+   "title": "Tatum Drusch of the U.S., Matteo Giubellini of Switzerland take Arthur Gander Memorial",
    "preview_ids": [
-    763
+    758,
+    759,
+    760,
+    761
    ],
-   "button_id": 764,
+   "button_id": 762,
    "publish_at": "2026-11-06T17:13:00+05:00",
    "label": "Shom (17:13)",
    "auto": true,
-   "created": "2026-11-06T16:33:16.286024+05:00",
-   "media": false
+   "created": "2026-11-06T16:23:53.323237+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
