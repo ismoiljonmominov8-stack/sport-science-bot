@@ -151,7 +151,8 @@
   "https://thegymter.net/2026/11/04/everything-you-need-to-follow-the-2026-youth-olympic-games/",
   "https://gymnasticscoaching.com/2026/11/05/watanabe-our-dream-is-to-have-no-judges-only-computers-and-ai-awarding-scores/",
   "https://doi.org/10.1002/ejsc.70112",
-  "https://gymnasticscoaching.com/2026/11/05/mens-world-gymnastics-rotterdam-debrief/"
+  "https://gymnasticscoaching.com/2026/11/05/mens-world-gymnastics-rotterdam-debrief/",
+  "https://doi.org/10.1038/s41598-025-27695-2"
  ],
  "offset": 703888952,
  "drafts": {
@@ -379,7 +380,7 @@
    "media": true
   },
   "2026-11-06_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1038/s41598-025-27695-2",
    "site": "europepmc",
    "title": "Lower limb asymmetries in elite junior female vault gymnasts",
@@ -397,7 +398,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-05": {
    "Fajr": "05:25",
