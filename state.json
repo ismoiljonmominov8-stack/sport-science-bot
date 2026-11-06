@@ -155,7 +155,8 @@
   "https://doi.org/10.1038/s41598-025-27695-2",
   "https://www.intlgymnast.com/2026-world-championships/japans-oka-shinnosuke-of-his-last-two-finals-at-rotterdam-worlds-i-focused-on-having-fun/",
   "https://gymnasticscoaching.com/2026/11/05/trampoline-tumbling-worlds-hype-video/",
-  "https://www.intlgymnast.com/main/tatum-drusch-of-the-u-s-matteo-giubellini-of-switzerland-take-arthur-gander-memorial/"
+  "https://www.intlgymnast.com/main/tatum-drusch-of-the-u-s-matteo-giubellini-of-switzerland-take-arthur-gander-memorial/",
+  "https://gymnasticscoaching.com/2026/11/06/154149/"
  ],
  "offset": 703888952,
  "drafts": {
@@ -392,7 +393,7 @@
    "media": true
   },
   "2026-11-06_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/11/06/154149/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "New documentary – The Gymnasts of Fisherman’s Colony",
@@ -407,7 +408,7 @@
    "media": true
   }
  },
- "last_site": "https://www.intlgymnast.com/",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-11-05": {
    "Fajr": "05:25",
