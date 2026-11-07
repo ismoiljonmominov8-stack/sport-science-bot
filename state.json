@@ -411,6 +411,21 @@
    "auto": true,
    "created": "2026-11-07T16:19:29.212094+05:00",
    "media": true
+  },
+  "2026-11-07_isha": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/ijerph23020159",
+   "site": "europepmc",
+   "title": "Bone Health in Former Artistic Gymnasts Aged 45 Years and Over: Case-Control Comparison with Controls and Reference Populations",
+   "preview_ids": [
+    788
+   ],
+   "button_id": 789,
+   "publish_at": "2026-11-07T18:41:00+05:00",
+   "label": "Xufton (18:41)",
+   "auto": true,
+   "created": "2026-11-07T17:45:18.095997+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
