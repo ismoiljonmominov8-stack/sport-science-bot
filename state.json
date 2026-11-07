@@ -165,24 +165,6 @@
  ],
  "offset": 703888952,
  "drafts": {
-  "2026-11-05_fajr": {
-   "status": "published",
-   "link": "https://www.intlgymnast.com/news/oksana-chusovitina-at-51-if-i-could-receive-points-for-age-i-would-be-in-first-place-all-the-time/",
-   "site": "https://www.intlgymnast.com/",
-   "title": "Oksana Chusovitina at 51: ‘“If I could receive points for age, I would be in first place all the time’",
-   "preview_ids": [
-    719,
-    720,
-    721,
-    722
-   ],
-   "button_id": 723,
-   "publish_at": "2026-11-05T05:25:00+05:00",
-   "label": "Bomdod (05:25)",
-   "auto": true,
-   "created": "2026-11-05T04:27:56.757280+05:00",
-   "media": true
-  },
   "2026-11-05_dhuhr": {
    "status": "published",
    "link": "https://thegymter.net/2026/11/04/everything-you-need-to-follow-the-2026-youth-olympic-games/",
@@ -412,6 +394,24 @@
    "auto": true,
    "created": "2026-11-07T17:46:14.287309+05:00",
    "media": false
+  },
+  "2026-11-08_fajr": {
+   "status": "pending",
+   "link": "https://www.intlgymnast.com/news/legendary-soviet-and-russian-gymnastics-coach-leonid-arkayev-dies-at-86/",
+   "site": "https://www.intlgymnast.com/",
+   "title": "Legendary Soviet and Russian gymnastics coach Leonid Arkayev dies at 86",
+   "preview_ids": [
+    792,
+    793,
+    794,
+    795
+   ],
+   "button_id": 796,
+   "publish_at": "2026-11-08T05:28:00+05:00",
+   "label": "Bomdod (05:28)",
+   "auto": true,
+   "created": "2026-11-08T04:29:52.770004+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
