@@ -165,7 +165,8 @@
   "https://www.intlgymnast.com/news/legendary-soviet-and-russian-gymnastics-coach-leonid-arkayev-dies-at-86/",
   "https://gymnasticscoaching.com/2026/11/07/jakes-yonekura-vault/",
   "https://doi.org/10.1038/s41598-025-30801-z",
-  "https://gymnasticscoaching.com/2026/11/08/worlds-2026-rotterdam-fujitsu-judging-support-system-webinar-summary/"
+  "https://gymnasticscoaching.com/2026/11/08/worlds-2026-rotterdam-fujitsu-judging-support-system-webinar-summary/",
+  "https://doi.org/10.3389/fspor.2025.1694648"
  ],
  "offset": 703888952,
  "drafts": {
@@ -400,7 +401,7 @@
    "media": false
   },
   "2026-11-08_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fspor.2025.1694648",
    "site": "europepmc",
    "title": "Biomechanical analyses of the handstand: a systematic review",
@@ -418,7 +419,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-07": {
    "Fajr": "05:27",
