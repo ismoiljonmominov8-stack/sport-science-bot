@@ -163,7 +163,8 @@
   "https://gymnasticscoaching.com/2026/11/07/jemma-oie-bars/",
   "https://doi.org/10.3390/ijerph23020159",
   "https://www.intlgymnast.com/news/legendary-soviet-and-russian-gymnastics-coach-leonid-arkayev-dies-at-86/",
-  "https://gymnasticscoaching.com/2026/11/07/jakes-yonekura-vault/"
+  "https://gymnasticscoaching.com/2026/11/07/jakes-yonekura-vault/",
+  "https://doi.org/10.1038/s41598-025-30801-z"
  ],
  "offset": 703888952,
  "drafts": {
@@ -401,7 +402,7 @@
    "media": false
   },
   "2026-11-08_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1038/s41598-025-30801-z",
    "site": "europepmc",
    "title": "The effect of trampoline training combined with CO-OP intervention on motor performance in children with developmental coordination disorder",
@@ -417,7 +418,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-07": {
    "Fajr": "05:27",
