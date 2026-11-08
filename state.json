@@ -161,7 +161,8 @@
   "https://www.insidegymnastics.com/news-features/advertorial-the-sandbar-difference-a-better-approach-to-callus-care/",
   "https://www.intlgymnast.com/news/tatum-drusch-of-the-u-s-matteo-giubellini-of-switzerland-take-arthur-gander-memorial/",
   "https://gymnasticscoaching.com/2026/11/07/jemma-oie-bars/",
-  "https://doi.org/10.3390/ijerph23020159"
+  "https://doi.org/10.3390/ijerph23020159",
+  "https://www.intlgymnast.com/news/legendary-soviet-and-russian-gymnastics-coach-leonid-arkayev-dies-at-86/"
  ],
  "offset": 703888952,
  "drafts": {
@@ -396,7 +397,7 @@
    "media": false
   },
   "2026-11-08_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.intlgymnast.com/news/legendary-soviet-and-russian-gymnastics-coach-leonid-arkayev-dies-at-86/",
    "site": "https://www.intlgymnast.com/",
    "title": "Legendary Soviet and Russian gymnastics coach Leonid Arkayev dies at 86",
@@ -414,7 +415,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.intlgymnast.com/",
  "prayer_times": {
   "2026-11-07": {
    "Fajr": "05:27",
