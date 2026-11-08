@@ -417,6 +417,24 @@
    "auto": true,
    "created": "2026-11-08T16:21:40.233091+05:00",
    "media": false
+  },
+  "2026-11-08_isha": {
+   "status": "pending",
+   "link": "https://doi.org/10.3389/fspor.2025.1694648",
+   "site": "europepmc",
+   "title": "Biomechanical analyses of the handstand: a systematic review",
+   "preview_ids": [
+    811,
+    812,
+    813,
+    814
+   ],
+   "button_id": 815,
+   "publish_at": "2026-11-08T18:40:00+05:00",
+   "label": "Xufton (18:40)",
+   "auto": true,
+   "created": "2026-11-08T17:49:54.979368+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
