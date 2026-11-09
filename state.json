@@ -166,7 +166,8 @@
   "https://gymnasticscoaching.com/2026/11/07/jakes-yonekura-vault/",
   "https://doi.org/10.1038/s41598-025-30801-z",
   "https://gymnasticscoaching.com/2026/11/08/worlds-2026-rotterdam-fujitsu-judging-support-system-webinar-summary/",
-  "https://doi.org/10.3389/fspor.2025.1694648"
+  "https://doi.org/10.3389/fspor.2025.1694648",
+  "https://www.intlgymnast.com/main/xie-guying-heads-all-around-qualifications-leads-china-to-top-spot-in-team-qualifications-at-youth-olympic-games/"
  ],
  "offset": 703888952,
  "drafts": {
@@ -401,7 +402,7 @@
    "media": true
   },
   "2026-11-09_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.intlgymnast.com/main/xie-guying-heads-all-around-qualifications-leads-china-to-top-spot-in-team-qualifications-at-youth-olympic-games/",
    "site": "https://www.intlgymnast.com/",
    "title": "Xie Guying heads all-around qualifications, leads China to top spot in team qualifications at Youth Olympic Games",
@@ -419,7 +420,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.intlgymnast.com/",
  "prayer_times": {
   "2026-11-08": {
    "Fajr": "05:28",
