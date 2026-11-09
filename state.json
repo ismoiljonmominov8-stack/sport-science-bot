@@ -406,20 +406,19 @@
   },
   "2026-11-09_isha": {
    "status": "pending",
-   "link": "https://doi.org/10.3389/fspor.2026.1925319",
+   "link": "https://doi.org/10.1186/s13102-026-01966-5",
    "site": "europepmc",
-   "title": "Exploratory longitudinal monitoring of physiological, hematological, psychological, and irisin responses during an 8-week pre-competition period in elite rhythmic gymnasts",
+   "title": "Effects of proprioceptive neuromuscular facilitation on flexibility and neuromuscular performance in gymnastics: a systematic review",
    "preview_ids": [
-    842,
-    843,
-    844,
-    845
+    847,
+    848,
+    849
    ],
-   "button_id": 846,
+   "button_id": 850,
    "publish_at": "2026-11-09T18:39:00+05:00",
    "label": "Xufton (18:39)",
    "auto": true,
-   "created": "2026-11-09T17:49:24.193823+05:00",
+   "created": "2026-11-09T17:56:30.995385+05:00",
    "media": true
   }
  },
