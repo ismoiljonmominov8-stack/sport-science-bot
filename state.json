@@ -175,7 +175,8 @@
   "https://thegymter.net/2026/11/09/2026-youth-olympic-games-wag-team-final-live-blog/",
   "https://doi.org/10.3389/fspor.2026.1925319",
   "https://www.intlgymnast.com/main/china-sweeps-team-titles-at-youth-olympic-games/",
-  "https://gymnasticscoaching.com/2026/11/10/improving-cartwheels/"
+  "https://gymnasticscoaching.com/2026/11/10/improving-cartwheels/",
+  "https://doi.org/10.7759/cureus.117524"
  ],
  "offset": 703888953,
  "drafts": {
@@ -411,7 +412,7 @@
    "media": false
   },
   "2026-11-10_isha": {
-   "status": "approved",
+   "status": "published",
    "link": "https://doi.org/10.7759/cureus.117524",
    "site": "europepmc",
    "title": "Bony Union Following Platelet-Rich Plasma and Focused Extracorporeal Shock Wave Therapy for Delayed Union of Bilateral Lumbar Spondylolysis in an Adolescent Gymnast: A Case Report",
@@ -426,7 +427,7 @@
    "media": false
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-09": {
    "Fajr": "05:29",
