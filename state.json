@@ -173,7 +173,8 @@
   "https://gymnasticscoaching.com/2026/11/09/skye-blakely-inspired-by-gabby-douglas/",
   "https://doi.org/10.1186/s13102-026-01966-5",
   "https://thegymter.net/2026/11/09/2026-youth-olympic-games-wag-team-final-live-blog/",
-  "https://doi.org/10.3389/fspor.2026.1925319"
+  "https://doi.org/10.3389/fspor.2026.1925319",
+  "https://www.intlgymnast.com/main/china-sweeps-team-titles-at-youth-olympic-games/"
  ],
  "offset": 703888952,
  "drafts": {
@@ -406,7 +407,7 @@
    "media": true
   },
   "2026-11-10_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.intlgymnast.com/main/china-sweeps-team-titles-at-youth-olympic-games/",
    "site": "https://www.intlgymnast.com/",
    "title": "China sweeps team titles at Youth Olympic Games",
@@ -424,7 +425,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.intlgymnast.com/",
  "prayer_times": {
   "2026-11-09": {
    "Fajr": "05:29",
