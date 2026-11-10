@@ -422,7 +422,8 @@
    "label": "Shom (17:09)",
    "auto": true,
    "created": "2026-11-10T16:25:36.946456+05:00",
-   "media": false
+   "media": false,
+   "publish_error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   }
  },
  "last_site": "https://www.intlgymnast.com/",
