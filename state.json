@@ -423,8 +423,7 @@
    "label": "Shom (17:09)",
    "auto": true,
    "created": "2026-11-10T16:25:36.946456+05:00",
-   "media": false,
-   "publish_error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
