@@ -180,7 +180,8 @@
   "https://www.intlgymnast.com/main/russias-daniil-smirnov-wins-youth-olympic-all-around-title/",
   "https://doi.org/10.7759/cureus.97926",
   "https://www.intlgymnast.com/main/russias-polina-dmitrieva-reigns-in-womens-all-around-final-at-youth-olympic-games/",
-  "https://doi.org/10.1038/s41598-025-26522-y"
+  "https://doi.org/10.1038/s41598-025-26522-y",
+  "https://www.intlgymnast.com/news/russias-daniil-smirnov-wins-youth-olympic-all-around-title/"
  ],
  "offset": 703888953,
  "drafts": {
@@ -417,7 +418,7 @@
    "media": true
   },
   "2026-11-11_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.intlgymnast.com/news/russias-daniil-smirnov-wins-youth-olympic-all-around-title/",
    "site": "https://www.intlgymnast.com/",
    "title": "Russia’s Daniil Smirnov wins Youth Olympic all-around title",
@@ -435,7 +436,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.intlgymnast.com/",
  "prayer_times": {
   "2026-11-10": {
    "Fajr": "05:30",
