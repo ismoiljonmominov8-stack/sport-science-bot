@@ -177,7 +177,8 @@
   "https://www.intlgymnast.com/main/china-sweeps-team-titles-at-youth-olympic-games/",
   "https://gymnasticscoaching.com/2026/11/10/improving-cartwheels/",
   "https://doi.org/10.7759/cureus.117524",
-  "https://www.intlgymnast.com/main/russias-daniil-smirnov-wins-youth-olympic-all-around-title/"
+  "https://www.intlgymnast.com/main/russias-daniil-smirnov-wins-youth-olympic-all-around-title/",
+  "https://doi.org/10.7759/cureus.97926"
  ],
  "offset": 703888953,
  "drafts": {
@@ -413,7 +414,7 @@
    "media": true
   },
   "2026-11-11_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.7759/cureus.97926",
    "site": "europepmc",
    "title": "The Association Between Flexibility and Injury Incidence Among Female Collegiate Rhythmic Gymnasts",
@@ -428,7 +429,7 @@
    "media": false
   }
  },
- "last_site": "https://www.intlgymnast.com/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-10": {
    "Fajr": "05:30",
