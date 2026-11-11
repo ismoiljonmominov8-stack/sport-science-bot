@@ -178,7 +178,8 @@
   "https://gymnasticscoaching.com/2026/11/10/improving-cartwheels/",
   "https://doi.org/10.7759/cureus.117524",
   "https://www.intlgymnast.com/main/russias-daniil-smirnov-wins-youth-olympic-all-around-title/",
-  "https://doi.org/10.7759/cureus.97926"
+  "https://doi.org/10.7759/cureus.97926",
+  "https://www.intlgymnast.com/main/russias-polina-dmitrieva-reigns-in-womens-all-around-final-at-youth-olympic-games/"
  ],
  "offset": 703888953,
  "drafts": {
@@ -413,7 +414,7 @@
    "media": false
   },
   "2026-11-11_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.intlgymnast.com/main/russias-polina-dmitrieva-reigns-in-womens-all-around-final-at-youth-olympic-games/",
    "site": "https://www.intlgymnast.com/",
    "title": "Russia’s Polina Dmitrieva reigns in women’s all-around final at Youth Olympic Games",
@@ -431,7 +432,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.intlgymnast.com/",
  "prayer_times": {
   "2026-11-10": {
    "Fajr": "05:30",
