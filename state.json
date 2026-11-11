@@ -179,7 +179,8 @@
   "https://doi.org/10.7759/cureus.117524",
   "https://www.intlgymnast.com/main/russias-daniil-smirnov-wins-youth-olympic-all-around-title/",
   "https://doi.org/10.7759/cureus.97926",
-  "https://www.intlgymnast.com/main/russias-polina-dmitrieva-reigns-in-womens-all-around-final-at-youth-olympic-games/"
+  "https://www.intlgymnast.com/main/russias-polina-dmitrieva-reigns-in-womens-all-around-final-at-youth-olympic-games/",
+  "https://doi.org/10.1038/s41598-025-26522-y"
  ],
  "offset": 703888953,
  "drafts": {
@@ -417,7 +418,7 @@
    "media": true
   },
   "2026-11-11_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1038/s41598-025-26522-y",
    "site": "europepmc",
    "title": "Modifying landing mat properties elicits different lower limb biomechanical responses in gymnasts and non-gymnasts",
@@ -434,7 +435,7 @@
    "media": true
   }
  },
- "last_site": "https://www.intlgymnast.com/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-10": {
    "Fajr": "05:30",
