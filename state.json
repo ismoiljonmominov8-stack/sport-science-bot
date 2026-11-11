@@ -434,6 +434,21 @@
    "auto": true,
    "created": "2026-11-11T17:56:15.292937+05:00",
    "media": true
+  },
+  "2026-11-12_fajr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/children12121590",
+   "site": "europepmc",
+   "title": "Effects of Developmental Gymnastics Exercise Program on Preschoolers' Motor Skills: A Randomised Controlled Trial",
+   "preview_ids": [
+    898
+   ],
+   "button_id": 899,
+   "publish_at": "2026-11-12T05:32:00+05:00",
+   "label": "Bomdod (05:32)",
+   "auto": true,
+   "created": "2026-11-12T04:35:34.559943+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.intlgymnast.com/",
