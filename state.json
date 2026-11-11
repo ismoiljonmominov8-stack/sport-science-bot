@@ -426,6 +426,21 @@
    "auto": true,
    "created": "2026-11-11T04:45:24.833593+05:00",
    "media": true
+  },
+  "2026-11-11_dhuhr": {
+   "status": "pending",
+   "link": "https://doi.org/10.7759/cureus.97926",
+   "site": "europepmc",
+   "title": "The Association Between Flexibility and Injury Incidence Among Female Collegiate Rhythmic Gymnasts",
+   "preview_ids": [
+    882
+   ],
+   "button_id": 883,
+   "publish_at": "2026-11-11T12:07:00+05:00",
+   "label": "Peshin (12:07)",
+   "auto": true,
+   "created": "2026-11-11T11:09:39.149842+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.intlgymnast.com/",
