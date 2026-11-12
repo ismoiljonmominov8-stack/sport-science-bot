@@ -432,6 +432,21 @@
    "auto": true,
    "created": "2026-11-12T04:39:00.148830+05:00",
    "media": false
+  },
+  "2026-11-12_dhuhr": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/11/11/daniil-smirnov-wins-mens-youth-olympic-games/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Daniil Smirnov wins Mens Youth Olympic Games",
+   "preview_ids": [
+    902
+   ],
+   "button_id": 903,
+   "publish_at": "2026-11-12T12:07:00+05:00",
+   "label": "Peshin (12:07)",
+   "auto": true,
+   "created": "2026-11-12T11:17:14.799262+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
