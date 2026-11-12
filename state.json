@@ -190,21 +190,6 @@
  ],
  "offset": 703888957,
  "drafts": {
-  "2026-11-10_fajr": {
-   "status": "published",
-   "link": "https://thegymter.net/2026/11/09/2026-youth-olympic-games-wag-team-final-live-blog/",
-   "site": "https://www.thegymter.net/feed/",
-   "title": "2026 Youth Olympic Games | WAG Team Final Live Blog",
-   "preview_ids": [
-    851
-   ],
-   "button_id": 852,
-   "publish_at": "2026-11-10T05:30:00+05:00",
-   "label": "Bomdod (05:30)",
-   "auto": true,
-   "created": "2026-11-10T04:40:20.796030+05:00",
-   "media": true
-  },
   "2026-11-10_dhuhr": {
    "status": "published",
    "link": "https://doi.org/10.3389/fspor.2026.1925319",
@@ -443,13 +428,13 @@
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Polina Dmitrieva wins Youth Olympic Games",
    "preview_ids": [
-    929
+    931
    ],
-   "button_id": 930,
+   "button_id": 932,
    "publish_at": "2026-11-13T05:33:00+05:00",
    "label": "Bomdod (05:33)",
    "auto": true,
-   "created": "2026-11-13T04:43:13.002757+05:00",
+   "created": "2026-11-13T04:45:20.570464+05:00",
    "media": false
   }
  },
