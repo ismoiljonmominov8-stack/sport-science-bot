@@ -436,6 +436,21 @@
    "auto": true,
    "created": "2026-11-12T17:46:56.598457+05:00",
    "media": true
+  },
+  "2026-11-13_fajr": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/11/10/polina-dmitrieva-wins-youth-olympic-games/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Polina Dmitrieva wins Youth Olympic Games",
+   "preview_ids": [
+    929
+   ],
+   "button_id": 930,
+   "publish_at": "2026-11-13T05:33:00+05:00",
+   "label": "Bomdod (05:33)",
+   "auto": true,
+   "created": "2026-11-13T04:43:13.002757+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.intlgymnast.com/",
