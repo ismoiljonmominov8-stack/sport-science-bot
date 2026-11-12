@@ -181,7 +181,8 @@
   "https://doi.org/10.7759/cureus.97926",
   "https://www.intlgymnast.com/main/russias-polina-dmitrieva-reigns-in-womens-all-around-final-at-youth-olympic-games/",
   "https://doi.org/10.1038/s41598-025-26522-y",
-  "https://www.intlgymnast.com/news/russias-daniil-smirnov-wins-youth-olympic-all-around-title/"
+  "https://www.intlgymnast.com/news/russias-daniil-smirnov-wins-youth-olympic-all-around-title/",
+  "https://doi.org/10.3390/children12121590"
  ],
  "offset": 703888953,
  "drafts": {
@@ -418,7 +419,7 @@
    "media": true
   },
   "2026-11-12_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3390/children12121590",
    "site": "europepmc",
    "title": "Effects of Developmental Gymnastics Exercise Program on Preschoolers' Motor Skills: A Randomised Controlled Trial",
@@ -433,7 +434,7 @@
    "media": false
   }
  },
- "last_site": "https://www.intlgymnast.com/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-11": {
    "Fajr": "05:31",
