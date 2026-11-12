@@ -185,7 +185,8 @@
   "https://doi.org/10.3390/children12121590",
   "https://gymnasticscoaching.com/2026/11/11/daniil-smirnov-wins-mens-youth-olympic-games/",
   "https://doi.org/10.3390/e27121181",
-  "https://gymnasticscoaching.com/2026/11/12/a-i-will-not-replace-gymnastics-coaches/"
+  "https://gymnasticscoaching.com/2026/11/12/a-i-will-not-replace-gymnastics-coaches/",
+  "https://www.intlgymnast.com/news/china-sweeps-team-titles-at-youth-olympic-games/"
  ],
  "offset": 703888956,
  "drafts": {
@@ -419,7 +420,7 @@
    "media": true
   },
   "2026-11-12_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.intlgymnast.com/news/china-sweeps-team-titles-at-youth-olympic-games/",
    "site": "https://www.intlgymnast.com/",
    "title": "China sweeps team titles at Youth Olympic Games",
@@ -437,7 +438,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "https://www.intlgymnast.com/",
  "prayer_times": {
   "2026-11-11": {
    "Fajr": "05:31",
