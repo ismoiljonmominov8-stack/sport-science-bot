@@ -433,6 +433,21 @@
    "auto": true,
    "created": "2026-11-12T11:20:52.318510+05:00",
    "media": true
+  },
+  "2026-11-12_asr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/e27121181",
+   "site": "europepmc",
+   "title": "Postural Control Adaptations in Trampoline Athletes of Different Competitive Levels: Insights from COP Linear and Nonlinear Measures",
+   "preview_ids": [
+    906
+   ],
+   "button_id": 907,
+   "publish_at": "2026-11-12T14:46:00+05:00",
+   "label": "Asr (14:46)",
+   "auto": true,
+   "created": "2026-11-12T13:53:17.718255+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
