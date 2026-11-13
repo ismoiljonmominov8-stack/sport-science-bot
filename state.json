@@ -187,7 +187,8 @@
   "https://doi.org/10.3390/e27121181",
   "https://gymnasticscoaching.com/2026/11/12/a-i-will-not-replace-gymnastics-coaches/",
   "https://www.intlgymnast.com/news/china-sweeps-team-titles-at-youth-olympic-games/",
-  "https://gymnasticscoaching.com/2026/11/10/polina-dmitrieva-wins-youth-olympic-games/"
+  "https://gymnasticscoaching.com/2026/11/10/polina-dmitrieva-wins-youth-olympic-games/",
+  "https://www.intlgymnast.com/news/russias-polina-dmitrieva-reigns-in-womens-all-around-final-at-youth-olympic-games/"
  ],
  "offset": 703888957,
  "drafts": {
@@ -421,7 +422,7 @@
    "media": false
   },
   "2026-11-13_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.intlgymnast.com/news/russias-polina-dmitrieva-reigns-in-womens-all-around-final-at-youth-olympic-games/",
    "site": "https://www.intlgymnast.com/",
    "title": "Russia’s Polina Dmitrieva reigns in women’s all-around final at Youth Olympic Games",
@@ -439,7 +440,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "https://www.intlgymnast.com/",
  "prayer_times": {
   "2026-11-12": {
    "Fajr": "05:32",
