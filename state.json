@@ -189,7 +189,8 @@
   "https://www.intlgymnast.com/news/china-sweeps-team-titles-at-youth-olympic-games/",
   "https://gymnasticscoaching.com/2026/11/10/polina-dmitrieva-wins-youth-olympic-games/",
   "https://www.intlgymnast.com/news/russias-polina-dmitrieva-reigns-in-womens-all-around-final-at-youth-olympic-games/",
-  "https://doi.org/10.3389/fspor.2025.1681743"
+  "https://doi.org/10.3389/fspor.2025.1681743",
+  "https://www.intlgymnast.com/news/chinas-chen-ziyan-and-yang-lanbin-combine-for-mixed-team-gold-at-youth-olympic-games/"
  ],
  "offset": 703888957,
  "drafts": {
@@ -423,7 +424,7 @@
    "media": false
   },
   "2026-11-13_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.intlgymnast.com/news/chinas-chen-ziyan-and-yang-lanbin-combine-for-mixed-team-gold-at-youth-olympic-games/",
    "site": "https://www.intlgymnast.com/",
    "title": "China’s Chen Ziyan and Yang Lanbin combine for mixed team gold at Youth Olympic Games",
@@ -441,7 +442,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.intlgymnast.com/",
  "prayer_times": {
   "2026-11-12": {
    "Fajr": "05:32",
