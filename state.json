@@ -440,6 +440,21 @@
    "auto": true,
    "created": "2026-11-13T16:16:19.600621+05:00",
    "media": true
+  },
+  "2026-11-13_isha": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/ijms262210929",
+   "site": "europepmc",
+   "title": "Injuries in Artistic Gymnastics: Etiology, Prevention Strategies, and Multifactorial Perspectives-A Systematic Review",
+   "preview_ids": [
+    957
+   ],
+   "button_id": 958,
+   "publish_at": "2026-11-13T18:36:00+05:00",
+   "label": "Xufton (18:36)",
+   "auto": true,
+   "created": "2026-11-13T17:39:25.733595+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.intlgymnast.com/",
