@@ -186,7 +186,8 @@
   "https://gymnasticscoaching.com/2026/11/11/daniil-smirnov-wins-mens-youth-olympic-games/",
   "https://doi.org/10.3390/e27121181",
   "https://gymnasticscoaching.com/2026/11/12/a-i-will-not-replace-gymnastics-coaches/",
-  "https://www.intlgymnast.com/news/china-sweeps-team-titles-at-youth-olympic-games/"
+  "https://www.intlgymnast.com/news/china-sweeps-team-titles-at-youth-olympic-games/",
+  "https://gymnasticscoaching.com/2026/11/10/polina-dmitrieva-wins-youth-olympic-games/"
  ],
  "offset": 703888957,
  "drafts": {
@@ -423,7 +424,7 @@
    "media": true
   },
   "2026-11-13_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/11/10/polina-dmitrieva-wins-youth-olympic-games/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Polina Dmitrieva wins Youth Olympic Games",
@@ -438,7 +439,7 @@
    "media": false
   }
  },
- "last_site": "https://www.intlgymnast.com/",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-11-12": {
    "Fajr": "05:32",
