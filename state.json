@@ -442,6 +442,22 @@
    "auto": true,
    "created": "2026-11-14T04:43:52.650367+05:00",
    "media": true
+  },
+  "2026-11-14_dhuhr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3389/fpsyg.2025.1700617",
+   "site": "europepmc",
+   "title": "Research on visual search strategies during apparatus throw-and-catch in group rhythmic gymnastics",
+   "preview_ids": [
+    971,
+    972
+   ],
+   "button_id": 973,
+   "publish_at": "2026-11-14T12:07:00+05:00",
+   "label": "Peshin (12:07)",
+   "auto": true,
+   "created": "2026-11-14T11:10:39.745645+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.intlgymnast.com/",
