@@ -192,7 +192,8 @@
   "https://doi.org/10.3389/fspor.2025.1681743",
   "https://www.intlgymnast.com/news/chinas-chen-ziyan-and-yang-lanbin-combine-for-mixed-team-gold-at-youth-olympic-games/",
   "https://doi.org/10.3390/ijms262210929",
-  "https://www.intlgymnast.com/interviews/first-time-worlds-finalist-david-rumbutis-of-sweden-ready-to-shoot-for-something-big/"
+  "https://www.intlgymnast.com/interviews/first-time-worlds-finalist-david-rumbutis-of-sweden-ready-to-shoot-for-something-big/",
+  "https://doi.org/10.3389/fpsyg.2025.1700617"
  ],
  "offset": 703888957,
  "drafts": {
@@ -429,7 +430,7 @@
    "media": true
   },
   "2026-11-14_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fpsyg.2025.1700617",
    "site": "europepmc",
    "title": "Research on visual search strategies during apparatus throw-and-catch in group rhythmic gymnastics",
@@ -445,7 +446,7 @@
    "media": true
   }
  },
- "last_site": "https://www.intlgymnast.com/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-13": {
    "Fajr": "05:33",
