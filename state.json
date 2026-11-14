@@ -191,7 +191,8 @@
   "https://www.intlgymnast.com/news/russias-polina-dmitrieva-reigns-in-womens-all-around-final-at-youth-olympic-games/",
   "https://doi.org/10.3389/fspor.2025.1681743",
   "https://www.intlgymnast.com/news/chinas-chen-ziyan-and-yang-lanbin-combine-for-mixed-team-gold-at-youth-olympic-games/",
-  "https://doi.org/10.3390/ijms262210929"
+  "https://doi.org/10.3390/ijms262210929",
+  "https://www.intlgymnast.com/interviews/first-time-worlds-finalist-david-rumbutis-of-sweden-ready-to-shoot-for-something-big/"
  ],
  "offset": 703888957,
  "drafts": {
@@ -425,7 +426,7 @@
    "media": false
   },
   "2026-11-14_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.intlgymnast.com/interviews/first-time-worlds-finalist-david-rumbutis-of-sweden-ready-to-shoot-for-something-big/",
    "site": "https://www.intlgymnast.com/",
    "title": "First-time worlds finalist David Rumbutis of Sweden ‘ready to shoot for something big’",
@@ -443,7 +444,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.intlgymnast.com/",
  "prayer_times": {
   "2026-11-13": {
    "Fajr": "05:33",
