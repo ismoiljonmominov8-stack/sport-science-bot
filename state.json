@@ -194,7 +194,8 @@
   "https://doi.org/10.3390/ijms262210929",
   "https://www.intlgymnast.com/interviews/first-time-worlds-finalist-david-rumbutis-of-sweden-ready-to-shoot-for-something-big/",
   "https://doi.org/10.3389/fpsyg.2025.1700617",
-  "https://gymnasticscoaching.com/2026/11/14/pegan-to-kolman-3/"
+  "https://gymnasticscoaching.com/2026/11/14/pegan-to-kolman-3/",
+  "https://doi.org/10.26603/001c.146326"
  ],
  "offset": 703888957,
  "drafts": {
@@ -427,7 +428,7 @@
    "media": false
   },
   "2026-11-14_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.26603/001c.146326",
    "site": "europepmc",
    "title": "Sports Injuries and Care Provided by the Physiotherapy Service of the Brazilian Olympic Committee (BOC) during the Rio de Janeiro 2016 Olympic Summer Games",
@@ -445,7 +446,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-13": {
    "Fajr": "05:33",
