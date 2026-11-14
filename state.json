@@ -429,21 +429,18 @@
   },
   "2026-11-14_asr": {
    "status": "pending",
-   "link": "https://www.insidegymnastics.com/news-features/mens-qualifications-2026-world-gymnastics-championships-2-2/",
-   "site": "https://www.insidegymnastics.com/feed/",
-   "title": "Quick Takes! Men’s Qualifications In Photos!",
+   "link": "https://gymnasticscoaching.com/2026/11/14/pegan-to-kolman-3/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Pegan to Kolman",
    "preview_ids": [
-    977,
-    978,
-    979,
-    980
+    982
    ],
-   "button_id": 981,
+   "button_id": 983,
    "publish_at": "2026-11-14T14:45:00+05:00",
    "label": "Asr (14:45)",
    "auto": true,
-   "created": "2026-11-14T14:04:03.662556+05:00",
-   "media": true
+   "created": "2026-11-14T14:27:16.048894+05:00",
+   "media": false
   }
  },
  "last_site": "europepmc",
