@@ -451,6 +451,22 @@
    "auto": true,
    "created": "2026-11-15T14:28:57.377216+05:00",
    "media": false
+  },
+  "2026-11-15_maghrib": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/11/15/celebrate-learning-each-new-skill/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "celebrate learning each new skill",
+   "preview_ids": [
+    1014,
+    1015
+   ],
+   "button_id": 1016,
+   "publish_at": "2026-11-15T17:04:00+05:00",
+   "label": "Shom (17:04)",
+   "auto": true,
+   "created": "2026-11-15T16:08:54.503066+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
