@@ -438,18 +438,18 @@
   },
   "2026-11-15_asr": {
    "status": "pending",
-   "link": "https://gymnasticscoaching.com/2026/11/11/trampoline-gymnastics-world-championships-26-results/",
-   "site": "https://www.gymnasticscoaching.com/feed/",
-   "title": "Trampoline Gymnastics World Championships ’26 RESULTS",
+   "link": "https://doi.org/10.5704/moj.2511.017",
+   "site": "europepmc",
+   "title": "Different Repair Techniques with Excellent Outcomes in Simultaneous Bilateral Patellar Tendon Rupture Following Trampoline Injury: A Case Report",
    "preview_ids": [
-    1010
+    1012
    ],
-   "button_id": 1011,
+   "button_id": 1013,
    "publish_at": "2026-11-15T14:44:00+05:00",
    "label": "Asr (14:44)",
    "auto": true,
-   "created": "2026-11-15T14:13:24.809884+05:00",
-   "media": true
+   "created": "2026-11-15T14:28:57.377216+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.intlgymnast.com/",
