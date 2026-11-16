@@ -451,6 +451,21 @@
    "auto": true,
    "created": "2026-11-16T04:39:44.827286+05:00",
    "media": true
+  },
+  "2026-11-16_dhuhr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3389/fpsyg.2025.1660305",
+   "site": "europepmc",
+   "title": "Effects of gymnastics exercises on executive function in children with autism spectrum disorder aged 6 to 9 years: a pilot study of a randomized controlled trial",
+   "preview_ids": [
+    1030
+   ],
+   "button_id": 1031,
+   "publish_at": "2026-11-16T12:08:00+05:00",
+   "label": "Peshin (12:08)",
+   "auto": true,
+   "created": "2026-11-16T11:09:39.935612+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.insidegymnastics.com/feed/",
