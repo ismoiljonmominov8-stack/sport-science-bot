@@ -202,7 +202,8 @@
   "https://doi.org/10.5704/moj.2511.017",
   "https://gymnasticscoaching.com/2026/11/15/celebrate-learning-each-new-skill/",
   "https://doi.org/10.3389/fspor.2025.1601074",
-  "https://www.insidegymnastics.com/news-features/fundraising-fundamentals-series-holiday-tips-and-tricks/"
+  "https://www.insidegymnastics.com/news-features/fundraising-fundamentals-series-holiday-tips-and-tricks/",
+  "https://doi.org/10.3389/fpsyg.2025.1660305"
  ],
  "offset": 703888957,
  "drafts": {
@@ -435,7 +436,7 @@
    "media": true
   },
   "2026-11-16_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fpsyg.2025.1660305",
    "site": "europepmc",
    "title": "Effects of gymnastics exercises on executive function in children with autism spectrum disorder aged 6 to 9 years: a pilot study of a randomized controlled trial",
@@ -450,7 +451,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-15": {
    "Fajr": "05:35",
