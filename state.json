@@ -458,6 +458,21 @@
    "auto": true,
    "created": "2026-11-16T17:39:10.974762+05:00",
    "media": true
+  },
+  "2026-11-17_fajr": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/children12101405",
+   "site": "europepmc",
+   "title": "Mini-Trampoline Training Enhances Executive Functions and Motor Skills in Preschoolers",
+   "preview_ids": [
+    1055
+   ],
+   "button_id": 1056,
+   "publish_at": "2026-11-17T05:37:00+05:00",
+   "label": "Bomdod (05:37)",
+   "auto": true,
+   "created": "2026-11-17T04:42:28.606156+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
