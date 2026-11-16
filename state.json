@@ -204,7 +204,8 @@
   "https://doi.org/10.3389/fspor.2025.1601074",
   "https://www.insidegymnastics.com/news-features/fundraising-fundamentals-series-holiday-tips-and-tricks/",
   "https://doi.org/10.3389/fpsyg.2025.1660305",
-  "https://www.intlgymnast.com/news/olympic-medalist-coach-and-international-judge-valery-kerdemelidi-laid-to-rest-saturday/"
+  "https://www.intlgymnast.com/news/olympic-medalist-coach-and-international-judge-valery-kerdemelidi-laid-to-rest-saturday/",
+  "https://doi.org/10.3390/jfmk10040411"
  ],
  "offset": 703888960,
  "drafts": {
@@ -441,7 +442,7 @@
    "media": true
   },
   "2026-11-16_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3390/jfmk10040411",
    "site": "europepmc",
    "title": "Enhancing Lower-Body Power in Highly Trained Female Athletes: Effects of Velocity-Based Strength Training",
@@ -456,7 +457,7 @@
    "media": false
   }
  },
- "last_site": "https://www.intlgymnast.com/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-15": {
    "Fajr": "05:35",
