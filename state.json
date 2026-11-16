@@ -207,21 +207,6 @@
  ],
  "offset": 703888957,
  "drafts": {
-  "2026-11-13_asr": {
-   "status": "published",
-   "link": "https://doi.org/10.3389/fspor.2025.1681743",
-   "site": "europepmc",
-   "title": "Connections between competencies and abilities in female artistic gymnasts and handball players",
-   "preview_ids": [
-    943
-   ],
-   "button_id": 944,
-   "publish_at": "2026-11-13T14:45:00+05:00",
-   "label": "Asr (14:45)",
-   "auto": true,
-   "created": "2026-11-13T13:50:27.234001+05:00",
-   "media": false
-  },
   "2026-11-13_maghrib": {
    "status": "published",
    "link": "https://www.intlgymnast.com/news/chinas-chen-ziyan-and-yang-lanbin-combine-for-mixed-team-gold-at-youth-olympic-games/",
@@ -448,6 +433,24 @@
    "label": "Peshin (12:08)",
    "auto": true,
    "created": "2026-11-16T11:12:49.728517+05:00",
+   "media": true
+  },
+  "2026-11-16_asr": {
+   "status": "pending",
+   "link": "https://www.intlgymnast.com/news/olympic-medalist-coach-and-international-judge-valery-kerdemelidi-laid-to-rest-saturday/",
+   "site": "https://www.intlgymnast.com/",
+   "title": "Olympic medalist, coach and international judge Valery Kerdemelidi laid to rest Saturday",
+   "preview_ids": [
+    1034,
+    1035,
+    1036,
+    1037
+   ],
+   "button_id": 1038,
+   "publish_at": "2026-11-16T14:43:00+05:00",
+   "label": "Asr (14:43)",
+   "auto": true,
+   "created": "2026-11-16T14:18:24.745788+05:00",
    "media": true
   }
  },
