@@ -205,7 +205,8 @@
   "https://www.insidegymnastics.com/news-features/fundraising-fundamentals-series-holiday-tips-and-tricks/",
   "https://doi.org/10.3389/fpsyg.2025.1660305",
   "https://www.intlgymnast.com/news/olympic-medalist-coach-and-international-judge-valery-kerdemelidi-laid-to-rest-saturday/",
-  "https://doi.org/10.3390/jfmk10040411"
+  "https://doi.org/10.3390/jfmk10040411",
+  "https://gymnasticscoaching.com/2026/11/16/pan-ei-phyu-training-beam/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -442,7 +443,7 @@
    "media": false
   },
   "2026-11-16_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/11/16/pan-ei-phyu-training-beam/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Pan Ei Phyu training Beam",
@@ -459,7 +460,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-11-15": {
    "Fajr": "05:35",
