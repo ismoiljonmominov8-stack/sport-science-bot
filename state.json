@@ -205,7 +205,7 @@
   "https://www.insidegymnastics.com/news-features/fundraising-fundamentals-series-holiday-tips-and-tricks/",
   "https://doi.org/10.3389/fpsyg.2025.1660305"
  ],
- "offset": 703888958,
+ "offset": 703888959,
  "drafts": {
   "2026-11-13_maghrib": {
    "status": "published",
@@ -438,6 +438,24 @@
   "2026-11-16_asr": {
    "status": "empty",
    "created": "2026-11-16T14:18:38.111329+05:00"
+  },
+  "m20261116142750": {
+   "status": "pending",
+   "link": "https://www.intlgymnast.com/news/olympic-medalist-coach-and-international-judge-valery-kerdemelidi-laid-to-rest-saturday/",
+   "site": "https://www.intlgymnast.com/",
+   "title": "Olympic medalist, coach and international judge Valery Kerdemelidi laid to rest Saturday",
+   "preview_ids": [
+    1042,
+    1043,
+    1044,
+    1045
+   ],
+   "button_id": 1046,
+   "publish_at": "2026-11-16T14:27:50.790058+05:00",
+   "label": "Qo‘shimcha post (/yangi)",
+   "auto": false,
+   "created": "2026-11-16T14:29:46.131677+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
