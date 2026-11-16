@@ -203,9 +203,10 @@
   "https://gymnasticscoaching.com/2026/11/15/celebrate-learning-each-new-skill/",
   "https://doi.org/10.3389/fspor.2025.1601074",
   "https://www.insidegymnastics.com/news-features/fundraising-fundamentals-series-holiday-tips-and-tricks/",
-  "https://doi.org/10.3389/fpsyg.2025.1660305"
+  "https://doi.org/10.3389/fpsyg.2025.1660305",
+  "https://www.intlgymnast.com/news/olympic-medalist-coach-and-international-judge-valery-kerdemelidi-laid-to-rest-saturday/"
  ],
- "offset": 703888959,
+ "offset": 703888960,
  "drafts": {
   "2026-11-13_maghrib": {
    "status": "published",
@@ -440,7 +441,7 @@
    "created": "2026-11-16T14:18:38.111329+05:00"
   },
   "m20261116142750": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.intlgymnast.com/news/olympic-medalist-coach-and-international-judge-valery-kerdemelidi-laid-to-rest-saturday/",
    "site": "https://www.intlgymnast.com/",
    "title": "Olympic medalist, coach and international judge Valery Kerdemelidi laid to rest Saturday",
@@ -458,7 +459,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.intlgymnast.com/",
  "prayer_times": {
   "2026-11-15": {
    "Fajr": "05:35",
