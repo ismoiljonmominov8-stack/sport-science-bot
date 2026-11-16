@@ -457,6 +457,21 @@
    "auto": false,
    "created": "2026-11-16T14:29:46.131677+05:00",
    "media": true
+  },
+  "2026-11-16_maghrib": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/jfmk10040411",
+   "site": "europepmc",
+   "title": "Enhancing Lower-Body Power in Highly Trained Female Athletes: Effects of Velocity-Based Strength Training",
+   "preview_ids": [
+    1047
+   ],
+   "button_id": 1048,
+   "publish_at": "2026-11-16T17:03:00+05:00",
+   "label": "Shom (17:03)",
+   "auto": true,
+   "created": "2026-11-16T16:19:26.399286+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.intlgymnast.com/",
