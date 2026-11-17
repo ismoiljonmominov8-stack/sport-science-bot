@@ -456,6 +456,21 @@
    "auto": true,
    "created": "2026-11-17T17:40:41.107579+05:00",
    "media": false
+  },
+  "2026-11-18_fajr": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/11/17/training-straight-round-offs/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "training straight Round-offs",
+   "preview_ids": [
+    1073
+   ],
+   "button_id": 1074,
+   "publish_at": "2026-11-18T05:38:00+05:00",
+   "label": "Bomdod (05:38)",
+   "auto": true,
+   "created": "2026-11-18T04:39:36.089846+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
