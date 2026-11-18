@@ -220,22 +220,6 @@
  ],
  "offset": 703888960,
  "drafts": {
-  "2026-11-16_fajr": {
-   "status": "published",
-   "link": "https://www.insidegymnastics.com/news-features/fundraising-fundamentals-series-holiday-tips-and-tricks/",
-   "site": "https://www.insidegymnastics.com/feed/",
-   "title": "Holiday FUNdraising Tips & Tricks!",
-   "preview_ids": [
-    1027,
-    1028
-   ],
-   "button_id": 1029,
-   "publish_at": "2026-11-16T05:36:00+05:00",
-   "label": "Bomdod (05:36)",
-   "auto": true,
-   "created": "2026-11-16T04:39:44.827286+05:00",
-   "media": true
-  },
   "2026-11-16_dhuhr": {
    "status": "published",
    "link": "https://doi.org/10.3389/fpsyg.2025.1660305",
