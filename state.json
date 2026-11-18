@@ -211,7 +211,8 @@
   "https://www.insidegymnastics.com/news-features/2027-xfinity-u-s-gymnastics-championships-national-congress-trade-show-to-return-to-tampa-tickets-on-sale-now/",
   "https://doi.org/10.7759/cureus.94250",
   "https://gymnasticscoaching.com/2026/11/17/good-form-in-gymnastics/",
-  "https://doi.org/10.1136/bjsports-2025-110089"
+  "https://doi.org/10.1136/bjsports-2025-110089",
+  "https://gymnasticscoaching.com/2026/11/17/training-straight-round-offs/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -440,7 +441,7 @@
    "media": false
   },
   "2026-11-18_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/11/17/training-straight-round-offs/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "training straight Round-offs",
@@ -455,7 +456,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-11-17": {
    "Fajr": "05:37",
