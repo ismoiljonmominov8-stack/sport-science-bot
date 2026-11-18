@@ -219,21 +219,6 @@
  ],
  "offset": 703888960,
  "drafts": {
-  "2026-11-15_isha": {
-   "status": "published",
-   "link": "https://doi.org/10.3389/fspor.2025.1601074",
-   "site": "europepmc",
-   "title": "High-intensity interval training modifies energy supply in male artistic gymnastics and improves floor-specific but not pommel horse-specific endurance performance",
-   "preview_ids": [
-    1025
-   ],
-   "button_id": 1026,
-   "publish_at": "2026-11-15T18:34:00+05:00",
-   "label": "Xufton (18:34)",
-   "auto": true,
-   "created": "2026-11-15T17:41:26.354579+05:00",
-   "media": false
-  },
   "2026-11-16_fajr": {
    "status": "published",
    "link": "https://www.insidegymnastics.com/news-features/fundraising-fundamentals-series-holiday-tips-and-tricks/",
@@ -463,16 +448,16 @@
    "site": "https://www.insidegymnastics.com/feed/",
    "title": "Perfect 10! ESPN Networks Stick The Landing With 2027 NCAA Gymnastics Coverage",
    "preview_ids": [
-    1093,
-    1094,
-    1095,
-    1096
+    1098,
+    1099,
+    1100,
+    1101
    ],
-   "button_id": 1097,
+   "button_id": 1102,
    "publish_at": "2026-11-18T18:32:00+05:00",
    "label": "Xufton (18:32)",
    "auto": true,
-   "created": "2026-11-18T17:41:29.218802+05:00",
+   "created": "2026-11-18T17:47:08.064965+05:00",
    "media": true
   }
  },
