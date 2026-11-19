@@ -216,7 +216,8 @@
   "https://www.intlgymnast.com/main/world-top-10-gymnast-giulia-perotti-of-italy-one-of-my-strengths-is-never-holding-back/",
   "https://doi.org/10.1177/23259671251368997",
   "https://gymnasticscoaching.com/2026/11/18/pavlova-of-the-parallels-%f0%9f%98%80/",
-  "https://www.insidegymnastics.com/news-features/espn-networks-stick-the-landing-with-2027-ncaa-gymnastics-coverage/"
+  "https://www.insidegymnastics.com/news-features/espn-networks-stick-the-landing-with-2027-ncaa-gymnastics-coverage/",
+  "https://gymnasticscoaching.com/2026/11/18/introducing-scissonne/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -446,7 +447,7 @@
    "media": true
   },
   "2026-11-19_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/11/18/introducing-scissonne/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "introducing sissonne",
@@ -461,7 +462,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-11-18": {
    "Fajr": "05:38",
