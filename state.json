@@ -219,7 +219,8 @@
   "https://www.insidegymnastics.com/news-features/espn-networks-stick-the-landing-with-2027-ncaa-gymnastics-coverage/",
   "https://gymnasticscoaching.com/2026/11/18/introducing-scissonne/",
   "https://thegymter.net/2026/11/12/2026-youth-olympic-games-mens-results/",
-  "https://gymnasticscoaching.com/2026/11/16/great-american-floor-gymnasts/"
+  "https://gymnasticscoaching.com/2026/11/16/great-american-floor-gymnasts/",
+  "https://thegymter.net/2026/11/12/2026-youth-olympic-games-results/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -442,7 +443,7 @@
    "media": true
   },
   "2026-11-19_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://thegymter.net/2026/11/12/2026-youth-olympic-games-results/",
    "site": "https://www.thegymter.net/feed/",
    "title": "2026 Youth Olympic Games Results",
@@ -457,7 +458,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "https://www.thegymter.net/feed/",
  "prayer_times": {
   "2026-11-18": {
    "Fajr": "05:38",
