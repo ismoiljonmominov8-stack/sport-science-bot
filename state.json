@@ -218,7 +218,8 @@
   "https://gymnasticscoaching.com/2026/11/18/pavlova-of-the-parallels-%f0%9f%98%80/",
   "https://www.insidegymnastics.com/news-features/espn-networks-stick-the-landing-with-2027-ncaa-gymnastics-coverage/",
   "https://gymnasticscoaching.com/2026/11/18/introducing-scissonne/",
-  "https://thegymter.net/2026/11/12/2026-youth-olympic-games-mens-results/"
+  "https://thegymter.net/2026/11/12/2026-youth-olympic-games-mens-results/",
+  "https://gymnasticscoaching.com/2026/11/16/great-american-floor-gymnasts/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -441,7 +442,7 @@
    "media": true
   },
   "2026-11-19_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/11/16/great-american-floor-gymnasts/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Great American Floor Gymnasts",
@@ -456,7 +457,7 @@
    "media": true
   }
  },
- "last_site": "https://www.thegymter.net/feed/",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-11-18": {
    "Fajr": "05:38",
