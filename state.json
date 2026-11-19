@@ -455,6 +455,22 @@
    "auto": true,
    "created": "2026-11-19T17:46:25.035253+05:00",
    "media": false
+  },
+  "2026-11-20_fajr": {
+   "status": "pending",
+   "link": "https://www.insidegymnastics.com/news-features/ozone-and-woga-announce-partnership-extension/",
+   "site": "https://www.insidegymnastics.com/feed/",
+   "title": "OZONE and WOGA Announce Partnership Extension",
+   "preview_ids": [
+    1121,
+    1122
+   ],
+   "button_id": 1123,
+   "publish_at": "2026-11-20T05:40:00+05:00",
+   "label": "Bomdod (05:40)",
+   "auto": true,
+   "created": "2026-11-20T04:44:25.296825+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
