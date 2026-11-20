@@ -222,7 +222,8 @@
   "https://gymnasticscoaching.com/2026/11/16/great-american-floor-gymnasts/",
   "https://thegymter.net/2026/11/12/2026-youth-olympic-games-results/",
   "https://gymnasticscoaching.com/2026/11/19/illia-kovtun-is-a-big-man-for-gymnastics/",
-  "https://www.insidegymnastics.com/news-features/ozone-and-woga-announce-partnership-extension/"
+  "https://www.insidegymnastics.com/news-features/ozone-and-woga-announce-partnership-extension/",
+  "https://www.intlgymnast.com/news/scotlands-crystelle-lake-icelands-dagur-kari-olafsson-win-all-around-gold-at-northern-europeans/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -444,7 +445,7 @@
    "media": true
   },
   "2026-11-20_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.intlgymnast.com/news/scotlands-crystelle-lake-icelands-dagur-kari-olafsson-win-all-around-gold-at-northern-europeans/",
    "site": "https://www.intlgymnast.com/",
    "title": "Scotland’s Crystelle Lake, Iceland’s Dagur Kari Olafsson win all-around gold at Northern Europeans",
@@ -462,7 +463,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "https://www.intlgymnast.com/",
  "prayer_times": {
   "2026-11-19": {
    "Fajr": "05:39",
