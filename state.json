@@ -224,7 +224,8 @@
   "https://gymnasticscoaching.com/2026/11/19/illia-kovtun-is-a-big-man-for-gymnastics/",
   "https://www.insidegymnastics.com/news-features/ozone-and-woga-announce-partnership-extension/",
   "https://www.intlgymnast.com/news/scotlands-crystelle-lake-icelands-dagur-kari-olafsson-win-all-around-gold-at-northern-europeans/",
-  "https://gymnasticscoaching.com/2026/11/19/football-fitness-influencer-tries-gymnastics-conditioning-%f0%9f%98%80/"
+  "https://gymnasticscoaching.com/2026/11/19/football-fitness-influencer-tries-gymnastics-conditioning-%f0%9f%98%80/",
+  "https://doi.org/10.5114/jhk/204776"
  ],
  "offset": 703888960,
  "drafts": {
@@ -449,7 +450,7 @@
    "media": true
   },
   "2026-11-20_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.5114/jhk/204776",
    "site": "europepmc",
    "title": "Do Different Interdependencies within a Sport Affect the Perceived Motivational Climate, Use of Spontaneous Self-Talk, Positivity or Precompetitive Anxiety?",
@@ -464,7 +465,7 @@
    "media": false
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-19": {
    "Fajr": "05:39",
