@@ -221,7 +221,8 @@
   "https://thegymter.net/2026/11/12/2026-youth-olympic-games-mens-results/",
   "https://gymnasticscoaching.com/2026/11/16/great-american-floor-gymnasts/",
   "https://thegymter.net/2026/11/12/2026-youth-olympic-games-results/",
-  "https://gymnasticscoaching.com/2026/11/19/illia-kovtun-is-a-big-man-for-gymnastics/"
+  "https://gymnasticscoaching.com/2026/11/19/illia-kovtun-is-a-big-man-for-gymnastics/",
+  "https://www.insidegymnastics.com/news-features/ozone-and-woga-announce-partnership-extension/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -442,7 +443,7 @@
    "media": false
   },
   "2026-11-20_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.insidegymnastics.com/news-features/ozone-and-woga-announce-partnership-extension/",
    "site": "https://www.insidegymnastics.com/feed/",
    "title": "OZONE and WOGA Announce Partnership Extension",
@@ -458,7 +459,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "https://www.insidegymnastics.com/feed/",
  "prayer_times": {
   "2026-11-19": {
    "Fajr": "05:39",
