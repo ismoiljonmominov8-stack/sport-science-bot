@@ -462,6 +462,21 @@
    "auto": true,
    "created": "2026-11-20T13:52:47.998495+05:00",
    "media": true
+  },
+  "2026-11-20_maghrib": {
+   "status": "pending",
+   "link": "https://doi.org/10.5114/jhk/204776",
+   "site": "europepmc",
+   "title": "Do Different Interdependencies within a Sport Affect the Perceived Motivational Climate, Use of Spontaneous Self-Talk, Positivity or Precompetitive Anxiety?",
+   "preview_ids": [
+    1138
+   ],
+   "button_id": 1139,
+   "publish_at": "2026-11-20T17:00:00+05:00",
+   "label": "Shom (17:00)",
+   "auto": true,
+   "created": "2026-11-20T16:10:40.841362+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
