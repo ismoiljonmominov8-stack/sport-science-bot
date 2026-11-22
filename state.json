@@ -477,6 +477,24 @@
    "auto": true,
    "created": "2026-11-22T11:13:14.103049+05:00",
    "media": true
+  },
+  "2026-11-22_asr": {
+   "status": "pending",
+   "link": "https://www.intlgymnast.com/news/armenias-robert-gyulumyan-victorious-at-velvet-road-competition-in-tashkent/",
+   "site": "https://www.intlgymnast.com/",
+   "title": "Armenia’s Robert Gyulumyan victorious at Velvet Road competition in Tashkent",
+   "preview_ids": [
+    1188,
+    1189,
+    1190,
+    1191
+   ],
+   "button_id": 1192,
+   "publish_at": "2026-11-22T14:40:00+05:00",
+   "label": "Asr (14:40)",
+   "auto": true,
+   "created": "2026-11-22T13:45:51.281717+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.insidegymnastics.com/feed/",
