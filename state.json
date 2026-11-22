@@ -233,7 +233,8 @@
   "https://gymnasticscoaching.com/2026/11/21/ray-zapata-tumbling-from-no-run/",
   "https://www.intlgymnast.com/main/belgiums-maxime-rolin-on-top-eight-youth-olympic-games-finish-what-satisfied-me-the-most-was-giving-everything-i-had/",
   "https://gymnasticscoaching.com/2026/11/21/patrick-hoopes-trains-pommels-for-consistency/",
-  "https://www.insidegymnastics.com/news-features/cover-story-preview-youre-skye-blakely-baby-never-forget-that/"
+  "https://www.insidegymnastics.com/news-features/cover-story-preview-youre-skye-blakely-baby-never-forget-that/",
+  "https://www.intlgymnast.com/news/armenias-robert-gyulumyan-victorious-at-velvet-road-competition-in-tashkent/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -464,7 +465,7 @@
    "media": true
   },
   "2026-11-22_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.intlgymnast.com/news/armenias-robert-gyulumyan-victorious-at-velvet-road-competition-in-tashkent/",
    "site": "https://www.intlgymnast.com/",
    "title": "Armenia’s Robert Gyulumyan victorious at Velvet Road competition in Tashkent",
@@ -482,7 +483,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "https://www.intlgymnast.com/",
  "prayer_times": {
   "2026-11-21": {
    "Fajr": "05:41",
