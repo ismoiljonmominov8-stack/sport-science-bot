@@ -239,7 +239,8 @@
   "https://www.insidegymnastics.com/issue-previews/december-2026-world-championships-commemorative-issue-starring-skye-blakely/",
   "https://gymnasticscoaching.com/2026/11/20/gymnastics-history-olga-mostepanova/",
   "https://www.frontiersin.org/articles/10.3389/fspor.2026.1995419",
-  "https://doi.org/10.3389/fbioe.2026.1839156"
+  "https://doi.org/10.3389/fbioe.2026.1839156",
+  "https://gymnasticscoaching.com/2026/11/23/svetlana-grozdova-1979-beam-display/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -477,7 +478,7 @@
    "media": true
   },
   "2026-11-23_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/11/23/svetlana-grozdova-1979-beam-display/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Svetlana Grozdova 1979 Beam display",
@@ -492,7 +493,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-11-22": {
    "Fajr": "05:42",
