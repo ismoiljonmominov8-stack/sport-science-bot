@@ -240,7 +240,8 @@
   "https://gymnasticscoaching.com/2026/11/20/gymnastics-history-olga-mostepanova/",
   "https://www.frontiersin.org/articles/10.3389/fspor.2026.1995419",
   "https://doi.org/10.3389/fbioe.2026.1839156",
-  "https://gymnasticscoaching.com/2026/11/23/svetlana-grozdova-1979-beam-display/"
+  "https://gymnasticscoaching.com/2026/11/23/svetlana-grozdova-1979-beam-display/",
+  "https://doi.org/10.1371/journal.pone.0362482"
  ],
  "offset": 703888960,
  "drafts": {
@@ -478,7 +479,7 @@
    "media": true
   },
   "2026-11-23_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1371/journal.pone.0362482",
    "site": "europepmc",
    "title": "Age as a determinant of trampoline-related oral-facial-head injuries in pediatric emergency department visits: A NEISS analysis",
@@ -495,7 +496,7 @@
    "media": true
   }
  },
- "last_site": "https://www.gymnasticscoaching.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-22": {
    "Fajr": "05:42",
