@@ -489,20 +489,20 @@
   },
   "2026-11-23_asr": {
    "status": "pending",
-   "link": "https://doi.org/10.3389/fbioe.2026.1839156",
-   "site": "europepmc",
-   "title": "Spatiotemporal gait parameters and ground reaction force analysis in female non-gymnasts <i>versus</i> gymnasts during adolescence and university stages",
+   "link": "https://www.insidegymnastics.com/news-features/2026-inside-gymnastics-holiday-gift-guide-2/",
+   "site": "https://www.insidegymnastics.com/feed/",
+   "title": "2026 Inside Gymnastics Holiday Gift Guide",
    "preview_ids": [
-    1220,
-    1221,
-    1222,
-    1223
+    1225,
+    1226,
+    1227,
+    1228
    ],
-   "button_id": 1224,
+   "button_id": 1229,
    "publish_at": "2026-11-23T14:39:00+05:00",
    "label": "Asr (14:39)",
    "auto": true,
-   "created": "2026-11-23T13:48:55.106569+05:00",
+   "created": "2026-11-23T14:02:30.443184+05:00",
    "media": true
   }
  },
