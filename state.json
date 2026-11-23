@@ -494,20 +494,19 @@
   },
   "2026-11-23_isha": {
    "status": "pending",
-   "link": "https://www.insidegymnastics.com/news-features/2026-inside-gymnastics-holiday-gift-guide-2/",
-   "site": "https://www.insidegymnastics.com/feed/",
-   "title": "2026 Inside Gymnastics Holiday Gift Guide",
+   "link": "https://doi.org/10.1371/journal.pone.0362482",
+   "site": "europepmc",
+   "title": "Age as a determinant of trampoline-related oral-facial-head injuries in pediatric emergency department visits: A NEISS analysis",
    "preview_ids": [
-    1234,
-    1235,
-    1236,
-    1237
+    1239,
+    1240,
+    1241
    ],
-   "button_id": 1238,
+   "button_id": 1242,
    "publish_at": "2026-11-23T18:30:00+05:00",
    "label": "Xufton (18:30)",
    "auto": true,
-   "created": "2026-11-23T17:37:13.958530+05:00",
+   "created": "2026-11-23T17:42:56.299579+05:00",
    "media": true
   }
  },
