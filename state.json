@@ -238,7 +238,8 @@
   "https://gymnasticscoaching.com/2026/11/22/long-interview-with-aliya-mustafina/",
   "https://www.insidegymnastics.com/issue-previews/december-2026-world-championships-commemorative-issue-starring-skye-blakely/",
   "https://gymnasticscoaching.com/2026/11/20/gymnastics-history-olga-mostepanova/",
-  "https://www.frontiersin.org/articles/10.3389/fspor.2026.1995419"
+  "https://www.frontiersin.org/articles/10.3389/fspor.2026.1995419",
+  "https://doi.org/10.3389/fbioe.2026.1839156"
  ],
  "offset": 703888960,
  "drafts": {
@@ -473,7 +474,7 @@
    "media": true
   },
   "2026-11-23_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fbioe.2026.1839156",
    "site": "europepmc",
    "title": "Spatiotemporal gait parameters and ground reaction force analysis in female non-gymnasts <i>versus</i> gymnasts during adolescence and university stages",
@@ -491,7 +492,7 @@
    "media": true
   }
  },
- "last_site": "https://www.frontiersin.org/journals/sports-and-active-living/rss",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-22": {
    "Fajr": "05:42",
