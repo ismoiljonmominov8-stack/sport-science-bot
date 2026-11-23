@@ -245,24 +245,6 @@
  ],
  "offset": 703888960,
  "drafts": {
-  "2026-11-21_fajr": {
-   "status": "published",
-   "link": "https://www.insidegymnastics.com/issue-previews/october-2026-exclusive-cover-story-katelyn-ohashi-50-most-artistic-issue/",
-   "site": "https://www.insidegymnastics.com/feed/",
-   "title": "Katelyn Ohashi Is “Authentically Myself!” Inside Gymnastics Volume 5 Issue Preview",
-   "preview_ids": [
-    1146,
-    1147,
-    1148,
-    1149
-   ],
-   "button_id": 1150,
-   "publish_at": "2026-11-21T05:41:00+05:00",
-   "label": "Bomdod (05:41)",
-   "auto": true,
-   "created": "2026-11-21T04:43:15.072076+05:00",
-   "media": true
-  },
   "2026-11-21_dhuhr": {
    "status": "published",
    "link": "https://www.intlgymnast.com/news/world-top-10-gymnast-giulia-perotti-of-italy-one-of-my-strengths-is-never-holding-back/",
@@ -493,6 +475,24 @@
    "label": "Xufton (18:30)",
    "auto": true,
    "created": "2026-11-23T17:42:56.299579+05:00",
+   "media": true
+  },
+  "2026-11-24_fajr": {
+   "status": "pending",
+   "link": "https://www.insidegymnastics.com/news-features/how-nansy-damianova-created-her-own-path/",
+   "site": "https://www.insidegymnastics.com/feed/",
+   "title": "How Nansy Damianova Created Her Own Path",
+   "preview_ids": [
+    1243,
+    1244,
+    1245,
+    1246
+   ],
+   "button_id": 1247,
+   "publish_at": "2026-11-24T05:44:00+05:00",
+   "label": "Bomdod (05:44)",
+   "auto": true,
+   "created": "2026-11-24T04:48:56.141536+05:00",
    "media": true
   }
  },
