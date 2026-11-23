@@ -236,7 +236,8 @@
   "https://www.insidegymnastics.com/news-features/cover-story-preview-youre-skye-blakely-baby-never-forget-that/",
   "https://www.intlgymnast.com/news/armenias-robert-gyulumyan-victorious-at-velvet-road-competition-in-tashkent/",
   "https://gymnasticscoaching.com/2026/11/22/long-interview-with-aliya-mustafina/",
-  "https://www.insidegymnastics.com/issue-previews/december-2026-world-championships-commemorative-issue-starring-skye-blakely/"
+  "https://www.insidegymnastics.com/issue-previews/december-2026-world-championships-commemorative-issue-starring-skye-blakely/",
+  "https://gymnasticscoaching.com/2026/11/20/gymnastics-history-olga-mostepanova/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -472,7 +473,7 @@
    "media": true
   },
   "2026-11-23_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/11/20/gymnastics-history-olga-mostepanova/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Gymnastics History – OLGA MOSTEPANOVA",
@@ -487,7 +488,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-11-22": {
    "Fajr": "05:42",
