@@ -242,7 +242,8 @@
   "https://doi.org/10.3389/fbioe.2026.1839156",
   "https://gymnasticscoaching.com/2026/11/23/svetlana-grozdova-1979-beam-display/",
   "https://doi.org/10.1371/journal.pone.0362482",
-  "https://www.insidegymnastics.com/news-features/how-nansy-damianova-created-her-own-path/"
+  "https://www.insidegymnastics.com/news-features/how-nansy-damianova-created-her-own-path/",
+  "https://doi.org/10.1371/journal.pone.0330844"
  ],
  "offset": 703888960,
  "drafts": {
@@ -479,7 +480,7 @@
    "media": true
   },
   "2026-11-24_dhuhr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1371/journal.pone.0330844",
    "site": "europepmc",
    "title": "Experimental exploration of artificial intelligence and ADAMS simulation technology in the teaching of vertical hoop upward throw in rhythmic gymnastics",
@@ -497,7 +498,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-23": {
    "Fajr": "05:43",
