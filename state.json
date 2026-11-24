@@ -501,6 +501,24 @@
    "auto": true,
    "created": "2026-11-24T17:37:34.149062+05:00",
    "media": false
+  },
+  "2026-11-25_fajr": {
+   "status": "pending",
+   "link": "https://www.intlgymnast.com/news/azerbaijans-daniz-aliyeva-rules-at-velvet-road-tournament-in-tashkent/",
+   "site": "https://www.intlgymnast.com/",
+   "title": "Azerbaijan’s Daniz Aliyeva rules at Velvet Road Tournament in Tashkent",
+   "preview_ids": [
+    1282,
+    1283,
+    1284,
+    1285
+   ],
+   "button_id": 1286,
+   "publish_at": "2026-11-25T05:45:00+05:00",
+   "label": "Bomdod (05:45)",
+   "auto": true,
+   "created": "2026-11-25T04:57:39.754312+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
