@@ -498,20 +498,17 @@
   },
   "2026-11-24_dhuhr": {
    "status": "pending",
-   "link": "https://doi.org/10.1371/journal.pone.0330844",
-   "site": "europepmc",
-   "title": "Experimental exploration of artificial intelligence and ADAMS simulation technology in the teaching of vertical hoop upward throw in rhythmic gymnastics",
+   "link": "https://thegymter.net/2026/11/21/2026-7th-bundesliga-mens-results/",
+   "site": "https://www.thegymter.net/feed/",
+   "title": "2026 7th Bundesliga Men’s Results",
    "preview_ids": [
-    1253,
-    1254,
-    1255,
-    1256
+    1258
    ],
-   "button_id": 1257,
+   "button_id": 1259,
    "publish_at": "2026-11-24T12:10:00+05:00",
    "label": "Peshin (12:10)",
    "auto": true,
-   "created": "2026-11-24T11:19:09.158220+05:00",
+   "created": "2026-11-24T11:30:38.640355+05:00",
    "media": true
   }
  },
