@@ -244,7 +244,8 @@
   "https://doi.org/10.1371/journal.pone.0362482",
   "https://www.insidegymnastics.com/news-features/how-nansy-damianova-created-her-own-path/",
   "https://doi.org/10.1371/journal.pone.0330844",
-  "https://www.insidegymnastics.com/news-features/2026-inside-gymnastics-holiday-gift-guide-2/"
+  "https://www.insidegymnastics.com/news-features/2026-inside-gymnastics-holiday-gift-guide-2/",
+  "https://gymnasticscoaching.com/2026/11/24/trampoline-sports-alexsa-isaac-and-timofei-kachan/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -487,7 +488,7 @@
    "media": true
   },
   "2026-11-24_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/11/24/trampoline-sports-alexsa-isaac-and-timofei-kachan/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "Trampoline sports – Alexsa, Isaac and Timofei Kachan",
@@ -504,7 +505,7 @@
    "media": true
   }
  },
- "last_site": "https://www.insidegymnastics.com/feed/",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-11-23": {
    "Fajr": "05:43",
