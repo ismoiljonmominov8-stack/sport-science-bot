@@ -490,18 +490,19 @@
   },
   "2026-11-25_dhuhr": {
    "status": "pending",
-   "link": "https://doi.org/10.1177/23259671251393527",
-   "site": "europepmc",
-   "title": "Outcomes After Ulnar Collateral Ligament Reconstruction and Repair in Nonthrowing Athletes",
+   "link": "https://gymnasticscoaching.com/2026/11/24/154831/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "HOW to stabilize the Vault Table",
    "preview_ids": [
-    1287
+    1289,
+    1290
    ],
-   "button_id": 1288,
+   "button_id": 1291,
    "publish_at": "2026-11-25T12:10:00+05:00",
    "label": "Peshin (12:10)",
    "auto": true,
-   "created": "2026-11-25T11:11:52.320258+05:00",
-   "media": false
+   "created": "2026-11-25T11:15:20.393465+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.intlgymnast.com/",
