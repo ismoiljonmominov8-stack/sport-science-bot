@@ -249,7 +249,8 @@
   "https://doi.org/10.3390/s25185824",
   "https://www.intlgymnast.com/news/azerbaijans-daniz-aliyeva-rules-at-velvet-road-tournament-in-tashkent/",
   "https://gymnasticscoaching.com/2026/11/24/154831/",
-  "https://europepmc.org/article/PMC/PMC13223780"
+  "https://europepmc.org/article/PMC/PMC13223780",
+  "https://gymnasticscoaching.com/2026/11/25/interview-with-australian-coach-joanne-richards/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -489,7 +490,7 @@
    "media": false
   },
   "2026-11-25_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/11/25/interview-with-australian-coach-joanne-richards/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "interview with Australian coach Joanne Richards",
@@ -506,7 +507,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-11-24": {
    "Fajr": "05:44",
