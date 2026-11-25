@@ -505,6 +505,21 @@
    "auto": true,
    "created": "2026-11-25T16:15:09.468384+05:00",
    "media": true
+  },
+  "2026-11-25_isha": {
+   "status": "pending",
+   "link": "https://doi.org/10.3390/sports13090319",
+   "site": "europepmc",
+   "title": "Urinary Incontinence in Young Gymnastics Athletes: A Scoping Review",
+   "preview_ids": [
+    1305
+   ],
+   "button_id": 1306,
+   "publish_at": "2026-11-25T18:29:00+05:00",
+   "label": "Xufton (18:29)",
+   "auto": true,
+   "created": "2026-11-25T17:33:24.968974+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
