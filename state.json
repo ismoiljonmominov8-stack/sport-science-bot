@@ -504,6 +504,24 @@
    "auto": true,
    "created": "2026-11-25T11:15:20.393465+05:00",
    "media": true
+  },
+  "2026-11-25_asr": {
+   "status": "pending",
+   "link": "https://doi.org/10.1371/journal.pone.0355670",
+   "site": "europepmc",
+   "title": "Quadrant classification and development path of gymnastics-related research topics in Chinese high-quality journals: Based on SCI, PKU Core and CSSCI source journals",
+   "preview_ids": [
+    1292,
+    1293,
+    1294,
+    1295
+   ],
+   "button_id": 1296,
+   "publish_at": "2026-11-25T14:39:00+05:00",
+   "label": "Asr (14:39)",
+   "auto": true,
+   "created": "2026-11-25T13:46:38.593110+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.gymnasticscoaching.com/feed/",
