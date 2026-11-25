@@ -502,6 +502,21 @@
    "auto": true,
    "created": "2026-11-25T13:56:47.331883+05:00",
    "media": false
+  },
+  "2026-11-25_maghrib": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/11/25/david-rumbutis-history-in-rotterdam/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "David Rumbutis – history in Rotterdam",
+   "preview_ids": [
+    1299
+   ],
+   "button_id": 1300,
+   "publish_at": "2026-11-25T16:57:00+05:00",
+   "label": "Shom (16:57)",
+   "auto": true,
+   "created": "2026-11-25T16:03:44.223259+05:00",
+   "media": true
   }
  },
  "last_site": "europepmc",
