@@ -505,6 +505,21 @@
    "auto": true,
    "created": "2026-11-25T04:57:39.754312+05:00",
    "media": true
+  },
+  "2026-11-25_dhuhr": {
+   "status": "pending",
+   "link": "https://doi.org/10.1177/23259671251393527",
+   "site": "europepmc",
+   "title": "Outcomes After Ulnar Collateral Ligament Reconstruction and Repair in Nonthrowing Athletes",
+   "preview_ids": [
+    1287
+   ],
+   "button_id": 1288,
+   "publish_at": "2026-11-25T12:10:00+05:00",
+   "label": "Peshin (12:10)",
+   "auto": true,
+   "created": "2026-11-25T11:11:52.320258+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.intlgymnast.com/",
