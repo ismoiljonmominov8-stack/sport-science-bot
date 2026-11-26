@@ -251,7 +251,8 @@
   "https://gymnasticscoaching.com/2026/11/24/154831/",
   "https://europepmc.org/article/PMC/PMC13223780",
   "https://gymnasticscoaching.com/2026/11/25/interview-with-australian-coach-joanne-richards/",
-  "https://doi.org/10.3390/sports13090319"
+  "https://doi.org/10.3390/sports13090319",
+  "https://www.intlgymnast.com/main/canadas-nikita-theodat-on-youth-olympic-games-audience-i-felt-their-appreciation-right-away-and-it-touched-me/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -490,7 +491,7 @@
    "media": false
   },
   "2026-11-26_fajr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://www.intlgymnast.com/main/canadas-nikita-theodat-on-youth-olympic-games-audience-i-felt-their-appreciation-right-away-and-it-touched-me/",
    "site": "https://www.intlgymnast.com/",
    "title": "Canada’s Nikita Théodat on Youth Olympic Games audience: ‘I felt their appreciation right away, and it touched me’",
@@ -508,7 +509,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.intlgymnast.com/",
  "prayer_times": {
   "2026-11-25": {
    "Fajr": "05:45",
