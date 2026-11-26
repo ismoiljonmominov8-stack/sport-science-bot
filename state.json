@@ -254,7 +254,8 @@
   "https://doi.org/10.3390/sports13090319",
   "https://www.intlgymnast.com/main/canadas-nikita-theodat-on-youth-olympic-games-audience-i-felt-their-appreciation-right-away-and-it-touched-me/",
   "https://gymnasticscoaching.com/2026/11/25/gymnasts-who-could-be-james-bond/",
-  "https://www.intlgymnast.com/interviews/belgiums-maxime-rolin-on-top-eight-youth-olympic-games-finish-what-satisfied-me-the-most-was-giving-everything-i-had/"
+  "https://www.intlgymnast.com/interviews/belgiums-maxime-rolin-on-top-eight-youth-olympic-games-finish-what-satisfied-me-the-most-was-giving-everything-i-had/",
+  "https://doi.org/10.1177/23259671251372617"
  ],
  "offset": 703888960,
  "drafts": {
@@ -494,7 +495,7 @@
    "media": true
   },
   "2026-11-26_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.1177/23259671251372617",
    "site": "europepmc",
    "title": "Seven Elbows With Panner Disease Yielded Favorable Sports Return and Remodeling After Nonoperative Treatment",
@@ -509,7 +510,7 @@
    "media": false
   }
  },
- "last_site": "https://www.intlgymnast.com/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-25": {
    "Fajr": "05:45",
