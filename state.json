@@ -255,7 +255,8 @@
   "https://www.intlgymnast.com/main/canadas-nikita-theodat-on-youth-olympic-games-audience-i-felt-their-appreciation-right-away-and-it-touched-me/",
   "https://gymnasticscoaching.com/2026/11/25/gymnasts-who-could-be-james-bond/",
   "https://www.intlgymnast.com/interviews/belgiums-maxime-rolin-on-top-eight-youth-olympic-games-finish-what-satisfied-me-the-most-was-giving-everything-i-had/",
-  "https://doi.org/10.1177/23259671251372617"
+  "https://doi.org/10.1177/23259671251372617",
+  "https://gymnasticscoaching.com/2026/11/25/david-rumbutis-history-in-rotterdam/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -493,7 +494,7 @@
    "media": false
   },
   "2026-11-26_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://gymnasticscoaching.com/2026/11/25/david-rumbutis-history-in-rotterdam/",
    "site": "https://www.gymnasticscoaching.com/feed/",
    "title": "David Rumbutis – history in Rotterdam",
@@ -508,7 +509,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.gymnasticscoaching.com/feed/",
  "prayer_times": {
   "2026-11-25": {
    "Fajr": "05:45",
