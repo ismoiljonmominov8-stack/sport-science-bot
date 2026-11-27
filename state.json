@@ -260,7 +260,8 @@
   "https://doi.org/10.1186/s13102-026-02112-x",
   "https://gymnasticscoaching.com/2026/11/26/a-cautionary-look-at-the-fujitsu-judging-support-system/",
   "https://doi.org/10.5114/jhk/211855",
-  "https://thegymter.net/2026/11/26/2026-voronin-cup-results/"
+  "https://thegymter.net/2026/11/26/2026-voronin-cup-results/",
+  "https://doi.org/10.3389/fendo.2025.1598344"
  ],
  "offset": 703888960,
  "drafts": {
@@ -487,7 +488,7 @@
    "media": true
   },
   "2026-11-27_isha": {
-   "status": "pending",
+   "status": "published",
    "link": "https://doi.org/10.3389/fendo.2025.1598344",
    "site": "europepmc",
    "title": "Longitudinal effects of childhood recreational gymnastics participation on bone development: The Young Recreational Gymnast Study",
@@ -503,7 +504,7 @@
    "media": true
   }
  },
- "last_site": "https://www.thegymter.net/feed/",
+ "last_site": "europepmc",
  "prayer_times": {
   "2026-11-26": {
    "Fajr": "05:46",
