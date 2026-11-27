@@ -259,7 +259,8 @@
   "https://gymnasticscoaching.com/2026/11/25/david-rumbutis-history-in-rotterdam/",
   "https://doi.org/10.1186/s13102-026-02112-x",
   "https://gymnasticscoaching.com/2026/11/26/a-cautionary-look-at-the-fujitsu-judging-support-system/",
-  "https://doi.org/10.5114/jhk/211855"
+  "https://doi.org/10.5114/jhk/211855",
+  "https://thegymter.net/2026/11/26/2026-voronin-cup-results/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -486,7 +487,7 @@
    "media": false
   },
   "2026-11-27_maghrib": {
-   "status": "pending",
+   "status": "published",
    "link": "https://thegymter.net/2026/11/26/2026-voronin-cup-results/",
    "site": "https://www.thegymter.net/feed/",
    "title": "2026 Voronin Cup Results",
@@ -501,7 +502,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.thegymter.net/feed/",
  "prayer_times": {
   "2026-11-26": {
    "Fajr": "05:46",
