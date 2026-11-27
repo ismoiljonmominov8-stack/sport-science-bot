@@ -500,6 +500,22 @@
    "auto": true,
    "created": "2026-11-27T16:14:30.688975+05:00",
    "media": true
+  },
+  "2026-11-27_isha": {
+   "status": "pending",
+   "link": "https://doi.org/10.3389/fendo.2025.1598344",
+   "site": "europepmc",
+   "title": "Longitudinal effects of childhood recreational gymnastics participation on bone development: The Young Recreational Gymnast Study",
+   "preview_ids": [
+    1343,
+    1344
+   ],
+   "button_id": 1345,
+   "publish_at": "2026-11-27T18:28:00+05:00",
+   "label": "Xufton (18:28)",
+   "auto": true,
+   "created": "2026-11-27T17:29:41.115015+05:00",
+   "media": true
   }
  },
  "last_site": "https://www.thegymter.net/feed/",
