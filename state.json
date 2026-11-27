@@ -502,6 +502,21 @@
    "auto": true,
    "created": "2026-11-27T17:29:41.115015+05:00",
    "media": true
+  },
+  "2026-11-28_fajr": {
+   "status": "pending",
+   "link": "https://gymnasticscoaching.com/2026/11/26/happy-american-thanksgiving-2/",
+   "site": "https://www.gymnasticscoaching.com/feed/",
+   "title": "Happy American Thanksgiving",
+   "preview_ids": [
+    1346
+   ],
+   "button_id": 1347,
+   "publish_at": "2026-11-28T05:48:00+05:00",
+   "label": "Bomdod (05:48)",
+   "auto": true,
+   "created": "2026-11-28T04:51:30.822923+05:00",
+   "media": false
   }
  },
  "last_site": "europepmc",
