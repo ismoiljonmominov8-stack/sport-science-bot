@@ -501,6 +501,21 @@
    "auto": true,
    "created": "2026-11-28T13:58:00.504510+05:00",
    "media": true
+  },
+  "2026-11-28_maghrib": {
+   "status": "pending",
+   "link": "https://doi.org/10.1111/sms.70135",
+   "site": "europepmc",
+   "title": "Full-Season Injury Epidemiology in TeamGym-A Prospective Cohort Study Involving 474 Gymnasts",
+   "preview_ids": [
+    1356
+   ],
+   "button_id": 1357,
+   "publish_at": "2026-11-28T16:56:00+05:00",
+   "label": "Shom (16:56)",
+   "auto": true,
+   "created": "2026-11-28T16:07:47.918999+05:00",
+   "media": false
   }
  },
  "last_site": "https://www.thegymter.net/feed/",
