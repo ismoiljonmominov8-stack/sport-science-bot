@@ -263,7 +263,8 @@
   "https://thegymter.net/2026/11/26/2026-voronin-cup-results/",
   "https://doi.org/10.3389/fendo.2025.1598344",
   "https://gymnasticscoaching.com/2026/11/26/happy-american-thanksgiving-2/",
-  "https://doi.org/10.3390/bioengineering13111343"
+  "https://doi.org/10.3390/bioengineering13111343",
+  "https://thegymter.net/2026/11/26/2026-voronin-cup-mens-results/"
  ],
  "offset": 703888960,
  "drafts": {
@@ -487,7 +488,7 @@
    "media": false
   },
   "2026-11-28_asr": {
-   "status": "pending",
+   "status": "published",
    "link": "https://thegymter.net/2026/11/26/2026-voronin-cup-mens-results/",
    "site": "https://www.thegymter.net/feed/",
    "title": "2026 Voronin Cup Men’s Results",
@@ -502,7 +503,7 @@
    "media": true
   }
  },
- "last_site": "europepmc",
+ "last_site": "https://www.thegymter.net/feed/",
  "prayer_times": {
   "2026-11-27": {
    "Fajr": "05:47",
